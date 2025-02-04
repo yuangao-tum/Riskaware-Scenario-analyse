@@ -2,7 +2,7 @@
 # Risk-Aware Driving Scenario Analysis with Large Language Models
 
 This responsory includes the following files:
-1. The paper "Risk-Aware Driving Scenario Analysis with Large Language Models"
+1. The manuscript of the Arxiv version: 
 2. Code and scenarios (It will be uploded until Feb 9)
 
 ## Abstract:
