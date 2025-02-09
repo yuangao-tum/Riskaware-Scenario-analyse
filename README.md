@@ -1,10 +1,28 @@
 # Riskaware-Scenario-analyse
 # Risk-Aware Driving Scenario Analysis with Large Language Models
+## Repository Contents
 
-This responsory includes the following files:
-1. The manuscript of the Arxiv version: [Paper](https://arxiv.org/abs/2502.02145) 
-2. Code and scenarios (It will be uploded until Feb 9)
+This repository contains the following files:
 
+### 1. Manuscript
+- The Arxiv version of the manuscript can be found here: [Paper](https://arxiv.org/abs/2502.02145)
+
+### 2. Scenarios and Results
+- A collection of 100 XML scenario files.
+- The related results generated using the [Frenetix Motion Planner](https://github.com/TUM-AVS/Frenetix-Motion-Planner/tree/main) in the CommonRoad framework called Simulation_scenarios_with_FrenetixMotionPlanner.
+
+### 3. Code (To be uploaded soon)
+- The implementation and relevant scripts will be made available soon.
+
+## Usage
+1. Use the XML scenario files to test the Frenetix Motion Planner in the CommonRoad environment.
+2. Then you will get the same results as in Simulation_scenarios_with_FrenetixMotionPlanner.
+
+## Requirements
+- [CommonRoad](https://commonroad.in.tum.de/)
+- [Frenetix Motion Planner](https://github.com/TUM-AVS/Frenetix-Motion-Planner/tree/main)
+- Python 3.x
+  
 ## Abstract:
 Large Language Models (LLMs) can capture
 nuanced contextual relationships, reasoning, and complex
