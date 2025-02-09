@@ -40,3 +40,9 @@ planning algorithms.
 
 
 ## Reference
+>@article{gao2025risk,
+  title={Risk-Aware Driving Scenario Analysis with Large Language Models},
+  author={Gao, Yuan and Piccinini, Mattia and Betz, Johannes},
+  journal={arXiv preprint arXiv:2502.02145}  [Add to Citavi project by ArXiv ID] ,
+  year={2025}
+}
