@@ -55,7 +55,7 @@ output_dir = '/home/yuan/mybookname/Openai/Safety/output_validation'  # Folder f
   
   ```
   ├── context.txt  # LLM-generated scenario context
-  ├── safety_analysis_TTC.txt  # Safety analysis output
+  ├── safety_analysis.txt  # Safety analysis output
   ```
 
 ## Requirements
