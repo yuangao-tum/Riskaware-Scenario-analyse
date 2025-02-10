@@ -1,0 +1,391 @@
+Safety analysis for timestep 7.0 seconds:
+### Safety analysis for timestep 7.0 seconds: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+### Obstacle Analysis:
+- Obstacle ID: 30672
+  - Relative Direction: Front-right
+  - Distance Risk Reason: High distance values indicating that collision risk is minimal.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: High time to collision values indicating no immediate risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30673
+  - Relative Direction: Front-right
+  - Distance Risk Reason: High distance values indicating that collision risk is minimal.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: High time to collision values indicating no immediate risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30674
+  - Relative Direction: Front
+  - Distance Risk Reason: Longitudinal distance is high, lateral distance is 0 indicating perfect alignment.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Infinite longitudinal time, but lateral time at 0 represents potential collision.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30677
+  - Relative Direction: Front-left
+  - Distance Risk Reason: High longitudinal and moderate lateral distance indicating controllable risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 4.0
+  - Time Risk Reason: Very high time to collision in longitudinal indicating no risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30678
+  - Relative Direction: Front-right
+  - Distance Risk Reason: High distance values indicating minimal risk at the moment.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Infinite time values show negligible immediate risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30679
+  - Relative Direction: Front
+  - Distance Risk Reason: Longitudinal distance is reasonably high, lateral distance is zero which indicates alignment.
+  - Longitudinal Distance Safety Score: 4
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 4.0
+  - Time Risk Reason: Longitudinal infinite; Lateral time is zero indicating potential risk or collision.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30680
+  - Relative Direction: Front
+  - Distance Risk Reason: Very high longitudinal distance; lateral alignment might be perfect or unknown.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: High time to collision longitudinally but zero laterally indicating a perfect alignment.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30681
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Very high longitudinal and lateral distances indicate minimal collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Moderate time to collision longitudinally indicates manageable risk.
+  - Longitudinal Time Safety Score: 4
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 4.5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30683
+  - Relative Direction: Front
+  - Distance Risk Reason: Very high longitudinal distance; Lateral alignment perfect or unknown.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Infinite longitudinal time but zero lateral shows potential risk along alignment.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30684
+  - Relative Direction: Front-right
+  - Distance Risk Reason: High longitudinal and lateral distances symbolizing minimal collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: High time to collision longitudinally indicating negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30685
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Low longitudinal distance indicates high collision risk.
+  - Longitudinal Distance Safety Score: 3
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 4.0
+  - Time Risk Reason: Extremely low time to collision longitudinally indicates extreme risk.
+  - Longitudinal Time Safety Score: 1
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 3.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 30686
+  - Relative Direction: Front-left
+  - Distance Risk Reason: High longitudinal and minimal lateral distance indicates moderate risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 1
+  - Overall Distance Safety Score: 3.0
+  - Time Risk Reason: Infinite longitudinal time with moderate lateral time indicates reduced risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 3
+  - Overall Time Safety Score: 4.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 30687
+  - Relative Direction: Front
+  - Distance Risk Reason: Moderate longitudinal and zero lateral alignment which poses risk.
+  - Longitudinal Distance Safety Score: 3
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 3.0
+  - Time Risk Reason: Infinite longitudinal time but zero lateral indicates potential risk or collision.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 30688
+  - Relative Direction: Behind
+  - Distance Risk Reason: Extremely low longitudinal distance indicates collision.
+  - Longitudinal Distance Safety Score: 0
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 0.0
+  - Time Risk Reason: Very low time to collision indicates imminent collision.
+  - Longitudinal Time Safety Score: 0
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 0.0
+  - Overall Risk Score: 0
+
+- Obstacle ID: 30689
+  - Relative Direction: Front
+  - Distance Risk Reason: Moderate longitudinal and zero lateral alignment indicating some level of risk.
+  - Longitudinal Distance Safety Score: 3
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 3.0
+  - Time Risk Reason: Infinite longitudinal time and zero lateral indicates risk along alignment.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 30690
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Moderate longitudinal and lateral distances indicate manageable risk.
+  - Longitudinal Distance Safety Score: 3
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 3.5
+  - Time Risk Reason: Medium longitudinal time and infinite lateral indicate a manageable risk.
+  - Longitudinal Time Safety Score: 3
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 4.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 30691
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Moderate longitudinal and high lateral distance suggesting reduced risk.
+  - Longitudinal Distance Safety Score: 3
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 4.0
+  - Time Risk Reason: Moderate longitudinal time indicating manageable risk.
+  - Longitudinal Time Safety Score: 3
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 4.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 30692
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Very high longitudinal distance and moderate lateral distance suggesting minimal risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 2
+  - Overall Distance Safety Score: 3.5
+  - Time Risk Reason: Infinite longitudinal time and moderate lateral indicates reduced risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 3
+  - Overall Time Safety Score: 4.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 30693
+  - Relative Direction: Front-left
+  - Distance Risk Reason: High distances indicate minimal collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 4.0
+  - Time Risk Reason: Infinite longitudinal time and high lateral time suggests minimal risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30694
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Low longitudinal distance indicates higher collision risk.
+  - Longitudinal Distance Safety Score: 3
+  - Lateral Distance Safety Score: 2
+  - Overall Distance Safety Score: 2.5
+  - Time Risk Reason: Infinite longitudinal time and moderate lateral time indicates manageable risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 3
+  - Overall Time Safety Score: 4.0
+  - Overall Risk Score: 3
+
+- Obstacle ID: 30695
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Moderate longitudinal and minimal lateral distances indicate manageable risk.
+  - Longitudinal Distance Safety Score: 3
+  - Lateral Distance Safety Score: 2
+  - Overall Distance Safety Score: 2.5
+  - Time Risk Reason: Infinite longitudinal time and high lateral time indicating minimal risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 30696
+  - Relative Direction: Behind
+  - Distance Risk Reason: Moderate longitudinal with perfect alignment laterally indicating medium risk.
+  - Longitudinal Distance Safety Score: 2
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 2.0
+  - Time Risk Reason: Moderate time indicating a manageable risk.
+  - Longitudinal Time Safety Score: 3
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 3.0
+  - Overall Risk Score: 3
+
+- Obstacle ID: 30697
+  - Relative Direction: Rear-left
+  - Distance Risk Reason: Moderate longitudinal with lesser lateral distances indicating reduced risk.
+  - Longitudinal Distance Safety Score: 2
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 2.5
+  - Time Risk Reason: High time indicating negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 30698
+  - Relative Direction: Rear-left
+  - Distance Risk Reason: High distances suggesting negligible risk.
+  - Longitudinal Distance Safety Score: 3
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 3.0
+  - Time Risk Reason: High time indicates negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 30700
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Moderate distances indicate medium risk.
+  - Longitudinal Distance Safety Score: 3
+  - Lateral Distance Safety Score: 2
+  - Overall Distance Safety Score: 2.5
+  - Time Risk Reason: Infinite longitudinal time but reasonable lateral time shows manageable risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 30701
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Very high longitudinal and moderate lateral distances indicating extremely reduced risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Moderate time suggests manageable risk.
+  - Longitudinal Time Safety Score: 4
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 4.5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30702
+  - Relative Direction: Behind
+  - Distance Risk Reason: Moderate longitudinal with no lateral difference suggesting some risk.
+  - Longitudinal Distance Safety Score: 3
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 3.0
+  - Time Risk Reason: High time to collision longitudinally suggests negligible risk.
+  - Longitudinal Time Safety Score: 4
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 4.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 30703
+  - Relative Direction: Front-left
+  - Distance Risk Reason: High distances indicating negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 4.0
+  - Time Risk Reason: Moderate time indicates manageable risk.
+  - Longitudinal Time Safety Score: 4
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 4.5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30704
+  - Relative Direction: Left
+  - Distance Risk Reason: Zero longitudinal aligned with medium lateral indicating extreme lateral alignment.
+  - Longitudinal Distance Safety Score: 0
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 0.0
+  - Time Risk Reason: Zero yielding lateral time which indicates some level of minimal risk.
+  - Longitudinal Time Safety Score: 0
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 0.0
+  - Overall Risk Score: 0
+
+- Obstacle ID: 30705
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Very high distances indicating a highly reduced risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 4.0
+  - Time Risk Reason: Moderate time indicating a manageable risk.
+  - Longitudinal Time Safety Score: 4
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 4.5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30706
+  - Relative Direction: Rear-left
+  - Distance Risk Reason: Moderate distance in both directions suggesting moderate risk.
+  - Longitudinal Distance Safety Score: 3
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 3.0
+  - Time Risk Reason: High times in both directions indicating negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 4
+
+### Summary in JSON Format: 
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30688",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30604",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+

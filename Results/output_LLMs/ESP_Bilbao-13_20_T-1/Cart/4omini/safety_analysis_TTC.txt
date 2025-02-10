@@ -1,0 +1,113 @@
+Safety analysis for the last timestep (2.2 seconds):
+To evaluate the potential collision risks in this scenario, we first need to identify the obstacles that are in the same lanelet as the ego vehicle and then calculate the Time to Collision (TTC) and Minimum Distance to Collision (MDC) for each relevant obstacle.
+
+### Steps Used in Analysis
+
+1. **Identifying Obstacles in Same Lanelet**: 
+   The ego vehicle is in lanelet 705.0. We will look for obstacles in this lanelet as well.
+
+2. **Calculating TTC and MDC**: 
+   We will calculate the TTC and MDC for each obstacle based on the velocity and position of the ego vehicle and the obstacles. 
+
+3. **Evaluating Risk Levels**: 
+   Based on the calculated values, we will assign a risk score based on the definitions provided.
+
+### Obstacle Analysis
+We will consider all the obstacles and focus on those in lanelet 705.0:
+
+#### Relevant Obstacles in lanelet 705.0:
+- Obstacle ID 30801.0
+- Obstacle ID 30805.0
+- Obstacle ID 30807.0
+- Obstacle ID 30810.0
+
+### Calculations:
+Here are the position and velocity vectors relative to the ego vehicle for the relevant obstacles:
+
+#### 1. Obstacle ID: 30801.0
+- Position: (-412.2354, -204.4561)
+- Velocity: 3.5364
+- **Relative Position** = (-412.2354 - (-415.2573), -204.4561 - (-208.074)) = (3.0219, 3.6173)
+- **Distance** = √(3.0219² + 3.6173²) = √(9.1336 + 13.0585) = √(22.1921) = 4.6995
+- **TTC** = Distance / (Velocity of ego - Velocity of obstacle) = 4.6995 / (0.2607 - 3.5364) = 4.6995 / -3.2757 (negative, indicating a collision risk)
+
+#### 2. Obstacle ID: 30805.0
+- Position: (-405.0108, -195.8679)
+- Velocity: 3.562
+- **Relative Position** = (-405.0108 - (-415.2573), -195.8679 - (-208.074)) = (10.2465, 12.2061)
+- **Distance** = √(10.2465² + 12.2061²) = √(104.9945 + 148.9753) = √(253.9698) = 15.9370
+- **TTC** = 15.9370 / (0.2607 - 3.562) = 15.9370 / -3.3013 (negative)
+
+#### 3. Obstacle ID: 30807.0
+- Position: (-397.2698, -185.9485)
+- Velocity: 4.4351
+- **Relative Position** = (-397.2698 - (-415.2573), -185.9485 - (-208.074)) = (17.9875, 22.1255)
+- **Distance** = √(17.9875² + 22.1255²) = √(323.7237 + 490.5372) = √(814.2609) = 28.5864
+- **TTC** = 28.5864 / (0.2607 - 4.4351) = 28.5864 / -4.1744 (negative)
+
+#### 4. Obstacle ID: 30810.0
+- Position: (-390.6039, -176.1208)
+- Velocity: 4.3386
+- **Relative Position** = (-390.6039 - (-415.2573), -176.1208 - (-208.074)) = (24.6534, 31.9532)
+- **Distance** = √(24.6534² + 31.9532²) = √(607.7403 + 1020.0650) = √(1627.8053) = 40.3079
+- **TTC** = 40.3079 / (0.2607 - 4.3386) = 40.3079 / -4.0779 (negative)
+
+### Evaluating Risk Scores for Each Obstacle:
+Since all TTC values are negative, it shows that all obstacles are on a collision path. Therefore, the overall risk score is calculated based on distance and time metrics.
+
+#### Distance & Time Risk Assessment:
+
+1. **Obstacle ID: 30801.0**
+   - Distance Risk Reason: Immediate proximity and both vehicles moving towards each other.
+   - Distance Safety Score: 1 (Collision)
+   - Time Risk Reason: TTC is negative.
+   - Time Safety Score: 1 (Collision)
+   - Overall Risk Score: 1
+
+2. **Obstacle ID: 30805.0**
+   - Distance Risk Reason: Immediate proximity and both vehicles moving towards each other.
+   - Distance Safety Score: 1 (Collision)
+   - Time Risk Reason: TTC is negative.
+   - Time Safety Score: 1 (Collision)
+   - Overall Risk Score: 1
+
+3. **Obstacle ID: 30807.0**
+   - Distance Risk Reason: Immediate proximity and both vehicles moving towards each other.
+   - Distance Safety Score: 1 (Collision)
+   - Time Risk Reason: TTC is negative.
+   - Time Safety Score: 1 (Collision)
+   - Overall Risk Score: 1
+
+4. **Obstacle ID: 30810.0**
+   - Distance Risk Reason: Immediate proximity and both vehicles moving towards each other.
+   - Distance Safety Score: 1 (Collision)
+   - Time Risk Reason: TTC is negative.
+   - Time Safety Score: 1 (Collision)
+   - Overall Risk Score: 1
+
+### Summary in JSON Format:
+```json
+{
+    "CollisionObstacles": [
+        {
+            "ObstacleID": "30801.0",
+            "OverallRiskScore": "1"
+        },
+        {
+            "ObstacleID": "30805.0",
+            "OverallRiskScore": "1"
+        },
+        {
+            "ObstacleID": "30807.0",
+            "OverallRiskScore": "1"
+        },
+        {
+            "ObstacleID": "30810.0",
+            "OverallRiskScore": "1"
+        }
+    ],
+    "ExtremeRiskObstacle": null
+}
+```
+This analysis shows that all relevant obstacles present an extreme risk level due to their proximity and the collision trajectory with the ego vehicle. Immediate action is required to avoid potential collision outcomes.
+

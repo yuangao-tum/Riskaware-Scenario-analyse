@@ -1,0 +1,89 @@
+Safety analysis for the last timestep (8.3 seconds):
+### Safety analysis for timestep 8.3 seconds: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+#### Identify obstacles in the same lanelet or trajectory as the ego vehicle:
+1. **Obstacle 3041.0** is in lanelet 223.0 (Same lanelet)
+2. **Obstacle 3044.0** is in lanelet 223.0 (Same lanelet)
+3. **Obstacle 3045.0** is in lanelet 223.0 (Same lanelet)
+4. **Obstacle 3046.0** is in lanelet 127.0 (Different lanelet - Ignore)
+5. **Obstacle 3047.0** is in lanelet 2002.0 (Different lanelet - Ignore)
+
+### Calculations:
+To analyze the risks, we will calculate the Time to Collision (TTC) and Minimum Distance to Collision (MDC) for obstacles 3041.0, 3044.0, and 3045.0.
+
+**Ego Vehicle Specs:**
+- Position: (416.4499, -158.0933)
+- Velocity: 6.9567 m/s
+
+**Obstacle 3041.0 Specs:**
+- Position: (380.3463, -141.6225)
+- Velocity: 8.15 m/s
+
+Calculating relative vector components for 3041.0:
+- Distance (x): 380.3463 - 416.4499 = -36.1036
+- Distance (y): -141.6225 - (-158.0933) = 16.4708
+- Direct distance to obstacle (MDC): 
+  - MDC = √((-36.1036)^2 + (16.4708)^2) = 39.66 m
+- Relative velocities:
+  - Velocity Difference (x): 8.15 - 6.9567 = 1.1933 
+  - Calculate TTC using distance and relative velocity:
+  - Longitudinal TTC = Distance (x) / (Relative Velocity): TTC_long = -36.1036 / 1.1933 = -30.23 seconds (negative value indicating moving away)
+  
+**Obstacle 3044.0 Specs:**
+- Position: (420.7739, -160.0651)
+- Velocity: 7.9132 m/s
+
+Calculating for 3044.0:
+- Distance (x): 420.7739 - 416.4499 = 4.3240
+- Distance (y): -160.0651 - (-158.0933) = -1.9718
+- Direct distance to obstacle (MDC): 
+  - MDC = √((4.3240)^2 + (-1.9718)^2) = 4.8234 m
+- Relative velocities:
+  - Velocity Difference (x): 7.9132 - 6.9567 = 0.9565 
+  - Longitudinal TTC = Distance (x) / (Relative Velocity): TTC_long = 4.3240 / 0.9565 = 4.52 seconds
+  
+**Obstacle 3045.0 Specs:**
+- Position: (434.837, -166.4946)
+- Velocity: 7.8876 m/s
+
+Calculating for 3045.0:
+- Distance (x): 434.837 - 416.4499 = 18.3871
+- Distance (y): -166.4946 - (-158.0933) = -8.4013
+- Direct distance to obstacle (MDC): 
+  - MDC = √((18.3871)^2 + (-8.4013)^2) = 20.37 m
+- Relative velocities:
+  - Velocity Difference (x): 7.8876 - 6.9567 = 0.9309
+  - Longitudinal TTC = Distance (x) / (Relative Velocity): TTC_long = 18.3871 / 0.9309 = 19.73 seconds
+
+
+### Obstacle Analysis:
+
+1. **Obstacle ID: 3041.0**
+   - Distance Risk reason: Moving further away, high negative distance indicating no immediate threat.
+   - Distance safety score: 5
+   - Time Risk reason: Negative TTC indicates that the ego is moving away from this obstacle.
+   - Time safety score: 5
+   - Overall Risk score: 5
+
+2. **Obstacle ID: 3044.0**
+   - Distance Risk reason: Close distance but obstacle velocity allows some comfort.
+   - Distance safety score: 4
+   - Time Risk reason: TTC shows 4.52 seconds well within a manageable response window.
+   - Time safety score: 4
+   - Overall Risk score: 4
+
+3. **Obstacle ID: 3045.0**
+   - Distance Risk reason: Moderate distance but fast approach of obstacle indicates need for caution.
+   - Distance safety score: 3
+   - Time Risk reason: Long TTC of 19.73 seconds suggests time available to maneuver.
+   - Time safety score: 4
+   - Overall Risk score: 4
+
+### Summary in JSON Format:
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+

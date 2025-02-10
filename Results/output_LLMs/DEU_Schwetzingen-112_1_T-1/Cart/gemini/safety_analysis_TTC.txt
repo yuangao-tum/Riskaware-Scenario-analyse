@@ -1,0 +1,93 @@
+Safety analysis for the last timestep (3.5 seconds):
+### Safety analysis for timestep 3.5s: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+**Assumptions and Methodology:**
+
+* **TTC (Time to Collision):**  Calculated separately for longitudinal (TTClong) and lateral (TTClat) directions. A negative TTC indicates the objects are moving away from each other.  TTC is undefined if the relative velocity is zero. We will consider a very large number (e.g., 1000) in such cases for scoring purposes, as it implies no immediate collision risk.
+* **MDC (Minimum Distance to Collision):** Approximated using the current positions and assuming constant velocities. More sophisticated models considering acceleration and trajectory curvature could be used for higher fidelity analysis. We will use Euclidean distance for MDC.
+* **Overall Risk Score:** Based on the minimum of the longitudinal and lateral TTC and MDC.
+
+**Calculations and Reasoning for each obstacle:**
+
+**Helper functions (Python):**
+
+```python
+import numpy as np
+
+def calculate_ttc(pos1, vel1, pos2, vel2):
+    rel_pos = np.array(pos2) - np.array(pos1)
+    rel_vel = np.array(vel2) - np.array(vel1)
+    if np.linalg.norm(rel_vel) < 1e-6:
+        return 1000  # Large value if relative velocity is almost zero
+    ttc = -np.dot(rel_pos, rel_vel) / np.dot(rel_vel, rel_vel)
+    return ttc
+
+def calculate_mdc(pos1, pos2):
+    return np.linalg.norm(np.array(pos2) - np.array(pos1))
+
+def get_score(ttc, mdc):
+    if ttc <= 0 or mdc <= 0: return 0  # collision
+    elif ttc <= 1 or mdc <= 1: return 1 # Extreme risk
+    elif ttc <= 3 or mdc <= 2: return 2 # High Risk
+    elif ttc <= 5 or mdc <= 5: return 3 # Medium risk
+    elif ttc <= 10 or mdc <= 10: return 4 # Low risk
+    else: return 5
+
+ego_pos = (-12.0074, -16.7281)
+ego_vel = (0.9577 * np.cos(1.572884), 0.9577 * np.sin(1.572884)) # decompose velocity into x,y components
+```
+
+
+- **Obstacle ID: 20043**
+    - Distance Risk reason: Far away and in a different lanelet.
+    - Distance safety score: 5
+    - Time Risk reason: Moving in different directions, not likely to collide.
+    - Time safety score: 5
+    - Overall Risk score: 5
+- **Obstacle ID: 20045**
+    - Distance Risk reason: Close proximity and in a neighboring lanelet moving in the opposite direction, potential lateral collision.
+    - Distance safety score: 2
+    - Time Risk reason: TTC suggests high risk due to opposite direction travel in close proximity.
+    - Time safety score: 2
+    - Overall Risk score: 2
+- **Obstacle ID: 20046**
+    - Distance Risk reason: Behind the ego vehicle but in the same lane.
+    - Distance safety score: 3
+    - Time Risk reason: Moving slower than ego vehicle.
+    - Time safety score: 4
+    - Overall Risk score: 3
+- **Obstacle ID: 20047**
+    - Distance Risk reason: Far behind ego vehicle in same lanelet.
+    - Distance safety score: 4
+    - Time Risk reason: Moving slower than ego vehicle.
+    - Time safety score: 5
+    - Overall Risk score: 4
+- **Obstacle ID: 20048**
+    - Distance Risk reason: Located in a different lanelet far away.
+    - Distance safety score: 5
+    - Time Risk reason: Not on a collision course.
+    - Time safety score: 5
+    - Overall Risk score: 5
+- **Obstacle ID: 20049**
+    - Distance Risk reason: Further behind ego vehicle than 20047 in same lanelet.
+    - Distance safety score: 4
+    - Time Risk reason: Moving slower than ego vehicle.
+    - Time safety score: 5
+    - Overall Risk score: 4
+- **Obstacle ID: 20050**
+    - Distance Risk reason: Furthest behind ego vehicle in same lanelet.
+    - Distance safety score: 5
+    - Time Risk reason: Moving slower than ego vehicle.
+    - Time safety score: 5
+    - Overall Risk score: 5
+
+
+### Summary in JSON Format:
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null 
+}
+```
+
+

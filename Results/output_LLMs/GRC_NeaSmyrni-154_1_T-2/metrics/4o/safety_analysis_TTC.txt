@@ -1,0 +1,327 @@
+Safety analysis for timestep 3.1 seconds:
+### Safety analysis for timestep 3.1: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+### Obstacle Analysis:
+#### Obstacle 20025:
+- Obstacle ID: 20025
+- Distance Risk Reason: Given the front-right relative direction, LongDSC and LatDSC are based on DTClong = 118.79 (>5) and DTClat = 20.49 (>5). 
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0 (wdominant = 0.5)
+- Time Risk Reason: Longitudinal TTC is 94.08 (>5) and Lateral TTC is Infinity. Both scores are negligible risk.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0 (wdominant = 0.5)
+- Overall Risk Score: 5
+
+#### Obstacle 20027:
+- Obstacle ID: 20027
+- Distance Risk Reason: Given the front-right relative direction, LongDSC and LatDSC are based on DTClong = 107.99 (>5) and DTClat = 13.54 (>5).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0 (wdominant = 0.5)
+- Time Risk Reason: Longitudinal TTC is 85.53 (>5) and Lateral TTC is Infinity. Both scores are negligible risk.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0 (wdominant = 0.5)
+- Overall Risk Score: 5
+
+#### Obstacle 20028:
+- Obstacle ID: 20028
+- Distance Risk Reason: Given the front-left relative direction, LongDSC and LatDSC are based on DTClong = 92.42 (>5) and DTClat = 3.08 (1 < DTClat <= 3 medium risk).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 3
+- Overall Distance Safety Score: 4.0 (wdominant = 0.5)
+- Time Risk Reason: Longitudinal TTC is 73.2 (>5) and Lateral TTC is Infinity. Both scores are negligible risk.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0 (wdominant = 0.5)
+- Overall Risk Score: 5
+
+#### Obstacle 20031:
+- Obstacle ID: 20031
+- Distance Risk Reason: Given the front-left relative direction, LongDSC and LatDSC are based on DTClong = 104.24 (>5) and DTClat = 8.11 (>5).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0 (wdominant = 0.5)
+- Time Risk Reason: Longitudinal TTC is 82.56 (>5) and Lateral TTC is Infinity. Both scores are negligible risk.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0 (wdominant = 0.5)
+- Overall Risk Score: 5
+
+#### Obstacle 20035:
+- Obstacle ID: 20035
+- Distance Risk Reason: Given the front-left relative direction, LongDSC and LatDSC are based on DTClong = 112.49 (>5) and DTClat = 11.52 (>5).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0 (wdominant = 0.5)
+- Time Risk Reason: Longitudinal TTC is 89.1 (>5) and Lateral TTC is Infinity. Both scores are negligible risk.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0 (wdominant = 0.5)
+- Overall Risk Score: 5
+
+#### Obstacle 20039:
+- Obstacle ID: 20039
+- Distance Risk Reason: Given the front-left relative direction, LongDSC and LatDSC are based on DTClong = 118.94 (>5) and DTClat = 14.19 (>5).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0 (wdominant = 0.5)
+- Time Risk Reason: Longitudinal TTC is 94.2 (>5) and Lateral TTC is Infinity. Both scores are negligible risk.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0 (wdominant = 0.5)
+- Overall Risk Score: 5
+
+#### Obstacle 20043:
+- Obstacle ID: 20043
+- Distance Risk Reason: Given the front-left relative direction, LongDSC and LatDSC are based on DTClong = 125.39 (>5) and DTClat = 16.85 (>5).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0 (wdominant = 0.5)
+- Time Risk Reason: Longitudinal TTC is 99.31 (>5) and Lateral TTC is Infinity. Both scores are negligible risk.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0 (wdominant = 0.5)
+- Overall Risk Score: 5
+
+#### Obstacle 20045:
+- Obstacle ID: 20045
+- Distance Risk Reason: Given the front-left relative direction, LongDSC and LatDSC are based on DTClong = 131.84 (>5) and DTClat = 19.52 (>5).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0 (wdominant = 0.5)
+- Time Risk Reason: Longitudinal TTC is 104.42 (>5) and Lateral TTC is Infinity. Both scores are negligible risk.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0 (wdominant = 0.5)
+- Overall Risk Score: 5
+
+#### Obstacle 20046:
+- Obstacle ID: 20046
+- Distance Risk Reason: Given the front-right relative direction, LongDSC and LatDSC are based on DTClong = 100.48 (>5) and DTClat = 8.71 (>5).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0 (wdominant = 0.5)
+- Time Risk Reason: Longitudinal TTC is 79.58 (>5) and Lateral TTC is Infinity. Both scores are negligible risk.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0 (wdominant = 0.5)
+- Overall Risk Score: 5
+
+#### Obstacle 20047:
+- Obstacle ID: 20047
+- Distance Risk Reason: Given the front-right relative direction, LongDSC and LatDSC are based on DTClong = 94.61 (>5) and DTClat = 4.94 (3 < DTClat <= 5) low risk.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 4
+- Overall Distance Safety Score: 4.5 (wdominant = 0.5)
+- Time Risk Reason: Longitudinal TTC is 74.94 (>5) and Lateral TTC is Infinity. Both scores are negligible risk.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0 (wdominant = 0.5)
+- Overall Risk Score: 5
+
+#### Obstacle 20048:
+- Obstacle ID: 20048
+- Distance Risk Reason: Given the front-right relative direction, LongDSC and LatDSC are based on DTClong = 88.64 (>5) and DTClat = 1.34 (0.5 < DTClat <= 1) high risk.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 2
+- Overall Distance Safety Score: 3.5 (wdominant = 0.5)
+- Time Risk Reason: Longitudinal TTC is 70.2 (>5) and Lateral TTC is Infinity. Both scores are negligible risk.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0 (wdominant = 0.5)
+- Overall Risk Score: 5
+
+#### Obstacle 20049:
+- Obstacle ID: 20049
+- Distance Risk Reason: Given the front-relative direction, LongDSC and LatDSC are based on DTClong = 82.15 (>5) and DTClat = 0 (collision situation).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 5.0 (wdominant = 1)
+- Time Risk Reason: Longitudinal TTC is 65.07 (>5) and Lateral TTC is 0 (collision situation).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 5.0 (wdominant = 1)
+- Overall Risk Score: 5
+
+#### Obstacle 20050:
+- Obstacle ID: 20050
+- Distance Risk Reason: Given the front-relative direction, LongDSC and LatDSC are based on DTClong = 75.21 (>5) and DTClat = 0 (collision situation).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 5.0 (wdominant = 1)
+- Time Risk Reason: Longitudinal TTC is 59.57 (>5) and Lateral TTC is 0 (collision situation).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 5.0 (wdominant = 1)
+- Overall Risk Score: 5
+
+#### Obstacle 20051:
+- Obstacle ID: 20051
+- Distance Risk Reason: Given the front-left relative direction, LongDSC and LatDSC are based on DTClong = 138.28 (>5) and DTClat = 22.18 (>5).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0 (wdominant = 0.5)
+- Time Risk Reason: Longitudinal TTC is 109.52 (>5) and Lateral TTC is Infinity. Both scores are negligible risk.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0 (wdominant = 0.5)
+- Overall Risk Score: 5
+
+#### Obstacle 20052:
+- Obstacle ID: 20052
+- Distance Risk Reason: Given the front-relative direction, LongDSC and LatDSC are based on DTClong = 68.23 (>5) and DTClat = 0 (collision situation).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 5.0 (wdominant = 1)
+- Time Risk Reason: Longitudinal TTC is 54.04 (>5) and Lateral TTC is 0 (collision situation).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 5.0 (wdominant = 1)
+- Overall Risk Score: 5
+
+#### Obstacle 20053:
+- Obstacle ID: 20053
+- Distance Risk Reason: Given the front-relative direction, LongDSC and LatDSC are based on DTClong = 61.25 (>5) and DTClat = 0 (collision situation).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 5.0 (wdominant = 1)
+- Time Risk Reason: Longitudinal TTC is 48.51 (>5) and Lateral TTC is 0 (collision situation).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 5.0 (wdominant = 1)
+- Overall Risk Score: 5
+
+#### Obstacle 20054:
+- Obstacle ID: 20054
+- Distance Risk Reason: Given the front-left relative direction, LongDSC and LatDSC are based on DTClong = 144.74 (>5) and DTClat = 24.85 (>5).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0 (wdominant = 0.5)
+- Time Risk Reason: Longitudinal TTC is 114.64 (>5) and Lateral TTC is Infinity. Both scores are negligible risk.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0 (wdominant = 0.5)
+- Overall Risk Score: 5
+
+#### Obstacle 20055:
+- Obstacle ID: 20055
+- Distance Risk Reason: Given the front-relative direction, LongDSC and LatDSC are based on DTClong = 54.27 (>5) and DTClat = 0 (collision situation).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 5.0 (wdominant = 1)
+- Time Risk Reason: Longitudinal TTC is 42.98 (>5) and Lateral TTC is 0 (collision situation).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 5.0 (wdominant = 1)
+- Overall Risk Score: 5
+
+#### Obstacle 20056:
+- Obstacle ID: 20056
+- Distance Risk Reason: Given the front-relative direction, LongDSC and LatDSC are based on DTClong = 47.29 (>5) and DTClat = 0 (collision situation).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 5.0 (wdominant = 1)
+- Time Risk Reason: Longitudinal TTC is 37.45 (>5) and Lateral TTC is 0 (collision situation).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 5.0 (wdominant = 1)
+- Overall Risk Score: 5
+
+#### Obstacle 20059:
+- Obstacle ID: 20059
+- Distance Risk Reason: Given the front-relative direction, LongDSC and LatDSC are based on DTClong = 40.31 (>5) and DTClat = 0 (collision situation).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 5.0 (wdominant = 1)
+- Time Risk Reason: Longitudinal TTC is 31.93 (>5) and Lateral TTC is 0 (collision situation).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 5.0 (wdominant = 1)
+- Overall Risk Score: 5
+
+#### Obstacle 20061:
+- Obstacle ID: 20061
+- Distance Risk Reason: Given the front-relative direction, LongDSC and LatDSC are based on DTClong = 33.33 (>5) and DTClat = 0 (collision situation).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 5.0 (wdominant = 1)
+- Time Risk Reason: Longitudinal TTC is 26.4 (>5) and Lateral TTC is 0 (collision situation).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 5.0 (wdominant = 1)
+- Overall Risk Score: 5
+
+#### Obstacle 20062:
+- Obstacle ID: 20062
+- Distance Risk Reason: Given the front-relative direction, LongDSC and LatDSC are based on DTClong = 26.35 (>5) and DTClat = 0 (collision situation).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 5.0 (wdominant = 1)
+- Time Risk Reason: Longitudinal TTC is 20.87 (>5) and Lateral TTC is 0 (collision situation).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 5.0 (wdominant = 1)
+- Overall Risk Score: 5
+
+#### Obstacle 20063:
+- Obstacle ID: 20063
+- Distance Risk Reason: Given the front-relative direction, LongDSC and LatDSC are based on DTClong = 19.37 (>5) and DTClat = 0 (collision situation).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 5.0 (wdominant = 1)
+- Time Risk Reason: Longitudinal TTC is 15.34 (>5) and Lateral TTC is 0 (collision situation).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 5.0 (wdominant = 1)
+- Overall Risk Score: 5
+
+#### Obstacle 20064:
+- Obstacle ID: 20064
+- Distance Risk Reason: Given the front-relative direction, LongDSC and LatDSC are based on DTClong = 12.39 (>5) and DTClat = 0 (collision situation).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 5.0 (wdominant = 1)
+- Time Risk Reason: Longitudinal TTC is 9.82 (>5) and Lateral TTC is 0 (collision situation).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 5.0 (wdominant = 1)
+- Overall Risk Score: 5
+
+#### Obstacle 20066:
+- Obstacle ID: 20066
+- Distance Risk Reason: Collision situation as both DTClong and DTClat are 0.
+- Longitudinal Distance Safety Score: 0
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 0 (wdominant = 1)
+- Time Risk Reason: Collision situation as both TTClong and TTClat are 0.
+- Longitudinal Time Safety Score: 0
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 0 (wdominant = 1)
+- Overall Risk Score: 0
+
+#### Obstacle 20067:
+- Obstacle ID: 20067
+- Distance Risk Reason: Given the rear-relative direction, LongDSC and LatDSC are based on DTClong = 13.86 (>5) and DTClat = 0 (collision situation).
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 5.0 (wdominant = 1)
+- Time Risk Reason: Longitudinal TTC is 2.25 (1 < TTClong <= 3) and Lateral TTC is 0 (collision situation).
+- Longitudinal Time Safety Score: 3
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 3.0 (wdominant = 1)
+- Overall Risk Score: 4
+
+### Summary in JSON Format: 
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "20066",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": null
+}
+```
+

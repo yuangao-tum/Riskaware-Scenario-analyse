@@ -1,0 +1,109 @@
+### Safety analysis for timestep 3.6 seconds: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+### Obstacle Analysis:
+
+- **Obstacle ID: 20026.0**
+  - Distance Risk reason: Longitudinal distance is 153.07 m, lateral distance is 0.0 m; far enough to not pose an immediate threat.
+  - Distance safety score: 4
+  - Time Risk reason: TTC calculation: TTC = Distance / Relative Velocity = 153.07 m / 1.6 m/s = 95.67 seconds; significant time before collision.
+  - Time safety score: 5
+  - Overall Risk score: 4
+
+- **Obstacle ID: 20027.0**
+  - Distance Risk reason: Longitudinal distance is 160.05 m, lateral distance is 0.0 m; safe distance.
+  - Distance safety score: 4
+  - Time Risk reason: TTC = 160.05 m / 1.6 m/s = 100.03 seconds; ample time to react.
+  - Time safety score: 5
+  - Overall Risk score: 4
+
+- **Obstacle ID: 20028.0**
+  - Distance Risk reason: Longitudinal distance is 35.45 m, lateral distance is 0.0 m; close proximity represents a higher threat.
+  - Distance safety score: 2
+  - Time Risk reason: TTC = 35.45 m / 1.6 m/s = 22.16 seconds; manageable but requires prompt attention.
+  - Time safety score: 3
+  - Overall Risk score: 2
+
+- **Obstacle ID: 20029.0**
+  - Distance Risk reason: Longitudinal distance is 47.25 m, lateral distance is -9.78 m; acceptable distance but in front-right position.
+  - Distance safety score: 3
+  - Time Risk reason: TTC = 47.25 m / 1.6 m/s = 29.53 seconds; manageable time frame.
+  - Time safety score: 4
+  - Overall Risk score: 3
+
+- **Obstacle ID: 20030.0**
+  - Distance Risk reason: Longitudinal distance is 47.2 m, lateral distance is -16.76 m; positioned at a safe distance.
+  - Distance safety score: 3
+  - Time Risk reason: TTC = 47.2 m / 1.6 m/s = 29.50 seconds; fair time to react.
+  - Time safety score: 4
+  - Overall Risk score: 3
+
+- **Obstacle ID: 20031.0**
+  - Distance Risk reason: Longitudinal distance is 47.15 m, lateral distance is -23.74 m; within an acceptable distance.
+  - Distance safety score: 3
+  - Time Risk reason: TTC = 47.15 m / 1.6 m/s = 29.48 seconds; enough time to maneuver.
+  - Time safety score: 4
+  - Overall Risk score: 3
+
+- **Obstacle ID: 20032.0**
+  - Distance Risk reason: Longitudinal distance is 28.47 m, lateral distance is 0.0 m; closer proximity indicates a higher risk.
+  - Distance safety score: 2
+  - Time Risk reason: TTC = 28.47 m / 1.6 m/s = 17.78 seconds; requires immediate awareness.
+  - Time safety score: 3
+  - Overall Risk score: 2
+
+- **Obstacle ID: 20033.0**
+  - Distance Risk reason: Longitudinal distance is 47.06 m, lateral distance is -36.57 m; farther but slightly to the right.
+  - Distance safety score: 3
+  - Time Risk reason: TTC = 47.06 m / 1.6 m/s = 29.41 seconds; indicates sufficient time for avoidance.
+  - Time safety score: 4
+  - Overall Risk score: 3
+
+- **Obstacle ID: 20034.0**
+  - Distance Risk reason: Longitudinal distance is 46.99 m, lateral distance is -45.51 m; acceptable distance.
+  - Distance safety score: 3
+  - Time Risk reason: TTC = 46.99 m / 1.6 m/s = 29.37 seconds; enough time to take corrective actions.
+  - Time safety score: 4
+  - Overall Risk score: 3
+
+- **Obstacle ID: 20035.0**
+  - Distance Risk reason: Longitudinal distance is 46.94 m, lateral distance is -52.5 m; poses minimal risk given the distance.
+  - Distance safety score: 3
+  - Time Risk reason: TTC = 46.94 m / 1.6 m/s = 29.35 seconds; gives a reasonable time frame to react.
+  - Time safety score: 4
+  - Overall Risk score: 3
+
+- **Obstacle ID: 20036.0**
+  - Distance Risk reason: Longitudinal distance is 21.49 m, lateral distance is 0.0 m; closer proximity thus higher risk.
+  - Distance safety score: 2
+  - Time Risk reason: TTC = 21.49 m / 1.6 m/s = 13.43 seconds; requires prompt response.
+  - Time safety score: 3
+  - Overall Risk score: 2
+
+- **Obstacle ID: 20037.0**
+  - Distance Risk reason: Longitudinal distance is 14.29 m, lateral distance is 0.0 m; very close proximity indicates a high risk.
+  - Distance safety score: 1
+  - Time Risk reason: TTC = 14.29 m / 1.09 m/s ≈ 13.13 seconds; immediate action is required.
+  - Time safety score: 2
+  - Overall Risk score: 1
+
+- **Obstacle ID: 20039.0**
+  - Distance Risk reason: The ego vehicle is at the same position as the obstacle; collision is imminent.
+  - Distance safety score: 0
+  - Time Risk reason: The relative position implies immediate collision; corrective action is urgent.
+  - Time safety score: 0
+  - Overall Risk score: 0
+
+### Summary in JSON Format:
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20039.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20037.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+

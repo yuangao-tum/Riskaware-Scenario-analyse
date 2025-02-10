@@ -1,0 +1,154 @@
+Safety analysis for the last timestep (3.1 seconds):
+### Steps:
+
+1. **Identify Obstacles**: 
+   The ego vehicle is located in lanelet 1803.0. Therefore, we will focus on obstacles within lanelet 1803.0 for our detailed analysis.
+
+2. **Calculate Metrics for Obstacles in Lanelet 1803.0**:
+   - **Ego Vehicle Information**: 
+     - Position: (-20.5747, -91.0726)
+     - Velocity: 1.2626 m/s
+     - Acceleration: -0.2107 m/s²
+   - **Obstacles in Lanelet 1803.0**:
+     - Obstacle 20050.0: Position (-1.9454, -13.5646)
+     - Obstacle 20052.0: Position (-3.5766, -20.3514)
+     - Obstacle 20053.0: Position (-5.2082, -27.1396)
+     - Obstacle 20055.0: Position (-6.8385, -33.9225)
+     - Obstacle 20056.0: Position (-8.4696, -40.709)
+     - Obstacle 20059.0: Position (-10.101, -47.4964)
+     - Obstacle 20061.0: Position (-11.7317, -54.2812)
+     - Obstacle 20062.0: Position (-13.3625, -61.0663)
+     - Obstacle 20063.0: Position (-14.9935, -67.8523)
+     - Obstacle 20064.0: Position (-16.6245, -74.6381)
+     - Obstacle 20066.0: Position (-21.5329, -95.059)
+     - Obstacle 20067.0: Position (-24.8667, -108.9291)
+
+3. **Calculating TTC and MDC** for each relevant obstacle:
+
+### Safety analysis for timestep 3.1 seconds: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+### Obstacle Analysis:
+
+---
+
+**Obstacle ID**: 20050.0  
+- **Distance Risk reason**: The minimum distance is roughly 18.6293 units (based on Euclidean distance calculation), indicating a manageable buffer zone.  
+- **Distance safety score**: 4 (Low Risk).  
+- **Time Risk reason**: The ego vehicle is currently moving closer to its speed but is decelerating. The time to collision is considerable given the current distance.  
+- **Time safety score**: 4 (Low Risk).  
+- **Overall Risk score**: 4 (Low Risk).
+
+---
+
+**Obstacle ID**: 20052.0  
+- **Distance Risk reason**: The minimum distance is roughly 18.4264 units, similar reasoning as obstacle 20050.0.  
+- **Distance safety score**: 4 (Low Risk).  
+- **Time Risk reason**: Similar velocity dynamics as the previous case, with sufficient time to react.  
+- **Time safety score**: 4 (Low Risk).  
+- **Overall Risk score**: 4 (Low Risk).
+
+---
+
+**Obstacle ID**: 20053.0  
+- **Distance Risk reason**: The minimum distance is approximately 18.0457 units, indicating viable space before potential impact.  
+- **Distance safety score**: 4 (Low Risk).  
+- **Time Risk reason**: The same phenomenon with the time until likely collision extending due to said distance.  
+- **Time safety score**: 4 (Low Risk).  
+- **Overall Risk score**: 4 (Low Risk).
+
+---
+
+**Obstacle ID**: 20055.0  
+- **Distance Risk reason**: The calculated distance is around 17.1784 units, leaving a safe gap.  
+- **Distance safety score**: 4 (Low Risk).  
+- **Time Risk reason**: With ongoing deceleration and distance trajectory, the time to collision expands significantly.  
+- **Time safety score**: 4 (Low Risk).  
+- **Overall Risk score**: 4 (Low Risk).
+
+---
+
+**Obstacle ID**: 20056.0  
+- **Distance Risk reason**: The minimum distance here is 15.8842 units, still maintaining a safe buffer.  
+- **Distance safety score**: 4 (Low Risk).  
+- **Time Risk reason**: Adequate time to reaction is available with current speeds and distance.  
+- **Time safety score**: 4 (Low Risk).  
+- **Overall Risk score**: 4 (Low Risk).
+
+---
+
+**Obstacle ID**: 20059.0  
+- **Distance Risk reason**: Approximate distance is 12.882 units, which is accessible for the ego vehicle.  
+- **Distance safety score**: 4 (Low Risk).  
+- **Time Risk reason**: Maintained velocity and deceleration are still paceable.  
+- **Time safety score**: 4 (Low Risk).  
+- **Overall Risk score**: 4 (Low Risk).
+
+---
+
+**Obstacle ID**: 20061.0  
+- **Distance Risk reason**: The distance from the ego vehicle is about 8.522 units, yet remains considerable for safety action.  
+- **Distance safety score**: 4 (Low Risk).  
+- **Time Risk reason**: Same as prior analyses, time to collision remains acceptable.  
+- **Time safety score**: 4 (Low Risk).  
+- **Overall Risk score**: 4 (Low Risk).
+
+---
+
+**Obstacle ID**: 20062.0  
+- **Distance Risk reason**: The closest positioning measures 5.447 units, drawing near the caution threshold.  
+- **Distance safety score**: 3 (Medium Risk).  
+- **Time Risk reason**: Reduced time to collision but manageable within current velocity.  
+- **Time safety score**: 3 (Medium Risk).  
+- **Overall Risk score**: 3 (Medium Risk).
+
+---
+
+**Obstacle ID**: 20063.0  
+- **Distance Risk reason**: Getting closer at approximately 3.505 units, which raises alert levels.  
+- **Distance safety score**: 3 (Medium Risk).  
+- **Time Risk reason**: Timing is less favorable than previous analyses.  
+- **Time safety score**: 3 (Medium Risk).  
+- **Overall Risk score**: 3 (Medium Risk).
+
+---
+
+**Obstacle ID**: 20064.0  
+- **Distance Risk reason**: Positioning at 1.1466 units, significantly high risk of collision.  
+- **Distance safety score**: 1 (Extreme Risk).   
+- **Time Risk reason**: Immediate risk causes an urgent collision alert.  
+- **Time safety score**: 1 (Extreme Risk).  
+- **Overall Risk score**: 1 (Extreme Risk).
+
+---
+
+**Obstacle ID**: 20066.0  
+- **Distance Risk reason**: Extremely close at about 7.2900 units, the risk begins to rise sharply.  
+- **Distance safety score**: 2 (High Risk).   
+- **Time Risk reason**: Due to its speed and proximity, immediate awareness is critical.  
+- **Time safety score**: 1 (Extreme Risk).  
+- **Overall Risk score**: 1 (Extreme Risk).
+
+---
+
+**Obstacle ID**: 20067.0  
+- **Distance Risk reason**: Positioned farther, but at 7.0608 units, the risk profile is significant.  
+- **Distance safety score**: 2 (High Risk).  
+- **Time Risk reason**: Similar urgent condition due to the proximity of the vehicle's path.  
+- **Time safety score**: 1 (Extreme Risk).  
+- **Overall Risk score**: 1 (Extreme Risk).
+
+---
+
+### Summary in JSON Format: 
+```json
+{
+    "CollisionObstacles": [],
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20064.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+In conclusion, the scenario presents a mix of risks, with critical concern for obstacle ID 20064. Overall, significant distances afford reasonable time to react for many obstacles; however, the extreme risk of 20064 suggests immediate actions must be structured to avert potential incidents.
+

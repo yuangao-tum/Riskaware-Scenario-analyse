@@ -1,0 +1,268 @@
+Safety analysis for timestep 3.0 seconds:
+### Safety analysis for timestep 3.0: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+### Obstacle Analysis:
+- Obstacle ID: 30604
+  - Distance Risk Reason: Longitudinal distance is 15.25 meters, which indicates negligible risk. Lateral distance is 5.48 meters, which indicates negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal time to collision is 1.42 seconds, indicating medium risk. Lateral time is significantly high (1085.76 seconds), indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 3
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 4.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 30605
+  - Distance Risk Reason: Longitudinal distance is 27.13 meters, indicating negligible risk. Lateral distance is 29.19 meters, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal time to collision is 16.78 seconds, indicating negligible risk. Lateral time is significantly high (619.72 seconds), indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30606
+  - Distance Risk Reason: Longitudinal distance is 5.09 meters, indicating low risk. Lateral distance is 1.97 meters, indicating medium risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 4
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 3.5
+  - Time Risk Reason: Longitudinal time to collision is 0.36 seconds, indicating extreme risk. Lateral time is significantly high (136.57 seconds), indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 1
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 3.0
+  - Overall Risk Score: 3
+
+- Obstacle ID: 30607
+  - Distance Risk Reason: Longitudinal distance is 31.59 meters, indicating negligible risk. Lateral distance is 9.62 meters, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal time to collision is 6.78 seconds, indicating negligible risk. Lateral time is effectively infinite, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30608
+  - Distance Risk Reason: Longitudinal distance is 43.55 meters, indicating negligible risk. Lateral distance is 5.44 meters, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal time to collision is 10.43 seconds, indicating negligible risk. Lateral time is significantly high (3255.28 seconds), indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30609
+  - Distance Risk Reason: Longitudinal distance is 27.11 meters, indicating negligible risk. Lateral distance is 21.64 meters, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal time to collision is 16.77 seconds, indicating negligible risk. Lateral time is significantly high (6558.2 seconds), indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30610
+  - Distance Risk Reason: Longitudinal distance is 15.15 meters, indicating negligible risk. Lateral distance is 0.0 meters, indicating collision risk (exact lateral alignment case). The relative direction is Front (wdominant = 1).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal time to collision is 9.37 seconds, indicating negligible risk. Lateral time is 0.0 seconds, indicating collision risk (exact lateral alignment case). The relative direction is Front (wdominant = 1).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30611
+  - Distance Risk Reason: Longitudinal distance is 27.09 meters, indicating negligible risk. Lateral distance is 14.14 meters, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal time to collision is 16.76 seconds, indicating negligible risk. Lateral time is effectively infinite, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30612
+  - Distance Risk Reason: Longitudinal distance is 54.83 meters, indicating negligible risk. Lateral distance is 5.44 meters, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal time to collision is 10.82 seconds, indicating negligible risk. Lateral time is significantly high (2416.08 seconds), indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30613
+  - Distance Risk Reason: Longitudinal distance is 7.64 meters, indicating negligible risk. Lateral distance is 0.0 meters, indicating collision risk (exact lateral alignment case). The relative direction is Front (wdominant = 1).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal time to collision is 4.75 seconds, indicating low risk. Lateral time is 0.0 seconds, indicating collision risk (exact lateral alignment case). The relative direction is Front (wdominant = 1).
+  - Longitudinal Time Safety Score: 4
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 4.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 30614
+  - Distance Risk Reason: Longitudinal distance is 0.09 meters, indicating extreme risk. Lateral distance is 0.0 meters, indicating collision risk (exact lateral alignment case). The relative direction is Front (wdominant = 1).
+  - Longitudinal Distance Safety Score: 1
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 1.0
+  - Time Risk Reason: Longitudinal time to collision is 0.06 seconds, indicating collision risk. Lateral time is 0.0 seconds, indicating collision risk (exact lateral alignment case). The relative direction is Front (wdominant = 1).
+  - Longitudinal Time Safety Score: 0
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 0.0
+  - Overall Risk Score: 0
+
+- Obstacle ID: 30615
+  - Distance Risk Reason: Longitudinal distance is 27.18 meters, indicating negligible risk. Lateral distance is 45.98 meters, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal time to collision is 16.78 seconds, indicating negligible risk. Lateral time is 33.42 seconds, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30616
+  - Distance Risk Reason: Longitudinal distance is 27.21 meters, indicating negligible risk. Lateral distance is 59.03 meters, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal time to collision is 16.72 seconds, indicating negligible risk. Lateral time is 14.09 seconds, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30617
+  - Distance Risk Reason: Longitudinal distance is 27.15 meters, indicating negligible risk. Lateral distance is 36.99 meters, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal time to collision is 16.79 seconds, indicating negligible risk. Lateral time is 121.84 seconds, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30618
+  - Distance Risk Reason: Longitudinal distance is 27.25 meters, indicating negligible risk. Lateral distance is 74.71 meters, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal time to collision is 16.69 seconds, indicating negligible risk. Lateral time is 11.89 seconds, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30619
+  - Distance Risk Reason: Longitudinal distance is 27.38 meters, indicating negligible risk. Lateral distance is 122.86 meters, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal time to collision is 16.72 seconds, indicating negligible risk. Lateral time is 15.16 seconds, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30620
+  - Distance Risk Reason: Longitudinal distance is 66.18 meters, indicating negligible risk. Lateral distance is 5.45 meters, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal time to collision is 12.4 seconds, indicating negligible risk. Lateral time is 2244.5 seconds, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30621
+  - Distance Risk Reason: Longitudinal distance is 27.3 meters, indicating negligible risk. Lateral distance is 90.5 meters, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal time to collision is 16.69 seconds, indicating negligible risk. Lateral time is 12.54 seconds, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30622
+  - Distance Risk Reason: Longitudinal distance is 27.34 meters, indicating negligible risk. Lateral distance is 106.56 meters, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal time to collision is 16.7 seconds, indicating negligible risk. Lateral time is 13.71 seconds, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30624
+  - Distance Risk Reason: Longitudinal distance is 42.8 meters, indicating negligible risk. Lateral distance is 1.94 meters, indicating medium risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 4.0
+  - Time Risk Reason: Longitudinal time to collision is 9.6 seconds, indicating negligible risk. Lateral time is significantly high (1044.36 seconds), indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30625
+  - Distance Risk Reason: Longitudinal distance is 61.07 meters, indicating negligible risk. Lateral distance is 1.95 meters, indicating medium risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 4.0
+  - Time Risk Reason: Longitudinal time to collision is 6.95 seconds, indicating negligible risk. Lateral time is 416.19 seconds, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30626
+  - Distance Risk Reason: Longitudinal distance is 14.88 meters, indicating negligible risk. Lateral distance is 1.8 meters, indicating medium risk. The relative direction is Front-right (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 4.0
+  - Time Risk Reason: Longitudinal time to collision is infinite, indicating negligible risk. Lateral time is significantly high (1017.04 seconds), indicating negligible risk. The relative direction is Front-right (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30627
+  - Distance Risk Reason: Longitudinal distance is 77.26 meters, indicating negligible risk. Lateral distance is 5.45 meters, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal time to collision is 14.77 seconds, indicating negligible risk. Lateral time is 2312.43 seconds, indicating negligible risk. The relative direction is Front-left (wdominant = 0.5).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+### Summary in JSON Format:  
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30614",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": null
+}
+```
+
+

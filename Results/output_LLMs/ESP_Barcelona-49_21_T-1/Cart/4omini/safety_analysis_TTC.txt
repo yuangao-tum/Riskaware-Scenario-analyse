@@ -1,0 +1,93 @@
+Safety analysis for the last timestep (4.3 seconds):
+### Safety analysis for timestep 4.3 seconds: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+**Assumptions:**
+- Ego vehicle's position: (138.5304, -222.6073)
+- Velocity of Ego vehicle (V_ego): 2.8547 m/s (currently decelerating)
+- The orientation of the ego vehicle is approximately 2.32 radians (facing upward/right).
+- Each obstacle’s position and orientation are provided.
+
+#### Identifying Obstacles in the Same Lanelet
+The Ego vehicle is in lanelet 3814.0, and the relevant obstacles in the same lanelet are:
+- Obstacle ID 30784.0: (135.3298, -219.4417)
+- Obstacle ID 30786.0: (132.8436, -221.8975)
+- Obstacle ID 30787.0: (130.3576, -224.3635)
+
+#### Calculating TTC and MDC
+The Demarcation for potential collisions is expected with the obstacles within the defined same lanelet.
+
+1. **For Obstacle 30784.0:**
+   - **Calculating Distance:**  
+      Distance to collision:  
+      \[
+      D = \sqrt{(138.5304 - 135.3298)^2 + (-222.6073 - (-219.4417))^2} \approx 3.099 \text{ meters}
+      \]
+   - **Calculating Time to Collision (TTC):**  
+      Assuming both moving object has relative speeds in their orientations while the obstacle is stationary:
+      \[
+      TTC_{\text{long}} = \frac{D}{|V_{ego} - V_{obstacle}|} = \frac{3.099}{|2.8547 - 0|} \approx 1.084 \text{ seconds}
+      \]
+   - **Minimum Distance to Collision (MDC):**  
+      Assuming direct movement toward the obstacle:
+      - **MDC** is approximately equal to **D** calculated previously.
+
+2. **For Obstacle 30786.0:**
+   - **Calculating Distance:**  
+      \[
+      D = \sqrt{(138.5304 - 132.8436)^2 + (-222.6073 - (-221.8975))^2} \approx 5.689 \text{ meters}
+      \]
+   - **TTC Calculation:**  
+      \[
+      TTC_{\text{long}} = \frac{5.689}{2.8547} \approx 1.994 \text{ seconds}
+      \]
+   - **MDC:** 
+      - **MDC** ≈ 5.689 m
+
+3. **For Obstacle 30787.0:**
+   - **Calculating Distance:**  
+      \[
+      D = \sqrt{(138.5304 - 130.3576)^2 + (-222.6073 - (-224.3635))^2} \approx 8.281 \text{ meters}
+      \]
+   - **TTC Calculation:**  
+      \[
+      TTC_{\text{long}} = \frac{8.281}{2.8547} \approx 2.900 \text{ seconds}
+      \]
+   - **MDC:** 
+      - **MDC** ≈ 8.281 m
+
+### Detailed Evaluation of Obstacles
+1. **Obstacle ID: 30784.0**
+   - Distance Risk reason: Minimum distance of 3.099 meters indicates a significant proximity to the ego vehicle, which could lead to a collision.
+   - Distance safety score: 1
+   - Time Risk reason: A TTC of 1.084 seconds indicates immediate risk as this is under critical collision threshold.
+   - Time safety score: 1
+   - Overall Risk score: 1
+
+2. **Obstacle ID: 30786.0**
+   - Distance Risk reason: Minimum distance of 5.689 meters provides a safer buffer from collision.
+   - Distance safety score: 4
+   - Time Risk reason: A TTC of 1.994 seconds indicates some risk but manageable with timely reactions.
+   - Time safety score: 3
+   - Overall Risk score: 3
+
+3. **Obstacle ID: 30787.0**
+   - Distance Risk reason: Minimum distance of 8.281 meters indicates no immediate concern.
+   - Distance safety score: 4
+   - Time Risk reason: A generous TTC of 2.900 seconds means that the situation can be handled safely.
+   - Time safety score: 4
+   - Overall Risk score: 4
+
+### Summary in JSON Format:
+```json
+{
+    "CollisionObstacles": [],
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30784.0",
+        "OverallRiskScore": 1
+    }
+}
+```
+
+### Conclusion:
+- The closest obstacle, ID 30784.0, poses an extreme risk with a high probability of collision. Action is urgent to avoid potential impact. The other obstacles are manageable under the current state.
+

@@ -1,0 +1,96 @@
+Safety analysis for timestep 6.6 seconds:
+```markdown
+### Safety analysis for timestep 6.6 seconds: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+### Obstacle Analysis:
+- Obstacle ID: 3655
+  - Distance Risk Reason: Longitudinal DTC = 0.17 (Extreme Risk), Lateral DTC = 1.88 (Medium Risk), Direction is Front-right.
+  - Longitudinal Distance Safety Score: 1
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 2.0
+  - Time Risk Reason: Longitudinal TTC = 0.65 (High Risk), Lateral TTC = Infinity (Negligible Risk), Direction is Front-right.
+  - Longitudinal Time Safety Score: 2
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 3.5
+  - Overall Risk Score: 3
+
+- Obstacle ID: 3656
+  - Distance Risk Reason: Longitudinal DTC = 9.01 (Negligible Risk), Lateral DTC = 10.26 (Negligible Risk), Direction is Front-left.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal TTC = 35.01 (Negligible Risk), Lateral TTC = Infinity (Negligible Risk), Direction is Front-left.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 3657
+  - Distance Risk Reason: Longitudinal DTC = 0.84 (High Risk), Lateral DTC = 5.38 (Negligible Risk), Direction is Front-right.
+  - Longitudinal Distance Safety Score: 2
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 3.5
+  - Time Risk Reason: Longitudinal TTC = 3.25 (Medium Risk), Lateral TTC = Infinity (Negligible Risk), Direction is Front-right.
+  - Longitudinal Time Safety Score: 3
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 4.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 3658
+  - Distance Risk Reason: Longitudinal DTC = 0.24 (Extreme Risk), Lateral DTC = 0.0 (Collision Risk), Direction is Front.
+  - Longitudinal Distance Safety Score: 1
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 1.0
+  - Time Risk Reason: Longitudinal TTC = 0.93 (High Risk), Lateral TTC = 0.0 (Collision Risk), Direction is Front.
+  - Longitudinal Time Safety Score: 2
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 1.0
+  - Overall Risk Score: 1
+
+- Obstacle ID: 3659
+  - Distance Risk Reason: Longitudinal DTC = 0.32 (Extreme Risk), Lateral DTC = 1.9 (Medium Risk), Direction is Front-left.
+  - Longitudinal Distance Safety Score: 1
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 2.0
+  - Time Risk Reason: Longitudinal TTC = 1.24 (Medium Risk), Lateral TTC = Infinity (Negligible Risk), Direction is Front-left.
+  - Longitudinal Time Safety Score: 3
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 4.0
+  - Overall Risk Score: 3
+
+- Obstacle ID: 3660
+  - Distance Risk Reason: Longitudinal DTC = 12.51 (Negligible Risk), Lateral DTC = 10.23 (Negligible Risk), Direction is Front-left.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal TTC = 48.62 (Negligible Risk), Lateral TTC = Infinity (Negligible Risk), Direction is Front-left.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 3661
+  - Distance Risk Reason: Longitudinal DTC = 16.02 (Negligible Risk), Lateral DTC = 10.2 (Negligible Risk), Direction is Front-left.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal TTC = 62.24 (Negligible Risk), Lateral TTC = Infinity (Negligible Risk), Direction is Front-left.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+### Summary in JSON Format:
+{
+    "CollisionObstacle": {
+        "ObstacleID": "3658",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3655",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+

@@ -1,0 +1,100 @@
+Safety analysis for the last timestep (5.0 seconds):
+### Safety analysis for timestep 5.0: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+#### 1. Identify Obstacles
+The ego vehicle is located in lanelet 1383.0. The obstacles are located in lanelets 1362.0 and 1499.0, which means they are in different lanelets from the ego vehicle and will not pose an immediate lateral collision risk unless they move into the lanelet of the ego vehicle.
+
+#### 2. Calculate Metrics
+
+**Obstacle ID: 30921.0 (Coordinates: (166.7027, -303.7581))**
+- **Position of Ego**: (171.1152, -305.7903)
+- **Longitudinal Distance**: 
+    - \(D_{x} = 171.1152 - 166.7027 = 4.4125\)
+- **Lateral Distance**:
+    - \(D_{y} = -305.7903 - (-303.7581) = -2.0322\)
+- **Distance to Collision (DTC)**:
+    - \(DTClong = D_{x} \text{ (4.4125 m)}\)
+    - \(DTClat = |D_{y}| \text{ (2.0322 m)}\)
+  
+- **Relative Velocities**:
+    - Ego’s velocity = 3.1642 m/s 
+    - Obstacle’s velocity = 8.1474 m/s (towards the ego vehicle; increasing negative distance)
+  
+- **Time to Collision (TTC)**:
+    - Longitudinal TTC: 
+      \[TTC_{long} = \frac{D_{x}}{V_{ego} - V_{obstacle}} = \frac{4.4125}{3.1642 - 8.1474} = \frac{4.4125}{-4.9832} \approx -0.886\]
+    - Lateral TTC: 
+      \[TTC_{lat} = \frac{|D_{y}|}{|V_{ego} - V_{obstacle}|} = \frac{2.0322}{|3.1642 - 8.1474|} = \frac{2.0322}{4.9832} \approx 0.408\]
+
+**Distance Safety Score**: This obstacle is moving towards the ego vehicle, and the longitudinal distance shows that it could potentially cause a collision.
+- Risk Score (Distance): Considering the DTC values, it’s critical; should be rated at **1** (Extreme Risk).
+
+**Time Safety Score**: Longitudinal TTC is negative, indicating an immediate risk of collision; rated as **1** (Extreme Risk).
+
+**Overall Risk Score**: 
+Based on Distance and Time safety scores: maximum of both = **1** (Extreme Risk).
+
+---
+
+**Obstacle ID: 30922.0 (Coordinates: (169.7199, -289.5878))**
+- **Position of Ego**: (171.1152, -305.7903)
+- **Longitudinal Distance**: 
+    - \(D_{x} = 171.1152 - 169.7199 = 1.3953\)
+- **Lateral Distance**:
+    - \(D_{y} = -305.7903 - (-289.5878) = -16.2025\)
+
+- **Relative Velocities**: 
+    - Obstacle’s velocity = 8.3635 m/s (towards the ego vehicle).
+
+- **Time to Collision (TTC)**:
+    - Longitudinal TTC: 
+      \[TTC_{long} = \frac{D_{x}}{V_{ego} - V_{obstacle}} = \frac{1.3953}{3.1642 - 8.3635} = \frac{1.3953}{-5.1993} \approx -0.268\]
+    - Lateral TTC: 
+      \[TTC_{lat} = \frac{|D_{y}|}{|V_{ego} - V_{obstacle}|} = \frac{16.2025}{|3.1642 - 8.3635|} = \frac{16.2025}{5.1993} \approx 3.113\]
+
+**Distance Safety Score**: There is a significant lateral distance, but the longitudinal position is precariously close; still recorded as **1** (Extreme Risk).
+
+**Time Safety Score**: Longitudinal TTC is negative; rated as **1** (Extreme Risk).
+
+**Overall Risk Score**:
+Based on Distance and Time safety scores: maximum of both = **1** (Extreme Risk).
+
+---
+
+**Obstacle ID: 30923.0 (Coordinates: (175.7052, -274.9369))**
+- **Position of Ego**: (171.1152, -305.7903)
+- **Longitudinal Distance**: 
+    - \(D_{x} = 171.1152 - 175.7052 = -4.5900\)
+- **Lateral Distance**:
+    - \(D_{y} = -305.7903 - (-274.9369) = -30.8534\)
+
+- **Relative Velocities**: 
+    - Obstacle’s velocity = 8.2971 m/s (towards the ego vehicle).
+
+- **Time to Collision (TTC)**:
+    - Longitudinal TTC: 
+      \[TTC_{long} = \frac{D_{x}}{V_{ego} - V_{obstacle}} = \frac{-4.5900}{3.1642 - 8.2971} = \frac{-4.5900}{-5.1329} \approx 0.894\]
+    - Lateral TTC: 
+      \[TTC_{lat} = \frac{|D_{y}|}{|V_{ego} - V_{obstacle}|} = \frac{30.8534}{|3.1642 - 8.2971|} = \frac{30.8534}{5.1329} \approx 6.012\]
+
+**Distance Safety Score**: Still, the negative longitudinal distance signals potential collision; but more safely rated than previous cases at **2** (High Risk).
+
+**Time Safety Score**: Longitudinal TTC is around 0.894, indicating a potential but manageable risk; rated as **3** (Medium Risk).
+
+**Overall Risk Score**: 
+Based on Distance and Time safety scores: maximum = **3** (Medium Risk).
+
+### Summary in JSON Format: 
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30921",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+### Conclusion
+The evaluations show that the first two obstacles have an extreme risk of collision, while the last obstacle falls into a manageable medium risk category. Potential collision paths must be monitored closely, and strategies should be devised for the unexpected behavior of obstacles.
+

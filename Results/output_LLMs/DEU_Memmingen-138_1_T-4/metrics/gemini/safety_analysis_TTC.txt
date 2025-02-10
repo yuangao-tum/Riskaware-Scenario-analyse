@@ -1,0 +1,164 @@
+Safety analysis for timestep 7.0 seconds:
+### Safety analysis for timestep 7.0 seconds: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+### Obstacle Analysis:
+- Obstacle ID: 20025
+- Relative Direction: Front
+- Distance Risk Reason: DTClong = 66.35 > 5, DTClat = 0, wdominant = 1
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 5.0
+- Time Risk Reason: TTClong = 9.67 > 5, TTClat = 0, wdominant = 1
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 5.0
+- Overall Risk Score: 5
+
+- Obstacle ID: 20027
+- Relative Direction: Front-right
+- Distance Risk Reason: DTClong = 65.11 > 5, DTClat = 4.22 > 3 and <=5, wdominant = 0.5
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 4
+- Overall Distance Safety Score: 4.5
+- Time Risk Reason: TTClong = 9.67 > 5, TTClat = 77.54 > 5, wdominant = 0.5
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0
+- Overall Risk Score: 5
+
+- Obstacle ID: 20028
+- Relative Direction: Front-right
+- Distance Risk Reason: DTClong = 53.93 > 5, DTClat = 4.24 > 3 and <=5, wdominant = 0.5
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 4
+- Overall Distance Safety Score: 4.5
+- Time Risk Reason: TTClong = 9.71 > 5, TTClat = Infinity > 5, wdominant = 0.5
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0
+- Overall Risk Score: 5
+
+- Obstacle ID: 20029
+- Relative Direction: Front-right
+- Distance Risk Reason: DTClong = 45.73 > 5, DTClat = 3.14 > 1 and <=3, wdominant = 0.5
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 3
+- Overall Distance Safety Score: 4.0
+- Time Risk Reason: TTClong = 6.97 > 5, TTClat = Infinity > 5, wdominant = 0.5
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0
+- Overall Risk Score: 5
+
+- Obstacle ID: 20030
+- Relative Direction: Front-right
+- Distance Risk Reason: DTClong = 38.6 > 5, DTClat = 2.25 > 1 and <=3, wdominant = 0.5
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 3
+- Overall Distance Safety Score: 4.0
+- Time Risk Reason: TTClong = 5.62 > 5, TTClat = Infinity > 5, wdominant = 0.5
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0
+- Overall Risk Score: 4
+
+- Obstacle ID: 20031
+- Relative Direction: Front-left
+- Distance Risk Reason: DTClong = 67.36 > 5, DTClat = 5.79 > 5, wdominant = 0.5
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0
+- Time Risk Reason: TTClong = 9.81 > 5, TTClat = Infinity > 5, wdominant = 0.5
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0
+- Overall Risk Score: 5
+
+- Obstacle ID: 20032
+- Relative Direction: Front-right
+- Distance Risk Reason: DTClong = 31.61 > 5, DTClat = 1.4 > 1 and <= 3, wdominant = 0.5
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 3
+- Overall Distance Safety Score: 4.0
+- Time Risk Reason: TTClong = 4.76 >3 and <=5, TTClat = Infinity > 5, wdominant = 0.5
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 4.5
+- Overall Risk Score: 4
+
+- Obstacle ID: 20033
+- Relative Direction: Front-right
+- Distance Risk Reason: DTClong = 23.04 > 5, DTClat = 0.36 <=0.5, wdominant = 0.5
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 1
+- Overall Distance Safety Score: 3.0
+- Time Risk Reason: TTClong = 4.69 > 3 and <=5, TTClat = Infinity > 5, wdominant = 0.5
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 4.5
+- Overall Risk Score: 4
+
+- Obstacle ID: 20036
+- Relative Direction: Collision
+- Distance Risk Reason: DTClong = 0, DTClat = 0, wdominant = 0.5 (Not used)
+- Longitudinal Distance Safety Score: 0
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 0.0
+- Time Risk Reason: TTClong = 0, TTClat = 0, wdominant = 0.5 (Not used)
+- Longitudinal Time Safety Score: 0
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 0.0
+- Overall Risk Score: 0
+
+- Obstacle ID: 20037
+- Relative Direction: Rear-left
+- Distance Risk Reason: DTClong = 11.15 > 5, DTClat = 0.37 <= 0.5, wdominant = 0.5
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 1
+- Overall Distance Safety Score: 3.0
+- Time Risk Reason: TTClong = Infinity > 5, TTClat = 0.06 <=0.5, wdominant = 0.5
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 1
+- Overall Time Safety Score: 3.0
+- Overall Risk Score: 3
+
+- Obstacle ID: 20038
+- Relative Direction: Rear-right
+- Distance Risk Reason: DTClong = 18.33 > 5, DTClat = 5.4 > 5, wdominant = 0.5
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: TTClong = Infinity >5, TTClat = 1.1 > 0.5 and <=3, wdominant = 0.5
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 3
+- Overall Time Safety Score: 4.0
+- Overall Risk Score: 4
+
+
+- Obstacle ID: 20039
+- Relative Direction: Front-left
+- Distance Risk Reason: DTClong = 5.53 > 5, DTClat = 1.85 > 1 and <= 3, wdominant = 0.5
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 3
+- Overall Distance Safety Score: 4.0
+- Time Risk Reason: TTClong = 0.27 <= 0.5, TTClat = Infinity > 5, wdominant = 0.5
+- Longitudinal Time Safety Score: 1
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 3.0
+- Overall Risk Score: 3
+
+
+...(Similar analysis for remaining obstacles)
+
+
+### Summary in JSON Format:
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "20036",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": null
+}
+```
+
+

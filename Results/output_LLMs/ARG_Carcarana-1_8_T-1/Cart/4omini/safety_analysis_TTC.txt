@@ -1,0 +1,71 @@
+Safety analysis for the last timestep (3.1 seconds):
+To evaluate the provided scenario for potential collisions, we'll follow the steps outlined:
+
+### Step 1: Identify Obstacles in the Same Lanelet or Trajectory
+The ego vehicle (ID: "Ego") is located in lanelet 5459.0. We need to focus on obstacles that are located in the same lanelet (5459.0) as well as those that may be on a collision trajectory with the ego vehicle. 
+
+The relevant obstacles in lanelet 5459.0:
+- Obstacle ID 341.0 (Position: (-152.84436, -62.688665))
+- Obstacle ID 357.0 (Position: (-159.38017, -64.23567))
+- Obstacle ID 360.0 (Position: (-140.63988, -65.261887))
+  
+### Step 2: Calculate Metrics – TTC and MDC
+We will calculate the time to collision (TTC) and minimum distance to collision (MDC) for the relevant obstacles.
+
+**Key Variables:**
+- Ego position = (-157.1287, -60.6893)
+- Ego velocity = 2.1965 (assuming direction in the lanelet)
+
+#### 1. For Obstacle ID 341.0
+- Position: (-152.84436, -62.688665)
+- Velocity: 9.4382583
+- Calculating TBD values:
+    - Distance in x-axis: -152.84436 + 157.1287 = 4.28434 (moving toward the obstacle)
+    - Distance in y-axis: -62.688665 + 60.6893 = -1.999365 (in the same direction but slightly backward)
+- Use the Euclidean distance formula for MDC:
+\[ MDC = \sqrt{(4.28434)^2 + (-1.999365)^2} = \sqrt{18.3516 + 3.9975} \approx 4.9642 \]
+- TTC would primarily focus on speed differences in line with direction:
+\[ TTC = \frac{Distance}{Relative Velocity} \approx \frac{4.9642}{(9.4382583 - 2.1965)} \approx 0.6494 seconds \]
+
+#### 2. For Obstacle ID 357.0
+- Position: (-159.38017, -64.23567)
+- Velocity: 2.8484337
+- Distance in x: -159.38017 + 157.1287 = -2.25147 (moving away)
+- Distance in y: -64.23567 + 60.6893 = -3.54637 (moving away)
+- MDC:
+\[ MDC = \sqrt{(-2.25147)^2 + (-3.54637)^2} = \sqrt{5.0681 + 12.5744} \approx 4.7211 \]
+- TTC:
+\[ TTC = \frac{Distance}{Relative Velocity} \approx \frac{4.7211}{(2.8484337 - 2.1965)} \approx \text{Negative Time Value, meaning more distance} \]
+
+#### 3. For Obstacle ID 360.0
+- Position: (-140.63988, -65.261887)
+- Velocity: 7.1838744
+- Distance in x: -140.63988 + 157.1287 = 16.48882
+- Distance in y: -65.261887 + 60.6893 = -4.572587
+- MDC:
+\[ MDC = \sqrt{(16.48882)^2 + (-4.572587)^2} \approx \sqrt{271.6689 + 20.9248} \approx 16.883 \]
+- TTC:
+\[ TTC \approx \frac{16.883}{(7.1838744 - 2.1965)} \approx 3.747 \text{ seconds} \]
+
+### Step 3: Provide Reasoning and Score Calculation
+### Safety Analysis for Timestep 3.1
+#### Obstacle Analysis:
+- Obstacle ID: 341.0
+  - Distance Risk reason: Approaching the ego vehicle at a speed greater than ego’s.
+  - Distance safety score: 2 (High since DC is small)
+  - Time Risk reason: TTC indicates a high risk of collision.
+  - Time safety score: 1 (Extreme risk as TTC is below 1 second)
+  - Overall Risk score: 1 (Extreme Risk)
+
+- Obstacle ID: 357.0
+  - Distance Risk reason: Distance is maintainable and moving away.
+  - Distance safety score: 4 (Low risk as it is moving away, providing more room)
+  - Time Risk reason: TTC suggests no risk since the vehicle is moving away.
+  - Time safety score: 5 (Negligible risk)
+  - Overall Risk score: 4 (Low Risk)
+
+- Obstacle ID: 360.0
+  - Distance Risk reason: Substantial distance against ego vehicle.
+  - Distance safety score: 4 (Low risk)
+  - Time Risk reason: TTC is
+

@@ -1,0 +1,81 @@
+### Safety analysis for timestep 3.1: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+### Obstacle Analysis:
+1. **Obstacle ID: 324.0**
+   - Distance Risk reason: The longitudinal distance is 31.99 m and lateral distance is 5.82 m, indicating a safe distance away from the ego vehicle.
+   - Distance safety score: 5 (Negligible Risk)
+   - Time Risk reason: Both longitudinal (0.42 m/s moving away) and lateral (0.45 m/s moving away) velocities indicate the obstacle is moving away, contributing to a risk-free situation.
+   - Time safety score: 5 (Negligible Risk)
+   - Overall Risk score: 5
+
+2. **Obstacle ID: 338.0**
+   - Distance Risk reason: The longitudinal distance is 2.5 m and lateral distance is 32.51 m. This short longitudinal distance places it in a critical zone.
+   - Distance safety score: 1 (Extreme Risk) 
+   - Time Risk reason: The longitudinal velocity of -1.7 m/s means the obstacle is approaching fast while the lateral is also negative which adds to the urgency.
+   - Time safety score: 1 (Extreme Risk)
+   - Overall Risk score: 1
+
+3. **Obstacle ID: 341.0**
+   - Distance Risk reason: The longitudinal distance is -0.21 m (very close), indicating the obstacle is behind the ego vehicle.
+   - Distance safety score: 1 (Extreme Risk)
+   - Time Risk reason: With a relative velocity of 7.1 m/s longitudinally approaching from behind, this creates a very high likelihood of collision.
+   - Time safety score: 1 (Extreme Risk)
+   - Overall Risk score: 1
+
+4. **Obstacle ID: 357.0**
+   - Distance Risk reason: The longitudinal distance is 0.0 m and lateral distance is 2.52 m which suggests immediate proximity (approximately right next to the ego vehicle).
+   - Distance safety score: 1 (Extreme Risk)
+   - Time Risk reason: The longitudinal relative velocity is -5.04 m/s; this indicates that it is rapidly reducing distance.
+   - Time safety score: 1 (Extreme Risk)
+   - Overall Risk score: 1
+
+5. **Obstacle ID: 360.0**
+   - Distance Risk reason: The longitudinal distance is -12.5 m which is a significant negative value indicating this obstacle is driving toward the ego vehicle from behind.
+   - Distance safety score: 1 (Extreme Risk)
+   - Time Risk reason: It has a high relative velocity of 4.88 m/s towards the ego vehicle, increasing the collision risk significantly.
+   - Time safety score: 1 (Extreme Risk)
+   - Overall Risk score: 1
+
+6. **Obstacle ID: 3104.0**
+   - Distance Risk reason: The longitudinal distance is 13.01 m and lateral distance is -23.24 m, indicating a safe distance from the ego vehicle.
+   - Distance safety score: 5 (Negligible Risk)
+   - Time Risk reason: The obstacle is moving away longitudinally and also laterally, suggesting no imminent risk.
+   - Time safety score: 5 (Negligible Risk)
+   - Overall Risk score: 5
+
+7. **Obstacle ID: 3111.0**
+   - Distance Risk reason: The longitudinal distance is 13.44 m and lateral distance is 6.16 m, providing a reasonable buffer.
+   - Distance safety score: 5 (Negligible Risk)
+   - Time Risk reason: Longitudinal velocity is -11.54 m/s and lateral velocity is -1.63 m/s, however, it may not be enough to cause an immediate risk.
+   - Time safety score: 3 (Medium Risk)
+   - Overall Risk score: 4
+
+8. **Obstacle ID: 3118.0**
+   - Distance Risk reason: Longitudinal distance is 39.57 m and lateral distance is 10.73 m, indicating minimal risk as well.
+   - Distance safety score: 5 (Negligible Risk)
+   - Time Risk reason: Similar to above, the longitudinal velocity is negative but still at a distance that mitigates risk.
+   - Time safety score: 4 (Low Risk)
+   - Overall Risk score: 4
+
+9. **Obstacle ID: 3126.0**
+   - Distance Risk reason: Longitudinal distance is 51.47 m and lateral distance is 12.8 m, categorized as safe.
+   - Distance safety score: 5 (Negligible Risk)
+   - Time Risk reason: The long distance means relative velocities imply no immediate collision threat.
+   - Time safety score: 5 (Negligible Risk)
+   - Overall Risk score: 5
+
+### Summary in JSON Format:  
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "338.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+

@@ -1,0 +1,70 @@
+Safety analysis for the last timestep (11.6 seconds):
+To evaluate the collision risk for the ego vehicle, we first need to identify which obstacles are in the same lanelet as the ego vehicle and calculate the Time to Collision (TTC) and Minimum Distance to Collision (MDC) for each relevant obstacle.
+
+### Step 1: Identify obstacles in the same lanelet as the ego vehicle
+The ego vehicle is in lanelet 949.0. Within this lanelet, the obstacles are:
+- Obstacle ID: 3667.0 (Position: 435.6788, 14.1591, Velocity: 4.7787)
+
+### Step 2: Calculate Metrics
+### Parameters:
+- Ego position: (435.8494, 9.3969) 
+- Ego velocity: 1.7479
+- Obstacle position: (435.6788, 14.1591)
+- Obstacle velocity: 4.7787
+
+1. **Calculate lateral distance (y-axis) and longitudinal distance (x-axis)**:
+   - Longitudinal distance = 435.8494 - 435.6788 = 0.1706
+   - Lateral distance = 9.3969 - 14.1591 = -4.7622 (Approx. 4.76 units behind the obstacle)
+
+2. **TTC Calculation**:
+   - **Longitudinal TTC**: 
+     \[
+     \text{TTC}_{\text{long}} = \frac{\text{Longitudinal distance}}{\text{Ego velocity} - \text{Obstacle velocity}} = \frac{0.1706}{1.7479 - 4.7787} 
+     \]
+     As the ego vehicle is slower than the obstacle, this results in a negative value, indicating the ego is losing distance to the obstacle rapidly, which suggests a collision is imminent.
+
+   - **Lateral TTC**: 
+     Since the y-positions are continuous (both are in the same lane, albeit with a negative displacement):
+     \[
+     \text{TTC}_{\text{lat}} = \infty  \text{ (as the obstacle is in the same lane, no relative lateral velocity can be calculated)}
+     \]
+
+3. **MDC Calculation**:
+   The minimum distance is calculated directly from the calculated distances:
+   - MDC = √(Longitudinal distance² + Lateral distance²)
+   - MDC = √(0.1706² + (-4.7622)²) 
+   - MDC = √(0.0291 + 22.7048) = √(22.7339) ≈ 4.77
+
+### Step 3: Determine Scores
+#### For Obstacle 3667.0:
+- **MDC**: 4.77 units
+  - Distance safety score: Given that the MDC is substantial, but with TTC indicating imminent collision, we can assign:
+     - Distance Score: 3 (Medium risk due to proximity)
+- **TTC**: Immediate collision detected
+  - Time safety score: Urgent action needed due to impending collision; therefore:
+     - Time Score: 1 (Extreme risk)
+  
+**Overall Risk Score**: The minimum of distance and time scores leads to an Overall Risk Score of 1 (Extreme Risk).
+
+### Final Summary
+### Safety analysis for timestep 11.6:
+Here's the evaluation of each obstacle according to the provided metrics and calculations.
+### Obstacle Analysis:
+- Obstacle ID: 3667.0
+- Distance Risk reason: Proximity is moderate, but a collision is imminent.
+- Distance safety score: 3
+- Time Risk reason: Immediate collision due to negative TTC. 
+- Time safety score: 1
+- Overall Risk score: 1
+
+### Summary in JSON Format:
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3667.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+

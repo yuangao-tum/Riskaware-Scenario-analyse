@@ -1,0 +1,413 @@
+Safety analysis for timestep 3.6 seconds:
+```markdown
+### Safety analysis for timestep 3.6 seconds: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+### Obstacle Analysis:
+- Obstacle ID: 20024
+  - Distance Risk Reason: Longitudinal DTC is high at 122.54m and lateral DTC at 21.47m, providing negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Longitudinal TTC is very high at 51.55 seconds indicating negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20026
+  - Distance Risk Reason: Longitudinal DTC of 78.23m and lateral DTC of 27.83m suggest negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Longitudinal TTC at 12.85 seconds indicates negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20038
+  - Distance Risk Reason: With longitudinal DTC at 133.37m and lateral DTC at 3.41m, the risk is negligible.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Longitudinal TTC is very high at 56.11 seconds, posing negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20039
+  - Distance Risk Reason: Longitudinal DTC of 86.46m and lateral DTC of 25.54m indicates negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Longitudinal TTC at 18.96 seconds indicates negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20041
+  - Distance Risk Reason: Negligible risk with longitudinal DTC at 124.98m and lateral DTC at 10.55m.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Longitudinal TTC at 39.43 seconds indicates negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20042
+  - Distance Risk Reason: Negligible risk with longitudinal DTC at 129.76m and lateral DTC at 9.46m.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Longitudinal TTC is high at 54.59 seconds suggesting negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20045
+  - Distance Risk Reason: Very high longitudinal DTC at 125.09m and lateral DTC at 36.34m presenting negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Longitudinal TTC of 51.92s and lateral TTC of 1296.72s indicate negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20046
+  - Distance Risk Reason: Longitudinal DTC at 126.09m and lateral DTC of 15.43m suggests negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Longitudinal TTC is high at 53.05 seconds indicating negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20047
+  - Distance Risk Reason: Negligible risk with longitudinal DTC at 131.49m and lateral DTC at 42.61m.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Longitudinal TTC at 55.32 seconds suggests negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20050
+  - Distance Risk Reason: Negligible risk with longitudinal DTC at 82.21m and lateral DTC at 52.1m.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Longitudinal TTC at 34.59 seconds indicates negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20051
+  - Distance Risk Reason: Negligible risk with longitudinal DTC at 124.45m and lateral DTC at 5.24m.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Longitudinal TTC at 52.36 seconds shows negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20052
+  - Distance Risk Reason: Longitudinal DTC at 117.36m and a lateral DTC of 10.71m signify negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Longitudinal TTC is at 49.38 seconds, implying negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20053
+  - Distance Risk Reason: Longitudinal DTC at 135.84m and lateral DTC at 48.07m suggest negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Longitudinal TTC is 57.15 seconds, indicating negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20054
+  - Distance Risk Reason: Negligible risk with longitudinal DTC at 139.83m and lateral DTC at 53.79m.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Longitudinal TTC at 58.83 seconds implies negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20056
+  - Distance Risk Reason: Longitudinal DTC at 84.98m and lateral DTC at 60.85m present negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Longitudinal TTC at 35.66s and lateral TTC at 3273.09s indicate negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20057
+  - Distance Risk Reason: Negligible risk with longitudinal DTC at 87.1m and lateral DTC at 67.54m.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Longitudinal TTC at 36.64 seconds suggests negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20058
+  - Distance Risk Reason: Longitudinal DTC at 111.84m and lateral DTC at 14.98m signify negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Longitudinal TTC is 47.05 seconds, indicating negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20059
+  - Distance Risk Reason: Longitudinal DTC at 106.31m with lateral DTC at 19.25m indicates negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Longitudinal TTC is 44.73 seconds, suggesting negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20060
+  - Distance Risk Reason: Longitudinal DTC at 134.72m and lateral DTC at 0.0m signifies negligible risk as the obstacle is moving away.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 4
+  - Time Risk Reason: Longitudinal TTC is 39.04 seconds and lateral TTC is 0.0s, meaning negligible risk as it aligns or moves away.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 2.5
+  - Overall Risk Score: 3
+
+- Obstacle ID: 20061
+  - Distance Risk Reason: Longitudinal DTC at 95.79m and lateral DTC at 16.62m suggest negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Longitudinal TTC at 40.3 seconds indicates negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20062
+  - Distance Risk Reason: Longitudinal DTC at 90.42m and lateral DTC of 9.49m signify negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Longitudinal TTC at 38.04 seconds indicates negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20063
+  - Distance Risk Reason: Longitudinal DTC at 86.22m and lateral DTC at 3.91m signify low risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Longitudinal TTC is high at 36.27 seconds, indicating negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20065
+  - Distance Risk Reason: Longitudinal DTC at 78.24m and lateral DTC at 2.91m imply low risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Longitudinal TTC is 32.92 seconds suggesting negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20072
+  - Distance Risk Reason: Longitudinal DTC at 51.33m and lateral DTC at 37.72m signify negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Longitudinal TTC at 21.6 seconds denotes negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20073
+  - Distance Risk Reason: Longitudinal DTC at 43.84m and lateral DTC at 44.06m represent low risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Longitudinal TTC at 18.44 seconds implies negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20074
+  - Distance Risk Reason: Longitudinal DTC at 68.56m and lateral DTC at 5.08m imply negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Longitudinal TTC at 28.84 seconds denotes negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20075
+  - Distance Risk Reason: Longitudinal DTC at 35.12m and lateral DTC at 41.54m signify negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Longitudinal TTC at 14.78 seconds indicates negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20076
+  - Distance Risk Reason: Longitudinal DTC at 61.9m and lateral DTC at 3.04m indicate negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Longitudinal TTC at 26.04 seconds indicates negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20077
+  - Distance Risk Reason: Longitudinal DTC at 54.97m and lateral DTC at 2.19m signify negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Longitudinal TTC at 23.13 seconds indicates negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20078
+  - Distance Risk Reason: Longitudinal DTC at 48.02m and lateral DTC at 1.53m signifies negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Longitudinal TTC at 20.2 seconds indicates negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20079
+  - Distance Risk Reason: Longitudinal DTC at 41.08m and lateral DTC at 0.87m imply low risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Longitudinal TTC at 17.28 seconds signifies negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20080
+  - Distance Risk Reason: Longitudinal DTC at 34.13m and lateral DTC at 0.2m imply low risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Longitudinal TTC at 14.36 seconds denotes negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20082
+  - Distance Risk Reason: Longitudinal DTC at 17.75m and lateral DTC at 0.0m indicate low risk, as the obstacle is moving away.
+  - Longitudinal Distance Safety Score: 3
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 3
+  - Time Risk Reason: Longitudinal TTC at infinity and lateral TTC at 0.0 indicates no risk due to lateral movement away.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 2.5
+  - Overall Risk Score: 3
+
+- Obstacle ID: 20084
+  - Distance Risk Reason: Both DTC are at 0.0, indicating a collision.
+  - Longitudinal Distance Safety Score: 0
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 0
+  - Time Risk Reason: Both TTC at 0.0 seconds, confirming a collision.
+  - Longitudinal Time Safety Score: 0
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 0
+  - Overall Risk Score: 0
+
+- Obstacle ID: 20085
+  - Distance Risk Reason: Negligible risk with longitudinal DTC at 143.69m and lateral DTC at 59.9m.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Longitudinal TTC at 54.35s and lateral TTC at 133.64s indicates negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20086
+  - Distance Risk Reason: Extreme risk established by DTC metrics, despite the negligible time margin.
+  - Longitudinal Distance Safety Score: 3
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 3
+  - Time Risk Reason: Short TTC longitudinally at 2.42 seconds and laterally at 0.47 seconds, indicating an extreme risk.
+  - Longitudinal Time Safety Score: 3
+  - Lateral Time Safety Score: 1
+  - Overall Time Safety Score: 2
+  - Overall Risk Score: 2
+
+### Summary in JSON Format: 
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20084",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+```
+

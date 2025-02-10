@@ -1,0 +1,327 @@
+Safety analysis for timestep 3.1 seconds:
+### Safety analysis for timestep 3.1 seconds: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+### Obstacle Analysis:
+- Obstacle ID: 20025
+- Relative Direction: Front-right
+- Distance Risk Reason: The longitudinal distance to collision is 118.79, which poses negligible risk, while the lateral distance is 20.49, also suggesting negligible risk in this direction. 
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 4
+- Overall Distance Safety Score: 5
+- Time Risk Reason: The longitudinal time to collision is 94.08, indicating negligible risk. There is no lateral collision risk as it is infinity. 
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20027
+- Relative Direction: Front-right
+- Distance Risk Reason: The longitudinal distance to collision is 107.99, indicating negligible risk, while the lateral distance of 13.54 also indicates negligible risk.
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 4
+- Overall Distance Safety Score: 5
+- Time Risk Reason: The longitudinal time to collision is 85.53, indicating negligible risk. There is no lateral collision risk as it is infinity.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20028
+- Relative Direction: Front-left
+- Distance Risk Reason: The longitudinal distance to collision is 92.42, indicating negligible risk, while the lateral distance of 3.08 suggests minimal risk.
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 4
+- Overall Distance Safety Score: 5
+- Time Risk Reason: The longitudinal time to collision is 73.2, indicating negligible risk. There is no lateral collision risk as it is infinity.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20031
+- Relative Direction: Front-left
+- Distance Risk Reason: The longitudinal distance to collision is 104.24, indicating negligible risk, with a lateral distance of 8.11 suggesting minimal risk.
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 4
+- Overall Distance Safety Score: 5
+- Time Risk Reason: The longitudinal time to collision is 82.56, indicating negligible risk. There is no lateral collision risk as it is infinity.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20035
+- Relative Direction: Front-left
+- Distance Risk Reason: The longitudinal distance to collision is 112.49, indicating negligible risk, while the lateral distance of 11.52 suggests minimal risk.
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 4
+- Overall Distance Safety Score: 5
+- Time Risk Reason: The longitudinal time to collision is 89.1, indicating negligible risk. There is no lateral collision risk as it is infinity.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20039
+- Relative Direction: Front-left
+- Distance Risk Reason: The longitudinal distance to collision is 118.94, indicating negligible risk, with a lateral distance of 14.19 suggesting minimal risk.
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 4
+- Overall Distance Safety Score: 5
+- Time Risk Reason: The longitudinal time to collision is 94.2, indicating negligible risk. There is no lateral collision risk as it is infinity.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20043
+- Relative Direction: Front-left
+- Distance Risk Reason: The longitudinal distance to collision is 125.39, indicating negligible risk, while the lateral distance of 16.85 suggests minimal risk.
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 4
+- Overall Distance Safety Score: 5
+- Time Risk Reason: The longitudinal time to collision is 99.31, indicating negligible risk. There is no lateral collision risk as it is infinity.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20045
+- Relative Direction: Front-left
+- Distance Risk Reason: The longitudinal distance to collision is 131.84, indicating negligible risk, with a lateral distance of 19.52 suggesting minimal risk.
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 4
+- Overall Distance Safety Score: 5
+- Time Risk Reason: The longitudinal time to collision is 104.42, indicating negligible risk. There is no lateral collision risk as it is infinity.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20046
+- Relative Direction: Front-right
+- Distance Risk Reason: The longitudinal distance to collision is 100.48, indicating negligible risk, with a lateral distance of 8.71 suggesting minimal risk.
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 4
+- Overall Distance Safety Score: 5
+- Time Risk Reason: The longitudinal time to collision is 79.58, indicating negligible risk. There is no lateral collision risk as it is infinity.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20047
+- Relative Direction: Front-right
+- Distance Risk Reason: The longitudinal distance to collision is 94.61, indicating negligible risk, with a lateral distance of 4.94 suggesting minimal risk.
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 4
+- Overall Distance Safety Score: 5
+- Time Risk Reason: The longitudinal time to collision is 74.94, indicating negligible risk. There is no lateral collision risk as it is infinity.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20048
+- Relative Direction: Front-right
+- Distance Risk Reason: The longitudinal distance to collision is 88.64, indicating negligible risk, while the lateral distance of 1.34 suggests negligible risk.
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: The longitudinal time to collision is 70.2, indicating negligible risk. There is no lateral collision risk as it is infinity.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20049
+- Relative Direction: Front
+- Distance Risk Reason: The longitudinal distance to collision is 82.15 with a lateral distance of 0.0, indicating a significant risk due to exact alignment.
+- Longitudinal Distance Safety Score: 4  
+- Lateral Distance Safety Score: 1
+- Overall Distance Safety Score: 2
+- Time Risk Reason: The longitudinal time to collision is 65.07 with a lateral time of 0.0, indicating an immediate collision risk.
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 2
+- Overall Risk Score: 2
+
+### Obstacle Analysis:
+- Obstacle ID: 20050
+- Relative Direction: Front
+- Distance Risk Reason: The longitudinal distance to collision is 75.21 with a lateral distance of 0.0, indicating a significant risk due to exact alignment.
+- Longitudinal Distance Safety Score: 3  
+- Lateral Distance Safety Score: 1
+- Overall Distance Safety Score: 2
+- Time Risk Reason: The longitudinal time to collision is 59.57 with a lateral time of 0.0, indicating immediate collision risk.
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 2
+- Overall Risk Score: 2
+
+### Obstacle Analysis:
+- Obstacle ID: 20052
+- Relative Direction: Front
+- Distance Risk Reason: The longitudinal distance to collision is 68.23 with a lateral distance of 0.0, indicating high risk due to exact alignment.
+- Longitudinal Distance Safety Score: 3  
+- Lateral Distance Safety Score: 1
+- Overall Distance Safety Score: 2
+- Time Risk Reason: The longitudinal time to collision is 54.04 with a lateral time of 0.0, indicating imminent collision risk.
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 2
+- Overall Risk Score: 2
+
+### Obstacle Analysis:
+- Obstacle ID: 20053
+- Relative Direction: Front
+- Distance Risk Reason: The longitudinal distance to collision is 61.25 with a lateral distance of 0.0, suggesting high risk due to exact alignment.
+- Longitudinal Distance Safety Score: 3  
+- Lateral Distance Safety Score: 1
+- Overall Distance Safety Score: 2
+- Time Risk Reason: The longitudinal time to collision is 48.51 with a lateral time of 0.0, suggesting immediate collision risk.
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 2
+- Overall Risk Score: 2
+
+### Obstacle Analysis:
+- Obstacle ID: 20055
+- Relative Direction: Front
+- Distance Risk Reason: The longitudinal distance to collision is 54.27 with a lateral distance of 0.0, suggesting medium risk due to exact alignment.
+- Longitudinal Distance Safety Score: 3  
+- Lateral Distance Safety Score: 1
+- Overall Distance Safety Score: 2
+- Time Risk Reason: The longitudinal time to collision is 42.98 with a lateral time of 0.0, indicating immediate collision risk.
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 2
+- Overall Risk Score: 2
+
+### Obstacle Analysis:
+- Obstacle ID: 20056
+- Relative Direction: Front
+- Distance Risk Reason: The longitudinal distance to collision is 47.29 with a lateral distance of 0.0, indicating high risk due to exact alignment.
+- Longitudinal Distance Safety Score: 3  
+- Lateral Distance Safety Score: 1
+- Overall Distance Safety Score: 2
+- Time Risk Reason: The longitudinal time to collision is 37.45 with a lateral time of 0.0, indicating imminent collision risk.
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 2
+- Overall Risk Score: 2
+
+### Obstacle Analysis:
+- Obstacle ID: 20059
+- Relative Direction: Front
+- Distance Risk Reason: The longitudinal distance to collision is 40.31 with a lateral distance of 0.0, suggesting high risk due to exact alignment.
+- Longitudinal Distance Safety Score: 3  
+- Lateral Distance Safety Score: 1
+- Overall Distance Safety Score: 2
+- Time Risk Reason: The longitudinal time to collision is 31.93 with a lateral time of 0.0, indicating imminent collision risk.
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 2
+- Overall Risk Score: 2
+
+### Obstacle Analysis:
+- Obstacle ID: 20061
+- Relative Direction: Front
+- Distance Risk Reason: The longitudinal distance to collision is 33.33 with a lateral distance of 0.0, indicating high risk due to exact alignment.
+- Longitudinal Distance Safety Score: 3  
+- Lateral Distance Safety Score: 1
+- Overall Distance Safety Score: 2
+- Time Risk Reason: The longitudinal time to collision is 26.4 with a lateral time of 0.0, indicating imminent collision risk.
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 2
+- Overall Risk Score: 2
+
+### Obstacle Analysis:
+- Obstacle ID: 20062
+- Relative Direction: Front
+- Distance Risk Reason: The longitudinal distance to collision is 26.35 with a lateral distance of 0.0, indicating high risk due to exact alignment.
+- Longitudinal Distance Safety Score: 3  
+- Lateral Distance Safety Score: 1
+- Overall Distance Safety Score: 2
+- Time Risk Reason: The longitudinal time to collision is 20.87 with a lateral time of 0.0, indicating imminent collision risk.
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 2
+- Overall Risk Score: 2
+
+### Obstacle Analysis:
+- Obstacle ID: 20063
+- Relative Direction: Front
+- Distance Risk Reason: The longitudinal distance to collision is 19.37 with a lateral distance of 0.0, suggesting extreme risk due to exact alignment.
+- Longitudinal Distance Safety Score: 2  
+- Lateral Distance Safety Score: 1
+- Overall Distance Safety Score: 1
+- Time Risk Reason: The longitudinal time to collision is 15.34 with a lateral time of 0.0, indicating imminent collision risk.
+- Longitudinal Time Safety Score: 3
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 1
+- Overall Risk Score: 1
+
+### Obstacle Analysis:
+- Obstacle ID: 20064
+- Relative Direction: Front
+- Distance Risk Reason: The longitudinal distance to collision is 12.39 with a lateral distance of 0.0, indicating extreme risk due to exact alignment.
+- Longitudinal Distance Safety Score: 1  
+- Lateral Distance Safety Score: 1
+- Overall Distance Safety Score: 1
+- Time Risk Reason: The longitudinal time to collision is 9.82 with a lateral time of 0.0, indicating imminent collision risk.
+- Longitudinal Time Safety Score: 3
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 1
+- Overall Risk Score: 1
+
+### Obstacle Analysis:
+- Obstacle ID: 20066
+- Relative Direction: Collision
+- Distance Risk Reason: Both longitudinal and lateral distances are at 0.0, indicating an imminent collision.
+- Longitudinal Distance Safety Score: 0  
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 0
+- Time Risk Reason: Both longitudinal and lateral times are at 0.0, indicating an imminent collision.
+- Longitudinal Time Safety Score: 0
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 0
+- Overall Risk Score: 0
+
+### Obstacle Analysis:
+- Obstacle ID: 20067
+- Relative Direction: Behind
+- Distance Risk Reason: The longitudinal distance to collision is 13.86, which poses negligible risk, while the lateral distance is 0.0, indicating a medium risk scenario as the obstacle is approaching from the rear.
+- Longitudinal Distance Safety Score: 4  
+- Lateral Distance Safety Score: 1
+- Overall Distance Safety Score: 2
+- Time Risk Reason: The longitudinal time to collision is 2.25, indicating high risk due to proximity, while the lateral distance is zero.
+- Longitudinal Time Safety Score: 2
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 1
+- Overall Risk Score: 1
+
+### Summary in JSON Format:  
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20066",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+

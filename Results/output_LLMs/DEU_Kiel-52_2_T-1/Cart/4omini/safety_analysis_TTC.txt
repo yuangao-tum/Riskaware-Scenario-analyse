@@ -1,0 +1,171 @@
+Safety analysis for the last timestep (3.8 seconds):
+### Safety analysis for timestep 3.8 seconds: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+First, we identify the obstacles that could potentially collide with the ego vehicle by analyzing their positions and velocities. The ego vehicle is traveling with a velocity of 4.36 m/s and decelerating. 
+
+Next, let's calculate the Time to Collision (TTC) and Minimum Distance to Collision (MDC) for each relevant obstacle:
+
+1. **Obstacle ID 30664.0**
+   - Distance: 34.7354 meters
+   - Relative Velocity: 5.4469 m/s (obstacle velocity - ego velocity)
+   - TTC (Approx): 6.38 seconds (Distance / Relative Velocity)
+   - MDC: 34.7354 meters
+   - Distance safety score: 4 (Minimal risk)
+   - Time safety score: 4 (Minimal risk)
+   - Overall Risk score: 4
+
+2. **Obstacle ID 30665.0**
+   - Distance: 23.1532 meters
+   - Relative Velocity: 8.2202 m/s
+   - TTC (Approx): 2.82 seconds
+   - MDC: 23.1532 meters
+   - Distance safety score: 4 (Minimal risk)
+   - Time safety score: 3 (Moderate risk)
+   - Overall Risk score: 3
+
+3. **Obstacle ID 30666.0**
+   - Distance: 2.3245 meters
+   - Relative Velocity: 1.0475 m/s
+   - TTC (Approx): 2.22 seconds
+   - MDC: 2.3245 meters
+   - Distance safety score: 1 (Extreme risk)
+   - Time safety score: 2 (High risk)
+   - Overall Risk score: 1
+
+4. **Obstacle ID 30667.0**
+   - Distance: 4.0069 meters
+   - Relative Velocity: 3.9848 m/s
+   - TTC (Approx): 1.01 seconds
+   - MDC: 4.0069 meters
+   - Distance safety score: 1 (Extreme risk)
+   - Time safety score: 2 (High risk)
+   - Overall Risk score: 1
+
+5. **Obstacle ID 30668.0**
+   - Distance: 13.3245 meters
+   - Relative Velocity: 4.3603 m/s
+   - TTC (Approx): 3.05 seconds
+   - MDC: 13.3245 meters
+   - Distance safety score: 4 (Minimal risk)
+   - Time safety score: 4 (Minimal risk)
+   - Overall Risk score: 4
+
+6. **Obstacle ID 30669.0**
+   - Distance: 11.9735 meters
+   - Relative Velocity: 9.7362 m/s
+   - TTC (Approx): 1.23 seconds
+   - MDC: 11.9735 meters
+   - Distance safety score: 2 (High risk)
+   - Time safety score: 2 (High risk)
+   - Overall Risk score: 2
+
+7. **Obstacle ID 30670.0**
+   - Distance: 20.3718 meters
+   - Relative Velocity: 2.929 m/s
+   - TTC (Approx): 6.95 seconds
+   - MDC: 20.3718 meters
+   - Distance safety score: 4 (Minimal risk)
+   - Time safety score: 4 (Minimal risk)
+   - Overall Risk score: 4 
+
+8. **Obstacle ID 30671.0**
+   - Distance: 21.0426 meters
+   - Relative Velocity: 1.7375 m/s
+   - TTC (Approx): 12.08 seconds
+   - MDC: 21.0426 meters
+   - Distance safety score: 4 (Minimal risk)
+   - Time safety score: 4 (Minimal risk)
+   - Overall Risk score: 4 
+
+9. **Obstacle ID 30672.0**
+   - Distance: 86.6438 meters
+   - Relative Velocity: 6.8086 m/s
+   - TTC (Approx): 12.75 seconds
+   - MDC: 86.6438 meters
+   - Distance safety score: 5 (Negligible risk)
+   - Time safety score: 5 (Negligible risk)
+   - Overall Risk score: 5
+
+10. **Obstacle ID 30674.0**
+    - Distance: 15.8434 meters
+    - Relative Velocity: 0.25 m/s
+    - TTC (Approx): 63.37 seconds
+    - MDC: 15.8434 meters
+    - Distance safety score: 4 (Minimal risk)
+    - Time safety score: 5 (Negligible risk)
+    - Overall Risk score: 4 
+
+11. **Obstacle ID 30675.0**
+    - Distance: 28.9145 meters
+    - Relative Velocity: 2.5270 m/s
+    - TTC (Approx): 11.43 seconds
+    - MDC: 28.9145 meters
+    - Distance safety score: 4 (Minimal risk)
+    - Time safety score: 5 (Negligible risk)
+    - Overall Risk score: 4 
+
+12. **Obstacle ID 30676.0**
+    - Distance: 35.0240 meters
+    - Relative Velocity: 0.8561 m/s
+    - TTC (Approx): 40.92 seconds
+    - MDC: 35.0240 meters
+    - Distance safety score: 4 (Minimal risk)
+    - Time safety score: 5 (Negligible risk)
+    - Overall Risk score: 4 
+
+13. **Obstacle ID 30677.0**
+    - Distance: 31.2703 meters
+    - Relative Velocity: 3.4217 m/s
+    - TTC (Approx): 9.14 seconds
+    - MDC: 31.2703 meters
+    - Distance safety score: 4 (Minimal risk)
+    - Time safety score: 5 (Negligible risk)
+    - Overall Risk score: 4 
+
+14. **Obstacle ID 30678.0**
+    - Distance: 85.8460 meters
+    - Relative Velocity: 10.0023 m/s
+    - TTC (Approx): 8.58 seconds
+    - MDC: 85.8460 meters
+    - Distance safety score: 5 (Negligible risk)
+    - Time safety score: 5 (Negligible risk)
+    - Overall Risk score: 5 
+
+15. **Obstacle ID 30679.0**
+    - Distance: 62.8391 meters
+    - Relative Velocity: -0.0135 m/s
+    - TTC (Approx): ∞ seconds
+    - MDC: 62.8391 meters
+    - Distance safety score: 5 (Negligible risk)
+    - Time safety score: 5 (Negligible risk)
+    - Overall Risk score: 5 
+
+16. **Obstacle ID 30680.0**
+    - Distance: 86.0536 meters
+    - Relative Velocity: 8.4930 m/s
+    - TTC (Approx): 10.12 seconds
+    - MDC: 86.0536 meters
+    - Distance safety score: 5 (Negligible risk)
+    - Time safety score: 5 (Negligible risk)
+    - Overall Risk score: 5 
+
+17. **Obstacle ID 30681.0**
+    - Distance: 45.0780 meters
+    - Relative Velocity: -1.2297 m/s
+    - TTC (Approx): ∞ seconds
+    - MDC: 45.0780 meters
+    - Distance safety score: 5 (Negligible risk)
+    - Time safety score: 5 (Negligible risk)
+    - Overall Risk score: 5 
+
+### Summary in JSON Format:
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30666.0",
+        "OverallRiskScore": 1
+    }
+}
+```
+

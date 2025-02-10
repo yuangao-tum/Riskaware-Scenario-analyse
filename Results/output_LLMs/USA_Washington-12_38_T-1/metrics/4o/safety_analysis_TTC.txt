@@ -1,0 +1,343 @@
+Safety analysis for timestep 3.3 seconds:
+### Safety analysis for timestep 3.3 seconds: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+### Obstacle Analysis:
+#### Obstacle 30604:
+- Obstacle ID: 30604
+- Relative Direction: Rear-left
+- Distance Risk Reason: Longitudinal distance is well above 5m and lateral distance is also over 5m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC is infinite and lateral TTC is very high, indicating negligible collision risk.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+#### Obstacle 30605:
+- Obstacle ID: 30605
+- Relative Direction: Front-left
+- Distance Risk Reason: Longitudinal distance > 5m and lateral distance > 5m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC is between 1 and 3s, lateral TTC is infinite.
+- Longitudinal Time Safety Score: 3
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 4
+- Overall Risk Score: 4
+
+#### Obstacle 30606:
+- Obstacle ID: 30606
+- Relative Direction: Rear-left
+- Distance Risk Reason: Longitudinal distance is well above 5m and lateral distance also more than 5m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC is infinite and lateral TTC is very high, indicating negligible risk.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+#### Obstacle 30607:
+- Obstacle ID: 30607
+- Relative Direction: Front-left
+- Distance Risk Reason: Longitudinal and lateral distances are greater than 5m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC falls between 1 and 3s, lateral TTC is infinite.
+- Longitudinal Time Safety Score: 3
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 4
+- Overall Risk Score: 4
+
+#### Obstacle 30608:
+- Obstacle ID: 30608
+- Relative Direction: Front-left
+- Distance Risk Reason: Both longitudinal and lateral distances > 5m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC between 3 and 5s, lateral TTC is infinite.
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 4.5
+- Overall Risk Score: 5
+
+#### Obstacle 30609:
+- Obstacle ID: 30609
+- Relative Direction: Front-left
+- Distance Risk Reason: Longitudinal and lateral distances are greater than 5m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC is between 1 and 3s, lateral TTC is infinite.
+- Longitudinal Time Safety Score: 3
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 4
+- Overall Risk Score: 4
+
+#### Obstacle 30610:
+- Obstacle ID: 30610
+- Relative Direction: Front-left
+- Distance Risk Reason: Longitudinal distance is between 0 and 0.5m, indicating extreme risk. Lateral distance > 2m.
+- Longitudinal Distance Safety Score: 1
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 3
+- Time Risk Reason: Longitudinal TTC < 0.5s, indicating extreme risk. Lateral TTC is infinite.
+- Longitudinal Time Safety Score: 1
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 3
+- Overall Risk Score: 3
+
+#### Obstacle 30611:
+- Obstacle ID: 30611
+- Relative Direction: Front-left
+- Distance Risk Reason: Both longitudinal and lateral distances > 5m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC between 1 and 3s, lateral TTC is very high indicating negligible risk.
+- Longitudinal Time Safety Score: 3
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 4
+- Overall Risk Score: 4
+
+#### Obstacle 30612:
+- Obstacle ID: 30612
+- Relative Direction: Front-left
+- Distance Risk Reason: Both longitudinal and lateral distances > 5m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC > 5s indicating negligible risk, lateral TTC is very high indicating negligible risk.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+#### Obstacle 30613:
+- Obstacle ID: 30613
+- Relative Direction: Left
+- Distance Risk Reason: Longitudinal distance is 0, indicating collision. Lateral distance > 0.
+- Longitudinal Distance Safety Score: 0
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC is 0, indicating collision. Lateral TTC is infinite.
+- Longitudinal Time Safety Score: 0
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 0
+
+#### Obstacle 30614:
+- Obstacle ID: 30614
+- Relative Direction: Rear-left
+- Distance Risk Reason: Longitudinal distance > 5m and lateral distance > 2m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 4
+- Overall Distance Safety Score: 4.5
+- Time Risk Reason: Both longitudinal and lateral TTC are infinite, indicating negligible risk.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+#### Obstacle 30615:
+- Obstacle ID: 30615
+- Relative Direction: Front-left
+- Distance Risk Reason: Both longitudinal and lateral distances > 5m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC is between 1 and 3s, lateral TTC is high indicating negligible risk.
+- Longitudinal Time Safety Score: 3
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 4
+- Overall Risk Score: 4
+
+#### Obstacle 30616:
+- Obstacle ID: 30616
+- Relative Direction: Front-left
+- Distance Risk Reason: Both longitudinal and lateral distances > 5m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC between 1 and 3s, lateral TTC is greater than 5s.
+- Longitudinal Time Safety Score: 3
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 4
+- Overall Risk Score: 4
+
+#### Obstacle 30617:
+- Obstacle ID: 30617
+- Relative Direction: Front-left
+- Distance Risk Reason: Both longitudinal and lateral distances > 5m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC between 1 and 3s, lateral TTC is greater than 5s.
+- Longitudinal Time Safety Score: 3
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 4
+- Overall Risk Score: 4
+
+#### Obstacle 30618:
+- Obstacle ID: 30618
+- Relative Direction: Front-left
+- Distance Risk Reason: Both longitudinal and lateral distances > 5m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC between 1 and 3s, lateral TTC is greater than 5s.
+- Longitudinal Time Safety Score: 3
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 4
+- Overall Risk Score: 4
+
+#### Obstacle 30619:
+- Obstacle ID: 30619
+- Relative Direction: Front-left
+- Distance Risk Reason: Both longitudinal and lateral distances > 5m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC between 1 and 3s, lateral TTC is greater than 5s.
+- Longitudinal Time Safety Score: 3
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 4
+- Overall Risk Score: 4
+
+#### Obstacle 30620:
+- Obstacle ID: 30620
+- Relative Direction: Front-left
+- Distance Risk Reason: Both longitudinal and lateral distances > 5m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC > 5s, lateral TTC is very high.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+#### Obstacle 30621:
+- Obstacle ID: 30621
+- Relative Direction: Front-left
+- Distance Risk Reason: Both longitudinal and lateral distances > 5m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC between 1 and 3s, lateral TTC is greater than 5s.
+- Longitudinal Time Safety Score: 3
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 4
+- Overall Risk Score: 4
+
+#### Obstacle 30623:
+- Obstacle ID: 30623
+- Relative Direction: Front-left
+- Distance Risk Reason: Both longitudinal and lateral distances > 5m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC between 1 and 3s, lateral TTC is greater than 5s.
+- Longitudinal Time Safety Score: 3
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 4
+- Overall Risk Score: 4
+
+#### Obstacle 30624:
+- Obstacle ID: 30624
+- Relative Direction: Front-left
+- Distance Risk Reason: Longitudinal distance is > 5m and lateral distance is > 5m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC is > 3s, indicating low risk. Lateral TTC is infinite.
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 4.5
+- Overall Risk Score: 5
+
+#### Obstacle 30625:
+- Obstacle ID: 30625
+- Relative Direction: Front-left
+- Distance Risk Reason: Longitudinal and lateral distances > 5m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC is between 3 and 5s, lateral TTC is very high.
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 4.5
+- Overall Risk Score: 5
+
+#### Obstacle 30626:
+- Obstacle ID: 30626
+- Relative Direction: Front
+- Distance Risk Reason: Longitudinal distance is > 5m and lateral distance is 0m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC is infinite. Lateral TTC is 0.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+#### Obstacle 30627:
+- Obstacle ID: 30627
+- Relative Direction: Front-left
+- Distance Risk Reason: Both longitudinal and lateral distances > 5m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: Longitudinal TTC > 5s, lateral TTC is very high.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+#### Obstacle 30628:
+- Obstacle ID: 30628
+- Relative Direction: Rear-left
+- Distance Risk Reason: Longitudinal distance is > 5m, lateral distance is > 2m.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 4
+- Overall Distance Safety Score: 4.5
+- Time Risk Reason: Both longitudinal and lateral TTC are infinite, indicating negligible risk.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+#### Obstacle 30629:
+- Obstacle ID: 30629
+- Relative Direction: Collision
+- Distance Risk Reason: Both longitudinal and lateral DTC are 0, indicating a collision.
+- Longitudinal Distance Safety Score: 0
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 0
+- Time Risk Reason: Both longitudinal and lateral TTC are 0, indicating a collision.
+- Longitudinal Time Safety Score: 0
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 0
+- Overall Risk Score: 0
+
+### Summary in JSON Format: 
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "30629",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": null,
+    "OverallRiskScore": null
+  }
+}
+```
+

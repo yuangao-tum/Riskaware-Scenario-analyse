@@ -1,0 +1,273 @@
+Safety analysis for timestep 3.6 seconds:
+### Safety analysis for timestep 3.6 seconds: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+### Obstacle Analysis:
+- Obstacle ID: 30721
+- Relative Direction: Front-left
+- Distance Risk Reason: DTClong is 6.55 > 5, so LongDSC is 5. DTClat is 16.68 > 5, so LatDSC is 5.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0
+- Time Risk Reason: TTClong is 3.5, 1 < 3.5 <= 5, so LongTSC is 4. TTClat is Infinity, so LatTSC is 5.
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 4.5
+- Overall Risk Score: 5
+
+- Obstacle ID: 30722
+- Relative Direction: Front-right
+- Distance Risk Reason: DTClong is 25.35 > 5, so LongDSC is 5. DTClat is 46.33 > 5, so LatDSC is 5.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0
+- Time Risk Reason: TTClong is Infinity, so LongTSC is 5. TTClat is Infinity, so LatTSC is 5.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0
+- Overall Risk Score: 5
+
+- Obstacle ID: 30723
+- Relative Direction: Left
+- Distance Risk Reason: DTClong is 0.0, so LongDSC is 0. DTClat is 12.56 > 5, so LatDSC is 5.
+- Longitudinal Distance Safety Score: 0
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0
+- Time Risk Reason: TTClong is 0.0, so LongTSC is 0. TTClat is Infinity, so LatTSC is 5.
+- Longitudinal Time Safety Score: 0
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0
+- Overall Risk Score: 2
+
+- Obstacle ID: 30724
+- Relative Direction: Front-left
+- Distance Risk Reason: DTClong is 3.17, 1 < 3.17 <= 3, so LongDSC is 3. DTClat is 24.61 > 5, so LatDSC is 5.
+- Longitudinal Distance Safety Score: 3
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 4.0
+- Time Risk Reason: TTClong is 2.18, 1 < 2.18 <=3, so LongTSC is 3. TTClat is 25.21 > 5, so LatTSC is 5.
+- Longitudinal Time Safety Score: 3
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 4.0
+- Overall Risk Score: 4
+
+- Obstacle ID: 30725
+- Relative Direction: Left
+- Distance Risk Reason: DTClong is 0.0, so LongDSC is 0. DTClat is 34.86 > 5, so LatDSC is 5.
+- Longitudinal Distance Safety Score: 0
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0
+- Time Risk Reason: TTClong is 0.0, so LongTSC is 0. TTClat is 12.72 > 5, so LatTSC is 5.
+- Longitudinal Time Safety Score: 0
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0
+- Overall Risk Score: 2
+
+- Obstacle ID: 30726
+- Relative Direction: Front-right
+- Distance Risk Reason: DTClong is 17.27 > 5, so LongDSC is 5. DTClat is 20.02 > 5, so LatDSC is 5.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0
+- Time Risk Reason: TTClong is Infinity, so LongTSC is 5. TTClat is Infinity, so LatTSC is 5.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0
+- Overall Risk Score: 5
+
+- Obstacle ID: 30727
+- Relative Direction: Front-right
+- Distance Risk Reason: DTClong is 28.99 >5, so LongDSC is 5. DTClat is 37.4 > 5, so LatDSC is 5.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0
+- Time Risk Reason: TTClong is Infinity, so LongTSC is 5. TTClat is Infinity, so LatTSC is 5.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0
+- Overall Risk Score: 5
+
+- Obstacle ID: 30728
+- Relative Direction: Left
+- Distance Risk Reason: DTClong is 0.0, so LongDSC is 0. DTClat is 46.77 > 5, so LatDSC is 5.
+- Longitudinal Distance Safety Score: 0
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0
+- Time Risk Reason: TTClong is 0.0, so LongTSC is 0. TTClat is 11.33 > 5, so LatTSC is 5.
+- Longitudinal Time Safety Score: 0
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0
+- Overall Risk Score: 2
+
+
+- Obstacle ID: 30729
+- Relative Direction: Front-left
+- Distance Risk Reason: DTClong is 33.72 > 5, so LongDSC is 5. DTClat is 14.91 > 5, so LatDSC is 5.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0
+- Time Risk Reason: TTClong is Infinity, so LongTSC is 5. TTClat is Infinity, so LatTSC is 5.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0
+- Overall Risk Score: 5
+
+- Obstacle ID: 30731
+- Relative Direction: Rear-left
+- Distance Risk Reason: DTClong is 2.64, 1 < 2.64 <= 3, so LongDSC is 3. DTClat is 59.38 > 5, so LatDSC is 5.
+- Longitudinal Distance Safety Score: 3
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 4.0
+- Time Risk Reason: TTClong is 10.16 > 5, so LongTSC is 5. TTClat is 11.87 > 5, so LatTSC is 5.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 4
+
+- Obstacle ID: 30732
+- Relative Direction: Left
+- Distance Risk Reason: DTClong is 0, so LongDSC is 0. DTClat is 20.47 > 5, so LatDSC is 5.
+- Longitudinal Distance Safety Score: 0
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0
+- Time Risk Reason: TTClong is 0, so LongTSC is 0. TTClat is 22.31 > 5, so LatTSC is 5.
+- Longitudinal Time Safety Score: 0
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0
+- Overall Risk Score: 2
+
+- Obstacle ID: 30733
+- Relative Direction: Front-left
+- Distance Risk Reason: DTClong is 10.72 > 5, so LongDSC is 5. DTClat is 4.83, 3 < 4.83 <= 5, so LatDSC is 4.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 4
+- Overall Distance Safety Score: 4.5
+- Time Risk Reason: TTClong is Infinity, so LongTSC is 5. TTClat is Infinity, so LatTSC is 5.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+- Obstacle ID: 30734
+- Relative Direction: Right
+- Distance Risk Reason: DTClong is 0.0, so LongDSC is 0. DTClat is 4.88,  3 < 4.88 <= 5, so LatDSC is 4.
+- Longitudinal Distance Safety Score: 0
+- Lateral Distance Safety Score: 4
+- Overall Distance Safety Score: 4.0
+- Time Risk Reason: TTClong is 0.0, so LongTSC is 0. TTClat is 2.05, 1 < 2.05 <= 3, so LatTSC is 3.
+- Longitudinal Time Safety Score: 0
+- Lateral Time Safety Score: 3
+- Overall Time Safety Score: 3.0
+- Overall Risk Score: 3
+
+- Obstacle ID: 30735
+- Relative Direction: Rear-left
+- Distance Risk Reason: DTClong is 8.23 > 5, so LongDSC is 5. DTClat is 72.5 > 5, so LatDSC is 5.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0
+- Time Risk Reason: TTClong is 15.4 > 5, so LongTSC is 5. TTClat is 12.85 > 5, so LatTSC is 5.
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5.0
+- Overall Risk Score: 5
+
+- Obstacle ID: 30736
+- Relative Direction: Right
+- Distance Risk Reason: DTClong is 0.0, so LongDSC is 0. DTClat is 1.46, 0.5 < 1.46 <= 1, so LatDSC is 2.
+- Longitudinal Distance Safety Score: 0
+- Lateral Distance Safety Score: 2
+- Overall Distance Safety Score: 2.0
+- Time Risk Reason: TTClong is 0.0, so LongTSC is 0. TTClat is 0.55 <= 0.5, so LatTSC is 1.
+- Longitudinal Time Safety Score: 0
+- Lateral Time Safety Score: 1
+- Overall Time Safety Score: 1.0
+- Overall Risk Score: 1
+
+- Obstacle ID: 30737
+- Relative Direction: Rear-right
+- Distance Risk Reason: DTClong is 9.44 > 5, so LongDSC is 5. DTClat is 11.74 > 5, so LatDSC is 5.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0
+- Time Risk Reason: TTClong is 1.67, 1 < 1.67 <= 3, so LongTSC is 3. TTClat is 3.7, 3 < 3.7 <= 5, so LatTSC is 4.
+- Longitudinal Time Safety Score: 3
+- Lateral Time Safety Score: 4
+- Overall Time Safety Score: 3.5
+- Overall Risk Score: 4
+
+- Obstacle ID: 30738
+- Relative Direction: Behind
+- Distance Risk Reason: DTClong is 7.22 > 5, so LongDSC is 5. DTClat is 0.0, so LatDSC is 0.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 5
+- Time Risk Reason: TTClong is 1.11, 0.5 < 1.11 <= 1, so LongTSC is 2. TTClat is 0.0, so LatTSC is 0.
+- Longitudinal Time Safety Score: 2
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 2
+- Overall Risk Score: 3
+
+- Obstacle ID: 30739
+- Relative Direction: Collision
+- Distance Risk Reason: DTClong is 0.0, so LongDSC is 0. DTClat is 0.0, so LatDSC is 0.
+- Longitudinal Distance Safety Score: 0
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 0.0
+- Time Risk Reason: TTClong is 0.0, so LongTSC is 0. TTClat is 0.0, so LatTSC is 0.
+- Longitudinal Time Safety Score: 0
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 0.0
+- Overall Risk Score: 0
+
+- Obstacle ID: 30740
+- Relative Direction: Rear-right
+- Distance Risk Reason: DTClong is 18.96 > 5, so LongDSC is 5. DTClat is 11.97 > 5, so LatDSC is 5.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0
+- Time Risk Reason: TTClong is 2.08, 1 < 2.08 <= 3, so LongTSC is 3. TTClat is 2.57, 1 < 2.57 <= 3, so LatTSC is 3.
+- Longitudinal Time Safety Score: 3
+- Lateral Time Safety Score: 3
+- Overall Time Safety Score: 3.0
+- Overall Risk Score: 4
+
+
+- Obstacle ID: 30741
+- Relative Direction: Rear-right
+- Distance Risk Reason: DTClong is 14.36 > 5, so LongDSC is 5. DTClat is 6.22 > 5, so LatDSC is 5.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0
+- Time Risk Reason: TTClong is 3.15, 1 < 3.15 <= 5, so LongTSC is 4. TTClat is 2.28, 1 < 2.28 <= 3, so LatTSC is 3.
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 3
+- Overall Time Safety Score: 3.5
+- Overall Risk Score: 4
+
+- Obstacle ID: 30742
+- Relative Direction: Rear-right
+- Distance Risk Reason: DTClong is 25.34 > 5, so LongDSC is 5. DTClat is 18.48 > 5, so LatDSC is 5.
+- Longitudinal Distance Safety Score: 5
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5.0
+- Time Risk Reason: TTClong is 4.02, 3 < 4.02 <= 5, so LongTSC is 4. TTClat is 5.33, 3 < 5.33 <=5, so LatTSC is 4.
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 4
+- Overall Time Safety Score: 4.0
+- Overall Risk Score: 4
+
+
+### Summary in JSON Format:
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30739",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30736",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+

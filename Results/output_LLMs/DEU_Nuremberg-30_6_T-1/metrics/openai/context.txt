@@ -1,0 +1,29 @@
+Timestep 5.4 seconds:
+  Obstacle 30601:
+    Relative Direction: Left
+    Distance to Collision:
+      Longitudinal: 0.0
+      Lateral: 39.07
+    Time to Collision:
+      Longitudinal: 0.0
+      Lateral: Infinity
+    Motion Description: Exact longitudinal alignment or co. Obstacle is moving away laterally to the left.
+  Obstacle 30603:
+    Relative Direction: Left
+    Distance to Collision:
+      Longitudinal: 0.0
+      Lateral: 10.79
+    Time to Collision:
+      Longitudinal: 0.0
+      Lateral: 62.78
+    Motion Description: Exact longitudinal alignment or co. Obstacle is driving toward the ego car laterally from the left.
+  Obstacle 30604:
+    Relative Direction: Right
+    Distance to Collision:
+      Longitudinal: 0.0
+      Lateral: 2.45
+    Time to Collision:
+      Longitudinal: 0.0
+      Lateral: 0.5
+    Motion Description: Exact longitudinal alignment or co. Obstacle is driving toward the ego car laterally from the right.
+

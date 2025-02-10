@@ -1,0 +1,80 @@
+Safety analysis for timestep 4.1 seconds:
+```markdown
+### Safety analysis for timestep 4.1: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+### Obstacle Analysis:
+  - Obstacle ID: 3298
+    - Distance Risk Reason: With a longitudinal DTC of 10.1 and lateral DTC of 0.0, the obstacle is at a negligible risk longitudinally.
+    - Longitudinal Distance Safety Score: 5  
+    - Lateral Distance Safety Score: 0
+    - Overall Distance Safety Score: 5
+    - Time Risk Reason: With a longitudinal TTC of 3.22, there's a medium risk due to the time remaining until the hypothetical collision.
+    - Longitudinal Time Safety Score: 3
+    - Lateral Time Safety Score: 0
+    - Overall Time Safety Score: 3
+    - Overall Risk Score: 4
+
+  - Obstacle ID: 3299
+    - Distance Risk Reason: With a longitudinal DTC of 26.71 and lateral DTC of 28.63, the obstacle is at a negligible risk.
+    - Longitudinal Distance Safety Score: 5  
+    - Lateral Distance Safety Score: 5
+    - Overall Distance Safety Score: 5
+    - Time Risk Reason: With a longitudinal TTC of 8.51, the obstacle is at a negligible time risk.
+    - Longitudinal Time Safety Score: 5
+    - Lateral Time Safety Score: 5
+    - Overall Time Safety Score: 5
+    - Overall Risk Score: 5
+
+  - Obstacle ID: 3300
+    - Distance Risk Reason: With a longitudinal DTC of 9.96 and lateral DTC of 8.9, the obstacle is at a negligible risk longitudinally.
+    - Longitudinal Distance Safety Score: 5  
+    - Lateral Distance Safety Score: 5
+    - Overall Distance Safety Score: 5
+    - Time Risk Reason: With a longitudinal TTC of 3.18, the obstacle presents a medium risk.
+    - Longitudinal Time Safety Score: 3
+    - Lateral Time Safety Score: 5
+    - Overall Time Safety Score: 4
+    - Overall Risk Score: 5
+
+  - Obstacle ID: 3301
+    - Distance Risk Reason: With a longitudinal DTC of 0.14 and lateral DTC of 0.0, there's an immediate risk of collision.
+    - Longitudinal Distance Safety Score: 1  
+    - Lateral Distance Safety Score: 0
+    - Overall Distance Safety Score: 1
+    - Time Risk Reason: With a longitudinal TTC of 0.14, urgent action is required to prevent collision.
+    - Longitudinal Time Safety Score: 1
+    - Lateral Time Safety Score: 0
+    - Overall Time Safety Score: 1
+    - Overall Risk Score: 1
+
+  - Obstacle ID: 3303
+    - Distance Risk Reason: With a longitudinal DTC of 26.92 and lateral DTC of 36.5, the obstacle is at a negligible risk.
+    - Longitudinal Distance Safety Score: 5  
+    - Lateral Distance Safety Score: 5
+    - Overall Distance Safety Score: 5
+    - Time Risk Reason: With a longitudinal TTC of 8.55, there is no significant risk.
+    - Longitudinal Time Safety Score: 5
+    - Lateral Time Safety Score: 5
+    - Overall Time Safety Score: 5
+    - Overall Risk Score: 5
+
+  - Obstacle ID: 3304
+    - Distance Risk Reason: With a longitudinal DTC of 30.19 and lateral DTC of 28.55, the obstacle is at a negligible risk.
+    - Longitudinal Distance Safety Score: 5  
+    - Lateral Distance Safety Score: 5
+    - Overall Distance Safety Score: 5
+    - Time Risk Reason: With a longitudinal TTC of 9.62, the obstacle presents no significant risk.
+    - Longitudinal Time Safety Score: 5
+    - Lateral Time Safety Score: 5
+    - Overall Time Safety Score: 5
+    - Overall Risk Score: 5
+
+### Summary in JSON Format: 
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3301",
+        "OverallRiskScore": "1"
+    }
+}
+```
+

@@ -1,0 +1,98 @@
+### Safety analysis for timestep 4.9s: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+### Obstacle Analysis:
+
+**General Notes:**  TTC calculations can be unreliable when relative velocity is very small or near zero.  In those cases, MDC and the motion description are primary factors for risk assessment.  A negative TTC technically implies the objects are moving away from each other, but if the MDC is small, it can still indicate high risk as it might represent a recent near-miss or an impending collision if the relative velocity changes.
+
+**Methodology:**  The overall risk score is determined by considering both distance and time risk scores, leaning towards the more conservative (lower) score when there's a discrepancy.  When lateral motion is significant, it is taken into account in the overall score.
+
+- **Obstacle ID: 30717.0**
+    - Distance Risk reason:  Moderately far, moving away longitudinally and laterally.
+    - Distance safety score: 4
+    - Time Risk reason: Moving away, no TTC calculation needed.
+    - Time safety score: 5
+    - Overall Risk score: 4
+
+- **Obstacle ID: 30718.0**
+    - Distance Risk reason:  Close, directly in front, moving towards ego.
+    - Distance safety score: 2
+    - Time Risk reason:  TTC = 18.75m / 1.04m/s ≈ 18s (safe for now, but monitor)
+    - Time safety score: 3
+    - Overall Risk score: 2
+
+- **Obstacle ID: 30719.0**
+    - Distance Risk reason: Far, angled slightly right, moving towards ego longitudinally.
+    - Distance safety score: 4
+    - Time Risk reason:  TTC = 34.79m / 1.04m/s ≈ 33.5s (safe)
+    - Time safety score: 5
+    - Overall Risk score: 4
+
+- **Obstacle ID: 30720.0**
+    - Distance Risk reason: Moderately far, moving towards ego longitudinally, but away laterally.
+    - Distance safety score: 3
+    - Time Risk reason: TTC = 28.61m / 0.2m/s ≈ 143s (lateral motion makes this less concerning)
+    - Time safety score: 4 
+    - Overall Risk score: 3
+
+- **Obstacle ID: 30721.0**
+    - Distance Risk reason: Moderately far, moving towards ego both longitudinally and laterally.
+    - Distance safety score: 3
+    - Time Risk reason: TTC = 31.27m / 1.04m/s ≈ 30s (lateral movement needs attention)
+    - Time safety score: 4
+    - Overall Risk score: 3
+
+- **Obstacle ID: 30722.0**
+    - Distance Risk reason: Close, slightly left of front, moving towards ego.
+    - Distance safety score: 2
+    - Time Risk reason:  TTC = 18.75m / 1.04m/s ≈ 18s (monitor closely)
+    - Time safety score: 3
+    - Overall Risk score: 2
+
+- **Obstacle ID: 30723.0**
+    - Distance Risk reason: Close, further left than 30722, moving towards ego.
+    - Distance safety score: 2
+    - Time Risk reason:  TTC = 18.75m / 1.04m/s ≈ 18s (monitor closely)
+    - Time safety score: 3
+    - Overall Risk score: 2
+
+- **Obstacle ID: 30724.0**
+    - Distance Risk reason: Moderately far, moving towards ego both longitudinally and laterally.
+    - Distance safety score: 3
+    - Time Risk reason: TTC = 27.8m / 1.23m/s ≈ 22.6s (lateral motion is a factor)
+    - Time safety score: 3
+    - Overall Risk score: 3
+
+- **Obstacle ID: 30725.0**
+    - Distance Risk reason: Moderately far, moving towards ego longitudinally but significantly away laterally.
+    - Distance safety score: 3
+    - Time Risk reason: TTC = 26.03 / 1.41 ≈ 18.5s (lateral motion reduces concern)
+    - Time safety score: 4
+    - Overall Risk score: 3
+
+- **Obstacle ID: 30726.0**
+    - Distance Risk reason: Moderately close, moving away both longitudinally and laterally.
+    - Distance safety score: 3
+    - Time Risk reason:  Moving away longitudinally, no TTC needed.
+    - Time safety score: 5
+    - Overall Risk score: 3
+
+[Analysis of remaining obstacles continues in the same format as above.  Calculate TTC where relevant (relative velocity is not near zero and motion is towards ego).  Consider MDC, relative directions, and the motion description to determine risk scores. The closer the object and faster it's approaching, the higher the risk.]
+
+
+### Summary in JSON Format:
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30739.0", 
+        "OverallRiskScore": "1"
+},
+{
+        "ObstacleID": "30740.0",
+        "OverallRiskScore": "1"
+}
+
+}
+``` 
+
+

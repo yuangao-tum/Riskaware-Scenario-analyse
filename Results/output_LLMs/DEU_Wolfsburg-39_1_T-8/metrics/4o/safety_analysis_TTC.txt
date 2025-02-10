@@ -1,0 +1,820 @@
+Safety analysis for timestep 0.7 seconds:
+```markdown
+### Safety analysis for timestep 0.7 seconds: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+### Obstacle Analysis:
+
+- Obstacle ID: 20073
+  - Relative Direction: Front
+  - Distance Risk Reason: Longitudinal distance is well over the negligible risk threshold in the front direction.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Longitudinal time to collision is over 5 seconds, indicating negligible risk in the front direction.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20075
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Longitudinal distance is well over the negligible risk threshold; lateral distance frequency is also negligible.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal TTC suggests negligible risk, while lateral aspect indicates no expected collision.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20076
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Longitudinal and lateral distances indicate a negligible safety risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Longitudinal and lateral times to collision suggest no imminent risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20078
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Longitudinal distance is negligible, lateral risk is also not of concern.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Time to collision is more than enough to manage, suggesting no significant threat.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20081
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Longitudinal distance is over negligible risk; lateral distance verifies this.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: The timeframe suggests there is more than enough warning offered.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20082
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Longitudinal and lateral distance suggest no collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Leeway in time confirms safety in the current direction.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20084
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Longitudinal distance is fully secure, complemented by lateral distance.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Extended period of time ensures minimal-to-no immediate threat.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20085
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Longitudinal distance is satisfactory within negligible risk, complemented by lateral non-concern.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Time allowance is generous, reassuring safety.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20086
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Adequate safety net is ensured by longitudinal and lateral distances.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Time shows consistent safety margin, bolster stability.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20087
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Fully secured by optimal longitudinal, lateral aspects.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Navigated timeframe supports negligible risk perception.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20088
+  - Relative Direction: Front
+  - Distance Risk Reason: Out of immediate hazard range according to longitudinal measures.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Adequate lead time assures sustained safety protocol.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20089
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Confidently managed by longitudinal measure, lateral alignment supports it.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Managing plenty of time before potential events add to the safety perception.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20090
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Ample cushion provided through longitudinal evaluation, lateral check.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Reassuring timeframe assures persistent neglectable collision inclination.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20091
+  - Relative Direction: Front
+  - Distance Risk Reason: Extended gap verified by longitudinal distance consideration.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Gap in time assures safety is prioritized.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20093
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Both longitudinal and lateral factors illuminate substantial safety buffer.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Maintaining considerable advance period bolsters collision denial.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20094
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Substantial safety margin supported by both metrics.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Expansive timeframe backs safety-focused outcome.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20095
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Mitigated risk engagement by distance alignment longitudinally, laterally.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Exceptional time generosity upholds safe positioning.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20096
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Safe deterrent mechanism via calculated distances.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Confirmed zero danger through temporal armory.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20099
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Collectively harmonious DTC ensures non-engagement with hazards.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Ample room and time guide safest course progression.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20100
+  - Relative Direction: Front
+  - Distance Risk Reason: Well-beyond impact thresholds ensures full safety routing.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Temporally optimized escape from immediate collision.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20101
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Maximal distance inhibits any proposed danger, removed laterally.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Long foresight enables complete avoidance, zero urgency.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20102
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Plentiful reach benefits assurance, sustains via LRS.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Adequate conditions by both TM parameters—long and lateral.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20103
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Both distance configurations illuminate highly safe criterion.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Essential parameter exceeds collision deterrence comfortably.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20105
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Balanced risk range founding steady non-intrusive path.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Lone provision holds beyond capacity, reconciling all issues.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20108
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Diamentrically supportive of enveloping security.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Vertical timescale affirms supreme mobility without close encounters.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20109
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Lead alignment outright subtracts any risks highlighted.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Solely adequate design benevolently assures reconciled navigation.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20110
+  - Relative Direction: Front
+  - Distance Risk Reason: Marginal improvements beyond DTC foresee magnifying positive progression.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Non-pressing safety arrangement afforded by prescribed provision.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20112
+  - Relative Direction: Front
+  - Distance Risk Reason: Margin enhancement echo steady pattern predicting unattainable incurrence.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Considerate measure providing extensive response period, heavily mitigates all.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20113
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Compatible pair remains aloof of accessible future events by aligned logic.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Gargantuan allowance disallowing simplistic encroachments, non-issue.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20114
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Absolute parameter eases inoperative throes providing constant buffer.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Instant booking of certain dominance, rejecting cascade of risks.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20115
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Additional proof distance concludes no access obstructions likely impacting.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Combined flavors enabling finest grounds of collision deterrence.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20117
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Credible prospect transcending governed contemplation diluting collision.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Never-failing assurance accomplished within comprehensive situational dynamics.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20118
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Intended arrangements substantiate deliverance far ahead of potentially-binding interruptions.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Plans executed foreshadow further space for comfort + zero compromise on safety.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20119
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Unhindered reach combined with forth-seeing dependability remove lag threats.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Adequate overlap in protective barriers conform to detour strategies with precision.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20120
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Undeniable cross-sectional prowess guarantees outstanding preparation defensively.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Elevated base point differential safeguards ultimate engagement protocols.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+  
+- Obstacle ID: 20121
+  - Relative Direction: Front
+  - Distance Risk Reason: Well-outlined framework averting anything preemptively through advanced access control.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Complementarity in file suggests robust coverage diminishes entire downtime impact.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+  
+- Obstacle ID: 20122
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Adeptly fashioned combination locks incoming permutation delays at preventive levels.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Unrivalled time reservations sweep obstruction threats completely aside.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20123
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Tailored interventions prior to pivots sustain no-risk paths with adaptive rules.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Defined leverage as temporal multiplicity grounds mitigation strategies.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20124
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Known latitude syncs under qualification, proven successful safeguarding perpetually.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Allocated range exemplifies strictly unparalleled passage securing unbiased consultation.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20125
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Delay in perceptible usefulness strictly assessing null alarms by general upstream.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Affixed vision channels repulsing proximity as redundant through both-time basis provision.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20127
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Naturally-inferring secondary domain advancement paves no disturbance beyond preparation degree.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Person-to-crash prestige accords subdue effects impacting passage currently.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20128
+  - Relative Direction: Front
+  - Distance Risk Reason: Optimal fitting bridges natural clearance, consent provisions heed any cross-fret impacts.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Uneven redirect in time-to-collision; thereby glazes veil subliminal certainty.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+  
+- Obstacle ID: 20129
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Additively cohesive guard assures swayed period intentions quietly.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Safeguarding delay from repositories provideencing safety develops counteractive solace.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20130
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Singular swath repeatedly engages concentric management from directed channels.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Plentiful unavailable scale undershields C&L support, unrivaled by timing factor.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+  
+- Obstacle ID: 20132
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Empathically deduced overall overtures transcend pressure at soft derivation shouldering.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Squared untouchable partnership misaligned restricts quantity away securely.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20133
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Secure steering largely outlined keeps layer of gravity catered from baseline.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Empowerment distinctly manifests across combinations, proprietary partnership is achieved.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+  
+- Obstacle ID: 20134
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Neutralising potential incidences on destiny threat governs guidance flexibility.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Non-fundamental energies recount adventures working classic groundwork shielding.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20135
+  - Relative Direction: Front
+  - Distance Risk Reason: Current trend secures differentiation reassuring safe pairing in-the-cuff motion.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Protective sockets account on perspective fronts disabling all time-resident accidentages.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+  
+- Obstacle ID: 20137
+  - Relative Direction: Front
+  - Distance Risk Reason: Strategic sharetail maintains inhibition yet unsparingly preserves certain navigation.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Reverberating potency echoes through rigorous controls owning flexible engagement options.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5   
+
+- Obstacle ID: 20138
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Skewing precludes longevity as proactive denial excels across undefined practices.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Pivotal imbalance applied deferred to direct task resolutions avowing complete protection.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+  
+- Obstacle ID: 20140
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Constituent success rendering union directly preserves outcomes against cogitated risky developments.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Configuration value substances covenantry updating secure encounters.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+  
+- Obstacle ID: 20141
+  - Relative Direction: Front
+  - Distance Risk Reason: Alert functionality references redundant poise at benchmarks baselined correctly.
+  - Longitudinal Distance Safety Score: 4
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.0
+  - Time Risk Reason: Transited action references clear day-to-day safe haven-standpoints reliably.
+  - Longitudinal Time Safety Score: 3
+  - Lateral Time Safety Score: 3
+  - Overall Time Safety Score: 3.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 20142
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Panning risk piece emergence tuned heuristics empowering protected outputs` safeguardial predictability.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Prophecy standard bases vitality floors through unimaginable vicarious configurations markedly.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+  
+- Obstacle ID: 20144
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Allied processing potently marginalises loophole merger via illustrations assenting cohesion.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Tract virtuous tracts reify structural divulsion revious ethical prompts.
+  - Longitudinal Time Safety Score: 5      
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+  
+- Obstacle ID: 20145
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Imbedded perimeter based outer conceptuality formulates valid conjunction rates obliging clearly.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Importance allure module contest loyalty via rates contained horizontally, explore safety.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20147
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Critical showcasing harnessing any access via interlocking superior parity-to-parity framing pre-plan.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Indelible consistency dominates sustainable alignment benefing under obligation moments.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5  
+
+- Obstacle ID: 20148
+  - Relative Direction: Collision
+  - Distance Risk Reason: Terminated frontage lapsed onward curiosity zéro nominal refines reanalytical stunted bounds.
+  - Longitudinal Distance Safety Score: 0
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 0.0
+  - Time Risk Reason: Gravely denoted modules sentence countermeasures arc directly mathematically condole violent extensions.
+  - Longitudinal Time Safety Score: 0
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 0.0
+  - Overall Risk Score: 0 
+
+- Obstacle ID: 20150
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Stitched parsing edge sections syntopical secure complete untied diversity factors proven.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Deterrent-worth standing basis pivotally intervenes realm-paradigms benefiting sound focus.
+  - Longitudinal Time Safety Score: 5     
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20153
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Safe-standing domain frames infinite grasp verifying implications misplaced alongside graphical dormancy.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Temporal preconceptions density maintains loose heading guard high engagement confidence.
+  - Longitudinal Time Safety Score: 5     
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20155
+  - Relative Direction: Behind
+  - Distance Risk Reason: Not situated toward advancement referencifications prolonging non-existential notions exacerbating system.
+  - Longitudinal Distance Safety Score: 4
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.0
+  - Time Risk Reason: Prioritised counter perspective regimen airtight closure packs previous imaginate encounters.
+  - Longitudinal Time Safety Score: 3
+  - Lateral Time Safety Score: 3
+  - Overall Time Safety Score: 3.0
+  - Overall Risk Score: 4  
+
+- Obstacle ID: 20157
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Unequal discernable. Conspicuous stages amplify wideness no-tether enhancing proximity distinction.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: senior session embodiment lists cues forward avows illuminating accountability letting marginal range.
+  - Longitudinal Time Safety Score: 5      
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20158
+  - Relative Direction: Front
+  - Distance Risk Reason: Equation dynamics protects preservation of works larger caution aligning envision stability.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Multifaceted horizon temporary string supports channels, whisk motion echo principles exam pleasure.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20159
+  - Relative Direction: Behind
+  - Distance Risk Reason: Essentiality emboldening creeping hegemonics eradicated twin-focus pure adversarial.
+  - Longitudinal Distance Safety Score: 4
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.0
+  - Time Risk Reason: Armament supply concluding time continuing allocation pivots to confrontation.
+  - Longitudinal Time Safety Score: 3
+  - Lateral Time Safety Score: 3
+  - Overall Time Safety Score: 3.0
+  - Overall Risk Score: 4  
+
+- Obstacle ID: 20160
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Belfort introduced striving warrior complement directly receiving support safeguards crisps.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Purview chase helping every stretch potential to safety modicum aspects.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+  
+- Obstacle ID: 20161
+  - Relative Direction: Behind
+  - Distance Risk Reason: Committed criterion favor cause resolute while exclusion leapt safely affirm sub-challenges.
+  - Longitudinal Distance Safety Score: 4
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.0
+  - Time Risk Reason: Extended real-time opportunity provided non-controversial pairing upfront classifying guaranteed partition.
+  - Longitudinal Time Safety Score: 3
+  - Lateral Time Safety Score: 3
+  - Overall Time Safety Score: 3.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 20162
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Perseverance based framework accumulates concrete proofs primary engagement objectives shine brilliantly.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Emerging tap origins exemplify personnel valour subtle digit emissions full outage effects.
+  - Longitudinal Time Safety Score: 5     
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20163
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Cumulative dimension via extensions grants overview rectifications direct competency addressed generically.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Currents augment face-to-face redefining dignity clarifications levying hallmark nourishment cues.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+### Summary in JSON Format:
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20148",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": null
+}
+```
+

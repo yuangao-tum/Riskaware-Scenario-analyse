@@ -1,0 +1,116 @@
+### Safety analysis for timestep 11.6s: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+### Obstacle Analysis:
+
+- **Obstacle ID: 3655.0**
+  - Distance Risk reason: The obstacle is 13.77 m longitudinally and -3.5 m laterally away and moving away from the ego vehicle. This distance is relatively safe in both dimensions.
+  - Distance safety score: **4**
+  - Time Risk reason: With a relative longitudinal velocity of 5.91 m/s, the Time to Collision (TTC) is approximately 13.77 / 5.91 ≈ 2.33 seconds, which is manageable. Lateral TTC is not of concern due to the moving away status.
+  - Time safety score: **4**
+  - Overall Risk score: **4**
+
+- **Obstacle ID: 3656.0**
+  - Distance Risk reason: The obstacle is 6.82 m longitudinally and 9.11 m laterally away, and it is moving toward the ego vehicle. Longitudinally, it is closer than desired.
+  - Distance safety score: **3**
+  - Time Risk reason: The longitudinal relative velocity is -1.75 m/s. TTC longitudinally is 6.82 / (-1.75) ≈ 3.89 seconds (negative, indicating approach). Lateral distance is adequate, however.
+  - Time safety score: **3**
+  - Overall Risk score: **3**
+
+- **Obstacle ID: 3657.0**
+  - Distance Risk reason: At 0.0 m longitudinally and -5.46 m laterally, the obstacle is at the point of potential collision, presenting a very high risk.
+  - Distance safety score: **1**
+  - Time Risk reason: With longitudinal velocity of -1.75 m/s, TTC longitudinally is 0.0 / (-1.75) = 0 seconds, indicating an immediate collision is pending.
+  - Time safety score: **1**
+  - Overall Risk score: **1**
+
+- **Obstacle ID: 3658.0**
+  - Distance Risk reason: The obstacle is 14.22 m longitudinally and -0.06 m laterally away and is moving away. Thus, it is relatively safe.
+  - Distance safety score: **4**
+  - Time Risk reason: Longitudinal TTC is 14.22 / 5.74 ≈ 2.48 seconds, which is manageable.
+  - Time safety score: **4**
+  - Overall Risk score: **4**
+
+- **Obstacle ID: 3659.0**
+  - Distance Risk reason: The obstacle is 11.64 m longitudinally away and 0.66 m laterally but is moving toward the ego vehicle laterally.
+  - Distance safety score: **3**
+  - Time Risk reason: Longitudinally with -1.75 m/s, TTC is 11.64 / (-1.75) ≈ 6.65 seconds (negative). Lateral distance is manageable, but longitudinal distance is concerning.
+  - Time safety score: **3**
+  - Overall Risk score: **3**
+
+- **Obstacle ID: 3660.0**
+  - Distance Risk reason: The obstacle is 10.32 m longitudinally and 9.0 m laterally away, moving toward the ego vehicle. Longitudinal concern exists here.
+  - Distance safety score: **3**
+  - Time Risk reason: With a longitudinal speed of -1.75 m/s, TTC longitudinally is 10.32 / (-1.75) ≈ 5.89 seconds (negative).
+  - Time safety score: **3**
+  - Overall Risk score: **3**
+
+- **Obstacle ID: 3661.0**
+  - Distance Risk reason: The obstacle is 13.83 m longitudinally and 8.9 m laterally away and moving toward the ego vehicle longitudinally only.
+  - Distance safety score: **4**
+  - Time Risk reason: Here as well, with -1.75 m/s, TTC is 13.83 / (-1.75) ≈ 7.91 seconds (negative).
+  - Time safety score: **3**
+  - Overall Risk score: **3**
+
+- **Obstacle ID: 3662.0**
+  - Distance Risk reason: The obstacle is very close at 1.37 m longitudinally and -2.06 m laterally away, moving away. High risk.
+  - Distance safety score: **2**
+  - Time Risk reason: With 4.52 m/s, longitudinal TTC is 1.37 / 4.52 ≈ 0.30 seconds, indicating potential immediate collision risk.
+  - Time safety score: **2**
+  - Overall Risk score: **2**
+
+- **Obstacle ID: 3663.0**
+  - Distance Risk reason: The obstacle is 17.33 m longitudinally and 8.79 m laterally away, moving towards the ego vehicle. Generally a safe distance.
+  - Distance safety score: **4**
+  - Time Risk reason: Longitudinally, with -1.75 m/s, the TTC is 17.33 / (-1.75) ≈ 9.90 seconds (negative).
+  - Time safety score: **4**
+  - Overall Risk score: **4**
+
+- **Obstacle ID: 3664.0**
+  - Distance Risk reason: It is 20.83 m longitudinally and 8.69 m laterally away and still moving toward the ego vehicle longitudinally.
+  - Distance safety score: **4**
+  - Time Risk reason: TTC longitudinally is around 20.83 / (-1.75) ≈ 11.88 seconds (negative). 
+  - Time safety score: **4**
+  - Overall Risk score: **4**
+
+- **Obstacle ID: 3666.0**
+  - Distance Risk reason: The obstacle is at 0.0 m longitudinally and 1.78 m laterally indicating close proximity.
+  - Distance safety score: **1**
+  - Time Risk reason: With 3.63 m/s, longitudinal TTC is 0.0 / (3.63) = 0 seconds, indicating an immediate collision risk.
+  - Time safety score: **1**
+  - Overall Risk score: **1**
+
+- **Obstacle ID: 3667.0**
+  - Distance Risk reason: At -0.26 m longitudinally and 0.0 m laterally, this is a very dangerous condition for potential collision.
+  - Distance safety score: **1**
+  - Time Risk reason: With 3.03 m/s longitudinal velocity, TTC is also 0.0 seconds, indicating an immediate collision is imminent.
+  - Time safety score: **1**
+  - Overall Risk score: **1**
+
+- **Obstacle ID: 3668.0**
+  - Distance Risk reason: The obstacle is -0.86 m longitudinally and -1.81 m laterally, closeness is alarming.
+  - Distance safety score: **1**
+  - Time Risk reason: TTC longitudinally is 0.0 seconds, suggesting highly probable collision risk.
+  - Time safety score: **1**
+  - Overall Risk score: **1**
+
+- **Obstacle ID: 3669.0**
+  - Distance Risk reason:  -0.01 m longitudinally and -5.32 m laterally indicating an extremely unsafe situation.
+  - Distance safety score: **1**
+  - Time Risk reason: Again, TTC is 0.0 seconds, emphasizing an ongoing collision threat.
+  - Time safety score: **1**
+  - Overall Risk score: **1**
+
+### Summary in JSON Format:
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "3667.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3657.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+

@@ -1,0 +1,432 @@
+Safety analysis for timestep 9.2 seconds:
+### Safety analysis for timestep 9.2 seconds: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+### Obstacle Analysis:
+- Obstacle ID: 20020
+- Relative Direction: Front-right
+- Distance Risk Reason: LongDDC is 0.15 (extreme risk), Lateral DTC is 2.21 (low risk).
+- Longitudinal Distance Safety Score: 1  
+- Lateral Distance Safety Score: 4
+- Overall Distance Safety Score: 2.5 (rounded down to 2)
+- Time Risk Reason: LongTTCC is 0.24 (extreme risk), Lateral TTC is infinity (negligible risk).
+- Longitudinal Time Safety Score: 1
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 3 (weighted with wdominant = 1)
+- Overall Risk Score: 2
+
+### Obstacle Analysis:
+- Obstacle ID: 20027
+- Relative Direction: Front-right
+- Distance Risk Reason: LongDTC is 8.74 (negligible risk), Lateral DTC is 11.79 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 13.55 (negligible risk), Lateral TTC is infinity (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20030
+- Relative Direction: Front-right
+- Distance Risk Reason: LongDTC is 14.71 (negligible risk), Lateral DTC is 18.44 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 22.8 (negligible risk), Lateral TTC is infinity (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20033
+- Relative Direction: Front-right
+- Distance Risk Reason: LongDTC is 19.37 (negligible risk), Lateral DTC is 23.63 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 30.03 (negligible risk), Lateral TTC is infinity (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20035
+- Relative Direction: Front-right
+- Distance Risk Reason: LongDTC is 24.03 (negligible risk), Lateral DTC is 28.82 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 37.25 (negligible risk), Lateral TTC is infinity (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20037
+- Relative Direction: Front-right
+- Distance Risk Reason: LongDTC is 28.69 (negligible risk), Lateral DTC is 34.01 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 44.48 (negligible risk), Lateral TTC is infinity (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20042
+- Relative Direction: Front-right
+- Distance Risk Reason: LongDTC is 33.43 (negligible risk), Lateral DTC is 39.29 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 38.02 (negligible risk), Lateral TTC is 150.59 (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20045
+- Relative Direction: Front-right
+- Distance Risk Reason: LongDTC is 39.52 (negligible risk), Lateral DTC is 46.08 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 17.86 (low risk), Lateral TTC is 26.39 (low risk).
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 4
+- Overall Time Safety Score: 4
+- Overall Risk Score: 4
+
+### Obstacle Analysis:
+- Obstacle ID: 20048
+- Relative Direction: Front-right
+- Distance Risk Reason: LongDTC is 52.43 (negligible risk), Lateral DTC is 60.46 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 13.84 (extreme risk), Lateral TTC is 17.26 (extreme risk).
+- Longitudinal Time Safety Score: 1
+- Lateral Time Safety Score: 1
+- Overall Time Safety Score: 1
+- Overall Risk Score: 3
+
+### Obstacle Analysis:
+- Obstacle ID: 20050
+- Relative Direction: Front-right
+- Distance Risk Reason: LongDTC is 63.94 (negligible risk), Lateral DTC is 73.28 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 18.16 (low risk), Lateral TTC is 22.87 (low risk).
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 4
+- Overall Time Safety Score: 4
+- Overall Risk Score: 4
+
+### Obstacle Analysis:
+- Obstacle ID: 20053
+- Relative Direction: Front-right
+- Distance Risk Reason: LongDTC is 72.83 (negligible risk), Lateral DTC is 83.19 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 28.67 (negligible risk), Lateral TTC is 39.39 (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20060
+- Relative Direction: Front-right
+- Distance Risk Reason: LongDTC is 83.90 (negligible risk), Lateral DTC is 95.51 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 52.60 (negligible risk), Lateral TTC is 90.23 (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20071
+- Relative Direction: Front-right
+- Distance Risk Reason: LongDTC is 90.85 (negligible risk), Lateral DTC is 103.26 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 104.09 (negligible risk), Lateral TTC is 406.78 (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20074
+- Relative Direction: Front-right
+- Distance Risk Reason: LongDTC is infinity (negligible risk), Lateral DTC is infinity (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is infinity (negligible risk), Lateral TTC is infinity (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20077
+- Relative Direction: Rear-left
+- Distance Risk Reason: LongDTC is infinity (negligible risk), Lateral DTC is infinity (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is infinity (negligible risk), Lateral TTC is infinity (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20078
+- Relative Direction: Rear-left
+- Distance Risk Reason: LongDTC is infinity (negligible risk), Lateral DTC is infinity (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is infinity (negligible risk), Lateral TTC is infinity (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20080
+- Relative Direction: Left
+- Distance Risk Reason: LongDTC is 0.0 (collision risk), Lateral DTC is 4.44 (low risk).
+- Longitudinal Distance Safety Score: 0  
+- Lateral Distance Safety Score: 4
+- Overall Distance Safety Score: 0 (collision risk)
+- Time Risk Reason: LongTTC is 0.0 (collision risk), Lateral TTC is 7.36 (low risk).
+- Longitudinal Time Safety Score: 0
+- Lateral Time Safety Score: 4
+- Overall Time Safety Score: 0 (collision risk)
+- Overall Risk Score: 0 (collision)
+
+### Obstacle Analysis:
+- Obstacle ID: 20082
+- Relative Direction: Front-left
+- Distance Risk Reason: LongDTC is 5.17 (low risk), Lateral DTC is 9.22 (low risk).
+- Longitudinal Distance Safety Score: 3  
+- Lateral Distance Safety Score: 3
+- Overall Distance Safety Score: 3
+- Time Risk Reason: LongTTC is 4.55 (high risk), Lateral TTC is 21.84 (negligible risk).
+- Longitudinal Time Safety Score: 2
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 3
+- Overall Risk Score: 3
+
+### Obstacle Analysis:
+- Obstacle ID: 20083
+- Relative Direction: Front-left
+- Distance Risk Reason: LongDTC is 13.02 (medium risk), Lateral DTC is 15.97 (medium risk).
+- Longitudinal Distance Safety Score: 3  
+- Lateral Distance Safety Score: 3
+- Overall Distance Safety Score: 3
+- Time Risk Reason: LongTTC is 4.36 (high risk), Lateral TTC is 7.94 (medium risk).
+- Longitudinal Time Safety Score: 2
+- Lateral Time Safety Score: 3
+- Overall Time Safety Score: 2.5 (rounded down to 2)
+- Overall Risk Score: 2.5 (rounded down to 2)
+
+### Obstacle Analysis:
+- Obstacle ID: 20084
+- Relative Direction: Front-left
+- Distance Risk Reason: LongDTC is 27.87 (negligible risk), Lateral DTC is 28.75 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 7.91 (medium risk), Lateral TTC is 11.61 (medium risk).
+- Longitudinal Time Safety Score: 3
+- Lateral Time Safety Score: 3
+- Overall Time Safety Score: 3
+- Overall Risk Score: 4
+
+### Obstacle Analysis:
+- Obstacle ID: 20085
+- Relative Direction: Front-left
+- Distance Risk Reason: LongDTC is 38.93 (negligible risk), Lateral DTC is 38.27 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 15.41 (low risk), Lateral TTC is 23.64 (low risk).
+- Longitudinal Time Safety Score: 4
+- Lateral Time Safety Score: 4
+- Overall Time Safety Score: 4
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20086
+- Relative Direction: Front-left
+- Distance Risk Reason: LongDTC is 46.6 (negligible risk), Lateral DTC is 44.87 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 31.32 (negligible risk), Lateral TTC is 61.86 (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20087
+- Relative Direction: Front-left
+- Distance Risk Reason: LongDTC is 57.11 (negligible risk), Lateral DTC is 53.92 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 74.09 (negligible risk), Lateral TTC is 498.01 (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20088
+- Relative Direction: Front-left
+- Distance Risk Reason: LongDTC is 63.93 (negligible risk), Lateral DTC is 59.78 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 99.11 (negligible risk), Lateral TTC is infinity (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20089
+- Relative Direction: Front-left
+- Distance Risk Reason: LongDTC is 69.21 (negligible risk), Lateral DTC is 64.33 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 107.31 (negligible risk), Lateral TTC is infinity (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20094
+- Relative Direction: Left
+- Distance Risk Reason: LongDTC is 0.0 (collision risk), Lateral DTC is 0.01 (collision risk).
+- Longitudinal Distance Safety Score: 0  
+- Lateral Distance Safety Score: 0
+- Overall Distance Safety Score: 0 (collision risk)
+- Time Risk Reason: LongTTC is 0.0 (collision risk), Lateral TTC is 0.01 (collision risk).
+- Longitudinal Time Safety Score: 0
+- Lateral Time Safety Score: 0
+- Overall Time Safety Score: 0 (collision risk)
+- Overall Risk Score: 0 (collision)
+
+### Obstacle Analysis:
+- Obstacle ID: 20095
+- Relative Direction: Front-left
+- Distance Risk Reason: LongDTC is 74.5 (negligible risk), Lateral DTC is 68.88 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 115.51 (negligible risk), Lateral TTC is infinity (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20096
+- Relative Direction: Rear-left
+- Distance Risk Reason: LongDTC is 10.03 (medium risk), Lateral DTC is 11.6 (medium risk).
+- Longitudinal Distance Safety Score: 3  
+- Lateral Distance Safety Score: 3
+- Overall Distance Safety Score: 3
+- Time Risk Reason: LongTTC is 7.13 (high risk), Lateral TTC is 4.38 (high risk).
+- Longitudinal Time Safety Score: 2
+- Lateral Time Safety Score: 2
+- Overall Time Safety Score: 2
+- Overall Risk Score: 3
+
+### Obstacle Analysis:
+- Obstacle ID: 20097
+- Relative Direction: Front-left
+- Distance Risk Reason: LongDTC is 84.24 (negligible risk), Lateral DTC is 77.25 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 130.6 (negligible risk), Lateral TTC is infinity (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20098
+- Relative Direction: Front-left
+- Distance Risk Reason: LongDTC is 91.01 (negligible risk), Lateral DTC is 83.08 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 141.1 (negligible risk), Lateral TTC is infinity (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20099
+- Relative Direction: Front-left
+- Distance Risk Reason: LongDTC is 96.3 (negligible risk), Lateral DTC is 87.63 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 149.3 (negligible risk), Lateral TTC is infinity (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+### Obstacle Analysis:
+- Obstacle ID: 20100
+- Relative Direction: Front-left
+- Distance Risk Reason: LongDTC is 101.61 (negligible risk), Lateral DTC is 92.2 (negligible risk).
+- Longitudinal Distance Safety Score: 5  
+- Lateral Distance Safety Score: 5
+- Overall Distance Safety Score: 5
+- Time Risk Reason: LongTTC is 137.79 (negligible risk), Lateral TTC is 1159.73 (negligible risk).
+- Longitudinal Time Safety Score: 5
+- Lateral Time Safety Score: 5
+- Overall Time Safety Score: 5
+- Overall Risk Score: 5
+
+
+### Summary in JSON Format:
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20080",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20094",
+        "OverallRiskScore": "1"
+    }
+}
+

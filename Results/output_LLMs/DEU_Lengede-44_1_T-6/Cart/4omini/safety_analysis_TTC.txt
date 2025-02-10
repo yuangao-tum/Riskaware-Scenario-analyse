@@ -1,0 +1,62 @@
+Safety analysis for the last timestep (6.9 seconds):
+### Safety analysis for timestep 6.9 seconds: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+**Ego Vehicle Position:** (85.8805, -229.1091)  
+**Velocity:** 8.9582
+
+Relevant to the Ego vehicle position and its trajectory, we’ll identify the obstacles in the same lanelet (522.0) and analyze their relative positions to calculate the TTC and MDC.
+
+### Obstacle Analysis:
+
+#### 1. Obstacle ID: 4.0
+- **Distance Risk reason:** Positioned at (38.9795, -91.707), this obstacle is ahead on the same lanelet (522.0). The distance is manageable with proper maneuvers.
+- **Distance safety score:** 3 (Medium Risk)
+- **Time Risk reason:** The computed TTC indicates that the vehicle would reach this position soon, but not immediately. Hence, manageable.
+- **Time safety score:** 3 (Medium Risk)
+- **Overall Risk score:** 3
+
+#### 2. Obstacle ID: 14.0
+- **Distance Risk reason:** Obstacle located at (60.5597, -102.8141), which is in proximity to the Ego vehicle’s path in lanelet 522. 
+- **Distance safety score:** 4 (Low Risk)
+- **Time Risk reason:** The vehicle is approaching, but with a decent buffer. The vehicle will not collide imminently.
+- **Time safety score:** 4 (Low Risk)
+- **Overall Risk score:** 4
+
+#### 3. Obstacle ID: 44.0
+- **Distance Risk reason:** Located at (17.2218, -62.103), it presents a lateral risk. 
+- **Distance safety score:** 4 (Low Risk)
+- **Time Risk reason:** No immediate collision risk as the vehicle is moving in the opposite direction.
+- **Time safety score:** 5 (Negligible Risk)
+- **Overall Risk score:** 4
+
+#### 4. Obstacle ID: 76.0
+- **Distance Risk reason:** Situated at (99.6076, -126.0803), well off the direct path but needs observation.
+- **Distance safety score:** 4 (Low Risk)
+- **Time Risk reason:** Moving towards the obstacle, but would require significant lateral movement.
+- **Time safety score:** 4 (Low Risk)
+- **Overall Risk score:** 4
+
+#### 5. Obstacle ID: 81.0
+- **Distance Risk reason:** At (107.519, -137.6927), it poses a longer distance risk.
+- **Distance safety score:** 4 (Low Risk)
+- **Time Risk reason:** Similar to the previous obstacles, this one will not cause immediate collision concerns.
+- **Time safety score:** 4 (Low Risk)
+- **Overall Risk score:** 4
+
+#### 6. Obstacle ID: 109.0
+- **Distance Risk reason:** This is at (83.0067, -232.8745), quite close but on a different path.
+- **Distance safety score:** 4 (Low Risk)
+- **Time Risk reason:** While moving towards, it gives enough time to react.
+- **Time safety score:** 4 (Low Risk)
+- **Overall Risk score:** 4
+
+### Summary in JSON Format: 
+No collisions detected, and there are no extreme risk obstacles (score of 1). Here is the JSON output:
+
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+

@@ -1,0 +1,106 @@
+### Safety analysis for timestep 2.4 seconds: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+**1. Obstacle 30.0**
+- **Distance Risk reason**: Longitudinal distance (42.89 m) is far enough to pose minimal risk, and the obstacle is moving away both longitudinally and laterally.
+- **Distance safety score**: 4 (Low Risk)
+- **Time Risk reason**: TTC_long = Distance_long / Vrel_long = 42.89 / 8.4 = 5.1 seconds (no immediate concern), TTC_lat = Distance_lat / Vrel_lat is irrelevant since it is moving away.
+- **Time safety score**: 5 (Negligible Risk)
+- **Overall Risk score**: 4
+
+---
+
+**2. Obstacle 36.0**
+- **Distance Risk reason**: Longitudinal distance (36.5 m) is still significant, but the obstacle is moving toward the ego car, causing concern.
+- **Distance safety score**: 3 (Medium Risk)
+- **Time Risk reason**: TTC_long = 36.5 / 3.5 = 10.43 seconds, but both longitudinal and lateral motions indicate risk, as they are approaching. 
+- **Time safety score**: 3 (Medium Risk)
+- **Overall Risk score**: 3
+
+---
+
+**3. Obstacle 37.0**
+- **Distance Risk reason**: Very close longitudinal distance (3.69 m) with no lateral buffer suggests immediate risk.
+- **Distance safety score**: 1 (Extreme Risk)
+- **Time Risk reason**: TTC_long = 3.69 / 2.58 = 1.43 seconds indicates a high likelihood of impact.
+- **Time safety score**: 1 (Extreme Risk)
+- **Overall Risk score**: 1
+
+---
+
+**4. Obstacle 39.0**
+- **Distance Risk reason**: Longitudinal distance (46.21 m) is reasonable, but the obstacle is coming towards the ego vehicle, raising concerns.
+- **Distance safety score**: 3 (Medium Risk)
+- **Time Risk reason**: TTC_long = 46.21 / 4.52 = 10.22 seconds is adequate, but caution is necessary because it's approaching.
+- **Time safety score**: 3 (Medium Risk)
+- **Overall Risk score**: 3
+
+---
+
+**5. Obstacle 312.0**
+- **Distance Risk reason**: Close distance (5.67 m) indicates potential for collision. 
+- **Distance safety score**: 2 (High Risk)
+- **Time Risk reason**: TTC_long = 5.67 / 2.58 = 2.20 seconds indicates significant risk.
+- **Time safety score**: 1 (Extreme Risk)
+- **Overall Risk score**: 1
+
+---
+
+**6. Obstacle 330.0**
+- **Distance Risk reason**: Close longituinal distance (29.5 m) with relative approach rate raises alarm.
+- **Distance safety score**: 3 (Medium Risk)
+- **Time Risk reason**: TTC_long = 29.5 / 3.97 = 7.42 seconds shows potential for collision.
+- **Time safety score**: 3 (Medium Risk)
+- **Overall Risk score**: 3
+
+---
+
+**7. Obstacle 344.0**
+- **Distance Risk reason**: Exact longitudinal alignment (0 m) with very close proximity (0.17 m laterally) could indicate an immediate collision risk. 
+- **Distance safety score**: 1 (Extreme Risk)
+- **Time Risk reason**: Since it's in alignment and moving toward, the risk is immediate.
+- **Time safety score**: 1 (Extreme Risk)
+- **Overall Risk score**: 1
+
+---
+
+**8. Obstacle 355.0**
+- **Distance Risk reason**: Significant distance (14.31 m) but the obstacle is moving toward the car longitudinally, making it still a risk.
+- **Distance safety score**: 3 (Medium Risk)
+- **Time Risk reason**: TTC_long = 14.31 / 0.66 = 21.68 seconds indicates there is time but managing the situation is necessary.
+- **Time safety score**: 4 (Low Risk)
+- **Overall Risk score**: 3
+
+---
+
+**9. Obstacle 359.0**
+- **Distance Risk reason**: 7.77 m longitudinally is a potential risk especially since it's directly in the path.
+- **Distance safety score**: 3 (Medium Risk)
+- **Time Risk reason**: TTC_long = 7.77 / 3.97 = 1.96 seconds, indicating a very close approach.
+- **Time safety score**: 2 (High Risk)
+- **Overall Risk score**: 2
+
+---
+
+**10. Obstacle 363.0**
+- **Distance Risk reason**: Longitudinal distance (-33.56 m) indicates moving toward the vehicle which is a definite risk.
+- **Distance safety score**: 2 (High Risk)
+- **Time Risk reason**: Likely approaching quickly, thus the risk is significant but no immediate collision yet.
+- **Time safety score**: 2 (High Risk)
+- **Overall Risk score**: 2
+
+---
+
+### Summary in JSON Format:
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "null",
+        "OverallRiskScore": "null"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "37.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+

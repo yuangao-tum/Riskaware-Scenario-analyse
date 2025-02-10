@@ -1,0 +1,85 @@
+### Safety analysis for timestep 3.6s: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+### Obstacle Analysis:
+
+**General Notes:**  Since all lateral velocities and most lateral distances are zero, TTC_lat and MDC_lat are not meaningful and will be omitted. The focus will be on longitudinal TTC (TTC_long) and MDC (which is equivalent to DTC_long in these cases). Also note, a positive relative longitudinal velocity means the obstacle is moving away from the ego vehicle.
+
+- **Obstacle ID: 20026.0**
+    - Distance Risk reason: DTClong is 153.07m, far away and in front.
+    - Distance safety score: 5
+    - Time Risk reason: Closing velocity, but ample distance.  TTC_long = 153.07m / 1.6 m/s ≈ 95.7s.
+    - Time safety score: 5
+    - Overall Risk score: 5
+
+- **Obstacle ID: 20027.0**
+    - Distance Risk reason: DTClong is 160.05m, far away and in front.
+    - Distance safety score: 5
+    - Time Risk reason: Closing velocity, but ample distance. TTC_long ≈ 100s.
+    - Time safety score: 5
+    - Overall Risk score: 5
+
+- **Obstacle ID: 20028.0**
+    - Distance Risk reason: DTClong is 35.45m, moderate distance, and in front.
+    - Distance safety score: 4
+    - Time Risk reason: Closing velocity. TTC_long ≈ 22.2s.
+    - Time safety score: 4
+    - Overall Risk score: 4
+
+- **Obstacle ID: 20029.0**
+    - Distance Risk reason: DTClong is 47.25m, moderate distance, and in front-right. Lateral offset provides additional safety margin.
+    - Distance safety score: 4
+    - Time Risk reason: Closing velocity. TTC_long ≈ 29.5s.
+    - Time safety score: 4
+    - Overall Risk score: 4
+
+- **Obstacle ID: 20030.0** (and similar logic for 20031, 20033, 20034, 20035)
+    - Distance Risk reason: DTClong is 47.2m, moderate distance, front-right, and larger lateral offset compared to 20029.
+    - Distance safety score: 4
+    - Time Risk reason: Closing velocity. TTC_long ≈ 29.5s.
+    - Time safety score: 4
+    - Overall Risk score: 4
+
+- **Obstacle ID: 20032.0**
+    - Distance Risk reason: DTClong is 28.47m, relatively close and in front.
+    - Distance safety score: 3
+    - Time Risk reason: Closing velocity. TTC_long ≈ 17.8s.
+    - Time safety score: 3
+    - Overall Risk score: 3
+
+- **Obstacle ID: 20036.0**
+    - Distance Risk reason: DTClong is 21.49m, close and in front.
+    - Distance safety score: 2
+    - Time Risk reason: Closing velocity. TTC_long ≈ 13.4s.
+    - Time safety score: 2
+    - Overall Risk score: 2
+
+- **Obstacle ID: 20037.0**
+    - Distance Risk reason: DTClong is 14.29m, very close and in front.
+    - Distance safety score: 1
+    - Time Risk reason: Closing velocity. TTC_long ≈ 13.1s (slightly longer due to deceleration).
+    - Time safety score: 2
+    - Overall Risk score: 1
+
+- **Obstacle ID: 20039.0**
+    - Distance Risk reason: Collision imminent (DTClong = 0).
+    - Distance safety score: 0
+    - Time Risk reason: Already collided.
+    - Time safety score: 0
+    - Overall Risk score: 0
+
+
+### Summary in JSON Format:
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20039.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20037.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+

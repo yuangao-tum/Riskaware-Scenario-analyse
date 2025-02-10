@@ -1,0 +1,187 @@
+### Safety analysis for timestep 13.0: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+### Obstacle Analysis:
+
+- **Obstacle ID: 30690.0**
+  - **Distance Risk reason:** Longitudinal distance of -43.34 m and lateral distance of 7.54 m, moving away longitudinally, no lateral motion.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Negative relative velocity indicates it's moving away; TTC is not applicable as there's no collision threat.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30691.0**
+  - **Distance Risk reason:** Longitudinal distance of -43.17 m, lateral distance of 15.04 m, moving away longitudinally.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Moving away longitudinally at -7.86 m/s; TTC not relevant.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30695.0**
+  - **Distance Risk reason:** Longitudinal distance of -52.94 m, lateral distance of -62.71 m; moving away in both directions.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Moving away longitudinally and laterally; no immediate risk.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30696.0**
+  - **Distance Risk reason:** Positioned at -53.18 m longitudinally and -37.65 m laterally, moving away.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Negative longitudinal and lateral velocities, indicating it's moving away.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30699.0**
+  - **Distance Risk reason:** Longitudinal distance of -53.56 m, lateral distance of -18.38 m, moving away.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Moving away with negative velocities; no TTC threat.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30700.0**
+  - **Distance Risk reason:** -43.11 m longitudinal, 22.54 m lateral, moving away longitudinally.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Movement away longitudinally and no lateral movement.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30701.0**
+  - **Distance Risk reason:** -43.12 m longitudinal, 30.05 m lateral, moving away longitudinally.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Movement away longitudinally; no collision expected.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30702.0**
+  - **Distance Risk reason:** -55.66 m longitudinal, -5.06 m lateral, moving away.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Negative velocities indicate movement away from the ego vehicle.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30704.0**
+  - **Distance Risk reason:** -43.14 m longitudinal, 37.58 m lateral, no immediate collision path.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Steady movement away from the ego vehicle.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30705.0**
+  - **Distance Risk reason:** -50.37 m longitudinal, 6.71 m lateral, moving away.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Steady movement away, ample separation distance.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30706.0**
+  - **Distance Risk reason:** -43.16 m longitudinal, 45.18 m lateral distance, moving away.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Movement away longitudinally; no contact expected.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30708.0**
+  - **Distance Risk reason:** -46.84 m longitudinal, 7.62 m lateral, moving away.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** No collision threat with current velocities.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30709.0**
+  - **Distance Risk reason:** -53.84 m longitudinal, 7.79 m lateral, moving away.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Negative velocity suggests movement away without collision risk.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30710.0**
+  - **Distance Risk reason:** -67.42 m longitudinal, -2.11 m lateral; moving away, despite proximity.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Negative velocities indicate no immediate collision risk.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30711.0**
+  - **Distance Risk reason:** -43.15 m longitudinal and 52.9 m lateral, moving away.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Steady movement path, no collision course.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30712.0**
+  - **Distance Risk reason:** -53.67 m longitudinal and 15.29 m lateral, moving away.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Lateral movement direction is not towards the ego vehicle.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30713.0**
+  - **Distance Risk reason:** -50.19 m longitudinal, 14.21 m lateral, moving away.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Negative relative velocity supports movement away.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30714.0**
+  - **Distance Risk reason:** -80.14 m longitudinal, -2.17 m lateral, moving away at a slow rate.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Moving away longitudinally and laterally; no immediate risk.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30715.0**
+  - **Distance Risk reason:** -43.06 m longitudinal, 60.83 m lateral, moving away.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Negative relative velocity in the longitudinal direction.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30716.0**
+  - **Distance Risk reason:** 0.0 m in both longitudinal and lateral directions, indicating a collision.
+  - **Distance safety score:** 0 (Collision)
+  - **Time Risk reason:** Already collided; no valid TTC.
+  - **Time safety score:** 0 (Collision)
+  - **Overall Risk score:** 0
+
+- **Obstacle ID: 30717.0**
+  - **Distance Risk reason:** -92.39 m longitudinal, -2.22 m lateral, moving away.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Given the negative relative velocity, there’s no collision risk.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30718.0**
+  - **Distance Risk reason:** -50.11 m longitudinal, 21.71 m lateral, nothing concerning.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** Negative relative velocity, suggesting no collision path.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30719.0**
+  - **Distance Risk reason:** -46.67 m longitudinal, 15.13 m lateral, no issues seen.
+  - **Distance safety score:** 5 (Negligible Risk)
+  - **Time Risk reason:** The obstacle moves away at a consistent speed.
+  - **Time safety score:** 5 (Negligible Risk)
+  - **Overall Risk score:** 5
+
+- **Obstacle ID: 30720.0**
+  - **Distance Risk reason:** -17.47 m longitudinal, moving toward the ego car.
+  - **Distance safety score:** 1 (Extreme Risk)
+  - **Time Risk reason:** A moving obstacle toward the ego, needing immediate attention.
+  - **Time safety score:** 1 (Extreme Risk)
+  - **Overall Risk score:** 1
+
+### Summary in JSON Format:
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30716.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30720.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+

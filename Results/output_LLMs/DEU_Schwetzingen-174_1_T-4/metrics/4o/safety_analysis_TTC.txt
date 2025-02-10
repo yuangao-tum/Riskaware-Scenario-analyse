@@ -1,0 +1,400 @@
+Safety analysis for timestep 3.6 seconds:
+### Safety analysis for timestep 3.6 seconds: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+### Obstacle Analysis:
+
+- Obstacle ID: 20043
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Both DTClong = 37.94 and DTClat = 39.39 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Both TTClong = 7.8 and TTClat = 9.34 indicate a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20044
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Both DTClong = 39.78 and DTClat = 78.5 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Both TTClong = 8.75 and TTClat = 13.58 indicate a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20057
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Both DTClong = 39.52 and DTClat = 98.5 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Both TTClong = 14.84 and TTClat = 22.84 indicate a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20059
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong = 28.99 indicates a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 24.61 and TTClat = 49.45 indicate a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20061
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong = 18.57 and DTClat = 115.56 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 9.22 indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20063
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong = 9.28 indicates a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 3.13 indicates a low time to collision risk.
+  - Longitudinal Time Safety Score: 3
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 4.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20071
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong = 1.05, still indicates a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 0.28 indicates an extreme time to collision risk.
+  - Longitudinal Time Safety Score: 1
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 3.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 20073
+  - Relative Direction: Right
+  - Distance Risk Reason: DTClong = 0.0 indicates a collision risk.
+  - Longitudinal Distance Safety Score: 0
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 2.5
+  - Time Risk Reason: TTClong = 0.0 indicates a collision risk.
+  - Longitudinal Time Safety Score: 0
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 2.5
+  - Overall Risk Score: 2
+
+- Obstacle ID: 20074
+  - Relative Direction: Rear-right
+  - Distance Risk Reason: DTClong = 4.45 is negligible. Obstacle is moving away.
+  - Longitudinal Distance Safety Score: 4
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: Infinity indicates no time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20076
+  - Relative Direction: Rear-right
+  - Distance Risk Reason: DTClong = 17.37 is negligible.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Infinity indicates no time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20088
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong = 37.21 and DTClat = 90.84 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 8.53 indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20090
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong = 36.57 and DTClat = 83.7 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 8.35 indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20092
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong = 36.23 and DTClat = 76.72 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 8.27 indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20095
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong = 35.98 and DTClat = 68.49 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 8.31 indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20096
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong = 50.13 and DTClat = 89.41 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 11.45 indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20097
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong = 57.7 and DTClat = 83.96 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 13.18 indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20098
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong = 63.38 and DTClat = 79.87 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 14.48 indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20099
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Both DTClong = 69.02 and DTClat = 75.75 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 15.76 indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20100
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Both DTClong = 79.38 and DTClat = 68.16 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 18.13 indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20101
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Both DTClong = 35.65 and DTClat = 56.92 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 8.38 indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20102
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Both DTClong = 86.52 and DTClat = 62.77 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 19.76 indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20103
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Both DTClong = 92.08 and DTClat = 58.52 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 21.03 indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20104
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Both DTClong = 97.5 and DTClat = 54.1 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 22.27 indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20105
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong = 34.36 and DTClat = 38.87 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 10.09 and lateral movement indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20106
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong = 102.82 and DTClat = 49.56 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 23.49 indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20107
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong = 29.45 and DTClat = 18.43 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 84.52 and lateral movement indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20108
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong = 107.94 and DTClat = 44.79 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 24.65 indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20110
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong = 112.88 and DTClat = 39.83 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 25.78 indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20111
+  - Relative Direction: Collision
+  - Distance Risk Reason: Both DTClong = 0.0 and DTClat = 0.0 indicate a collision risk.
+  - Longitudinal Distance Safety Score: 0
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 0.0
+  - Time Risk Reason: Both TTClong = 0.0 and TTClat = 0.0 indicate a collision risk.
+  - Longitudinal Time Safety Score: 0
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 0.0
+  - Overall Risk Score: 0
+
+- Obstacle ID: 20112
+  - Relative Direction: Rear-right
+  - Distance Risk Reason: DTClong = 20.9 and DTClat = 1.22 indicate a low risk in lateral direction.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: TTClong = 3.63 and TTClat = 0.57 indicate a medium risk in lateral direction.
+  - Longitudinal Time Safety Score: 4
+  - Lateral Time Safety Score: 2
+  - Overall Time Safety Score: 3.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 20113
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong = 117.75 and DTClat = 34.79 indicate a negligible collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong = 26.9 indicates a negligible time to collision risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 20114
+  - Relative Direction: Rear-right
+  - Distance Risk Reason: DTClong = 39.29 and DTClat = 5.6 indicate low collision risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 4.5
+  - Time Risk Reason: TTClong = 8.84 and TTClat = 2.53 indicate high risk in lateral direction.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 2
+  - Overall Time Safety Score: 3.5
+  - Overall Risk Score: 4
+
+### Summary in JSON Format:
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "20111",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": null
+}
+```
+

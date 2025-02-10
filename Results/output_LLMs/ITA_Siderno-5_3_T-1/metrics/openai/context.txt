@@ -1,0 +1,92 @@
+Timestep 2.4 seconds:
+  Obstacle 30:
+    Relative Direction: Front-left
+    Distance to Collision:
+      Longitudinal: 42.89
+      Lateral: 10.72
+    Time to Collision:
+      Longitudinal: Infinity
+      Lateral: Infinity
+    Motion Description: Obstacle is moving away longitudinally. Obstacle is moving away laterally to the left.
+  Obstacle 36:
+    Relative Direction: Front-left
+    Distance to Collision:
+      Longitudinal: 36.5
+      Lateral: 12.67
+    Time to Collision:
+      Longitudinal: 10.43
+      Lateral: 52.71
+    Motion Description: Obstacle is driving toward the ego car longitudinally. Obstacle is driving toward the ego car laterally from the left.
+  Obstacle 37:
+    Relative Direction: Front-left
+    Distance to Collision:
+      Longitudinal: 3.69
+      Lateral: 32.13
+    Time to Collision:
+      Longitudinal: 1.43
+      Lateral: Infinity
+    Motion Description: Obstacle is driving toward the ego car longitudinally. No lateral relative motion.
+  Obstacle 39:
+    Relative Direction: Front-left
+    Distance to Collision:
+      Longitudinal: 46.21
+      Lateral: 15.2
+    Time to Collision:
+      Longitudinal: 10.22
+      Lateral: 30.05
+    Motion Description: Obstacle is driving toward the ego car longitudinally. Obstacle is driving toward the ego car laterally from the left.
+  Obstacle 312:
+    Relative Direction: Front-left
+    Distance to Collision:
+      Longitudinal: 5.67
+      Lateral: 25.3
+    Time to Collision:
+      Longitudinal: 2.2
+      Lateral: Infinity
+    Motion Description: Obstacle is driving toward the ego car longitudinally. No lateral relative motion.
+  Obstacle 330:
+    Relative Direction: Front-left
+    Distance to Collision:
+      Longitudinal: 29.5
+      Lateral: 10.85
+    Time to Collision:
+      Longitudinal: 7.44
+      Lateral: 29.88
+    Motion Description: Obstacle is driving toward the ego car longitudinally. Obstacle is driving toward the ego car laterally from the left.
+  Obstacle 344:
+    Relative Direction: Right
+    Distance to Collision:
+      Longitudinal: 0.0
+      Lateral: 0.17
+    Time to Collision:
+      Longitudinal: 0.0
+      Lateral: 0.08
+    Motion Description: Exact longitudinal alignment or co. Obstacle is driving toward the ego car laterally from the right.
+  Obstacle 355:
+    Relative Direction: Front-right
+    Distance to Collision:
+      Longitudinal: 14.31
+      Lateral: 9.35
+    Time to Collision:
+      Longitudinal: 21.68
+      Lateral: Infinity
+    Motion Description: Obstacle is driving toward the ego car longitudinally. Obstacle is moving away laterally to the right.
+  Obstacle 359:
+    Relative Direction: Front
+    Distance to Collision:
+      Longitudinal: 7.77
+      Lateral: 0.0
+    Time to Collision:
+      Longitudinal: Infinity
+      Lateral: 0.0
+    Motion Description: Obstacle is moving away longitudinally. Exact lateral alignment or unknown case.
+  Obstacle 363:
+    Relative Direction: Rear-right
+    Distance to Collision:
+      Longitudinal: 33.56
+      Lateral: 7.53
+    Time to Collision:
+      Longitudinal: 21.04
+      Lateral: 10.29
+    Motion Description: Obstacle is driving toward the ego car from behind. Obstacle is driving toward the ego car laterally from the right.
+

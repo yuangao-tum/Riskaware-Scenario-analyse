@@ -1,0 +1,157 @@
+### Safety analysis for timestep 6.8s: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+### Obstacle Analysis:
+
+**General Notes:**  For lateral TTC and MDC calculations, if the lateral velocity is close to zero, we assume a very large TTC to avoid division by zero and consider the lateral distance as the MDC. If an obstacle is moving away from the ego vehicle longitudinally (positive relative velocity), TTC is considered infinite and not a risk.
+
+- **Obstacle ID: 30292.0**
+    - Distance Risk reason: Moderately far, front-left.
+    - Distance safety score: 4
+    - Time Risk reason: Approaching slowly.
+    - Time safety score: 3
+    - Overall Risk score: 3
+
+- **Obstacle ID: 30293.0**
+    - Distance Risk reason: Far, front-right.
+    - Distance safety score: 4
+    - Time Risk reason: Approaching longitudinally, but moving laterally away.
+    - Time safety score: 4
+    - Overall Risk score: 4
+
+- **Obstacle ID: 30294.0**
+    - Distance Risk reason: Moderately far, front-left.
+    - Distance safety score: 4
+    - Time Risk reason: Approaching slowly.
+    - Time safety score: 3
+    - Overall Risk score: 3
+
+- **Obstacle ID: 30295.0**
+    - Distance Risk reason: Moderately close, front-left.
+    - Distance safety score: 3
+    - Time Risk reason: Approaching slowly longitudinally, and moderately fast laterally.
+    - Time safety score: 2
+    - Overall Risk score: 2
+
+- **Obstacle ID: 30296.0**
+    - Distance Risk reason: Moderately close, front-left.
+    - Distance safety score: 3
+    - Time Risk reason: Approaching slowly longitudinally, and moderately fast laterally.
+    - Time safety score: 2
+    - Overall Risk score: 2
+
+- **Obstacle ID: 30297.0**
+    - Distance Risk reason: Far, front-right.
+    - Distance safety score: 4
+    - Time Risk reason: Approaching longitudinally, moving laterally away.
+    - Time safety score: 4
+    - Overall Risk score: 4
+
+- **Obstacle ID: 30298.0**
+    - Distance Risk reason: Very close, front.
+    - Distance safety score: 1
+    - Time Risk reason: Approaching quickly.
+    - Time safety score: 1
+    - Overall Risk score: 1
+
+- **Obstacle ID: 30299.0**
+    - Distance Risk reason: Extremely close, front. Collision imminent.
+    - Distance safety score: 0
+    - Time Risk reason: Collision imminent.
+    - Time safety score: 0
+    - Overall Risk score: 0
+
+- **Obstacle ID: 30300.0**
+    - Distance Risk reason: Far, front-right.
+    - Distance safety score: 5
+    - Time Risk reason: Approaching longitudinally, moving laterally away.
+    - Time safety score: 4
+    - Overall Risk score: 4
+
+
+- **Obstacle ID: 30301.0**
+    - Distance Risk reason: Far, front-right.
+    - Distance safety score: 5
+    - Time Risk reason: Approaching longitudinally, moving laterally away.
+    - Time safety score: 4
+    - Overall Risk score: 4
+
+- **Obstacle ID: 30302.0**
+    - Distance Risk reason: Moderately close, front-left.
+    - Distance safety score: 3
+    - Time Risk reason: Approaching slowly.
+    - Time safety score: 3
+    - Overall Risk score: 3
+
+- **Obstacle ID: 30303.0**
+    - Distance Risk reason: Moderately far, front.
+    - Distance safety score: 4
+    - Time Risk reason: Moving away longitudinally.
+    - Time safety score: 5
+    - Overall Risk score: 4
+
+- **Obstacle ID: 30305.0**
+    - Distance Risk reason: Close, behind.
+    - Distance safety score: 2
+    - Time Risk reason: Approaching from behind.
+    - Time safety score: 2
+    - Overall Risk score: 2
+
+- **Obstacle ID: 30306.0**
+    - Distance Risk reason: Moderately far, behind.
+    - Distance safety score: 3
+    - Time Risk reason: Approaching from behind.
+    - Time safety score: 3
+    - Overall Risk score: 3
+
+- **Obstacle ID: 30307.0**
+    - Distance Risk reason: Far, rear-right.
+    - Distance safety score: 4
+    - Time Risk reason: Approaching from behind.
+    - Time safety score: 4
+    - Overall Risk score: 4
+
+- **Obstacle ID: 30308.0**
+    - Distance Risk reason: Far, front-right.
+    - Distance safety score: 5
+    - Time Risk reason: Approaching longitudinally, moving laterally away.
+    - Time safety score: 4
+    - Overall Risk score: 4
+
+- **Obstacle ID: 30309.0**
+    - Distance Risk reason: Far, rear-right.
+    - Distance safety score: 5
+    - Time Risk reason: Approaching from behind.
+    - Time safety score: 4
+    - Overall Risk score: 4
+
+- **Obstacle ID: 30311.0**
+    - Distance Risk reason: Far, rear-right.
+    - Distance safety score: 5
+    - Time Risk reason: Approaching from behind.
+    - Time safety score: 4
+    - Overall Risk score: 4
+
+- **Obstacle ID: 30312.0**
+    - Distance Risk reason: Moderately far, front-left.
+    - Distance safety score: 4
+    - Time Risk reason: Approaching slowly.
+    - Time safety score: 3
+    - Overall Risk score: 3
+
+
+
+### Summary in JSON Format:
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30299.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30298.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+

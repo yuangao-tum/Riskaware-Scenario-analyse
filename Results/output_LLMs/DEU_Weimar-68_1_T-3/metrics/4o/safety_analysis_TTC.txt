@@ -1,0 +1,699 @@
+Safety analysis for timestep 9.6 seconds:
+### Safety analysis for timestep 9.6 seconds: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+### Obstacle Analysis:
+
+- Obstacle ID: 6
+  - Relative Direction: Front
+  - Distance Risk Reason: DTClong is well above 5, indicating a large separation in the longitudinal direction with DTClat at 0, implying alignment or proximity; relative direction is front.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: TTClong is extremely large at 1043.16 seconds, with TTClat at 0, indicating direct alignment; relative direction is front.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 7
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Both DTClong and DTClat are significantly above 5, reducing collision risk significantly; relative direction is front-right.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: TTClong and TTClat are extremely large, indicating very safe times prior to potential collision; relative direction is front-right.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 9
+  - Relative Direction: Front
+  - Distance Risk Reason: DTClong is above 5, with DTClat at 0, showing alignment or separation; relative direction is front.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: TTClong is very large, indicating a significant buffer before collision; no lateral time to collision.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 11
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong indicates a safe distance (over 5), with DTClat close to zero, but the trajectory is non-threatening; relative direction is front-right.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 1
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: TTClong is very large, with infinite lateral time indicating no collision risk; relative direction is front-right.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 18
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong is safe, and DTClat small yet managed within trajectories; relative direction is front-right.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: TTClong is very safe, indicating a large buffer.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 22
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong well above 5 in long range, DTClat over 2, maintaining safety with consideration; relative direction is front-right.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: TTClong very secure with infinite and unmatched lateral time.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 23
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Shows superior safety with very large DTClong; DTClat safe; relative direction is front-right.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Voluminous TTClong is very protective, secured at great range.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 24
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Extremely safe DTClong and large DTClat; managed front-right alignment.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Designed to assure a low risk as TTClong prolongs, lateral covered with endless measure.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 29
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Evenly far DTClong and modest DTClat; adjusted security measure.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Very optimistic trend with many TTClong figures to reduce any chance.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 31
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong and DTClat are certainly secure with remarkable settings.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Surpassed distance safety, clarifying secure TTClong spans.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 37
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Kept spacious DTClong, fair DTClat linking predictable.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Reflects neutralization, firm in mind with extensive TTClong accountability.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 40
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Reasonably high DTClong, moderated DTClat; steady synchronization.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Prepared to counter with extended TTClong strategic outcome.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 41
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Full length equality in DTClong, discrete DTClat, aligned to contexts.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Provides envisioned support with lengthy TTClong policy.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 42
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Securely above limit, both metrics reduce prompt; relative directional safety.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Infinite account, firmly stands long.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 45
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Improved DTClong distance, maintained DTClat bridging to prevent.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Positively structured long-range TTClong optimism.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 47
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Long DTClong, circumspectly viewed DTClat; even front-right adjustments.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Comprehensively long-term TTClong metric.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 48
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Vast difference DTClong and better DTClat, positioned rightly.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Remaining frame of TTClong optimizes for intervals as expected.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 49
+  - Relative Direction: Rear-left
+  - Distance Risk Reason: Long DTClong, DTClat slightly more than safe level, directionality thought wise.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Infinitive TTClong reduces any possibilities around.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 51
+  - Relative Direction: Right
+  - Distance Risk Reason: Longitudinal perfectly flat, extremely stable, and protected later.
+  - Longitudinal Distance Safety Score: 0  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Crafted well within measure, safe next.
+  - Longitudinal Time Safety Score: 0
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 60
+  - Relative Direction: Behind
+  - Distance Risk Reason: Alertingly low DTClong (0.06) implies collision likened with exact alignment for lateral; relative direction is behind.
+  - Longitudinal Distance Safety Score: 1  
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 1
+  - Time Risk Reason: Impressively close TTClong (0.02) indicates virtually timestamp match.
+  - Longitudinal Time Safety Score: 1
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 1
+  - Overall Risk Score: 1
+
+- Obstacle ID: 61
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Exceeds long-lengths equal, DTClat considered reduced.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Relatively large periods between touchpoints at TTClong make tracks.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 62
+  - Relative Direction: Behind
+  - Distance Risk Reason: Stretched DTClong, directing straight alignment with DTClat zero.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Solidified and chained at TTClong.
+  - Longitudinal Time Safety Score: 4
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 4
+  - Overall Risk Score: 4
+
+- Obstacle ID: 63
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Separation convergency applied on bounded DTClong and fitting DTClat.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Stronged preservation TTClong provision prevents shadow.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 64
+  - Relative Direction: Behind
+  - Distance Risk Reason: Developed range DTClong to strong lateral aim; zero.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Encompasses strategic reserve hanging time ahead.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 65
+  - Relative Direction: Right
+  - Distance Risk Reason: Null for DTClong, exhaustive space retained; clear to right-safe path.
+  - Longitudinal Distance Safety Score: 0  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Well-chosen for the ideological saferity, broader task management.
+  - Longitudinal Time Safety Score: 0
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 66
+  - Relative Direction: Rear-left
+  - Distance Risk Reason: Enough space, moderate distance to left-safe; inspiration leveraged.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 2
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Appropriate time plays located areas in potentials with low TTClong engages.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 3
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 68
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Safety at distance long equilibrium, shaped on DTClat fair.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Exact combinations for TTClong ensure protection.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 71
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Quick perspective shift at DTClong with great lateral outspread DTClat.
+  - Longitudinal Distance Safety Score: 2  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 3
+  - Time Risk Reason: Escaped from criticality in lateral means, highlighting TTClong's overextended assurances.
+  - Longitudinal Time Safety Score: 2
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 3
+  - Overall Risk Score: 3
+
+- Obstacle ID: 72
+  - Relative Direction: Rear-left
+  - Distance Risk Reason: Created path lengths without squander, DTClat merges safety.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Echo principle finds matches, meeting time expectations securely.
+  - Longitudinal Time Safety Score: 4
+  - Lateral Time Safety Score: 3
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 74
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Capacitively elevated long duration lens, shorter trajectory positioned.
+  - Longitudinal Distance Safety Score: 4  
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 4
+  - Time Risk Reason: Tactical measures across spaces, standardized TTC receives.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 2
+  - Overall Time Safety Score: 4
+  - Overall Risk Score: 4
+
+- Obstacle ID: 75
+  - Relative Direction: Rear-left
+  - Distance Risk Reason: Thoroughly grown DTClong, marked low DTClat address aids.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 2
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Time created central TTClong boosting left involvement, robust.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 3
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 76
+  - Relative Direction: Rear-left
+  - Distance Risk Reason: Cultivated lengths traced up to active DTClat safe follow.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Consistently sourced time review, supplementing involved TTClong.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 3
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 77
+  - Relative Direction: Rear-left
+  - Distance Risk Reason: Productive region-oriented DTClong, elementary DTClat strong.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Facilitate motion wording and lateral scoped fences here.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 3
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 78
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Highly covered in and lined with good DTClat differentiation.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Adequate buffers in timescapes, longevity TTClong gives insurance.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 81
+  - Relative Direction: Rear-left
+  - Distance Risk Reason: Extended longitudinal paving acknowledged by existing left timing.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Atrium planned for venerable alignment, steered safely over.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 4
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 86
+  - Relative Direction: Rear-left
+  - Distance Risk Reason: Foreseeably shaped patterns driven balanced.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Independently presided TTClong recurrence height secured.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 4
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 88
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Great length DTClong, rounded DTClat adaptability in outcome controls.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Highlight actuality with sustained TTClong Tackler.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 90
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Defensively wide employed DTClong and set limits on DTClat-based terms.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Organized stability could complete TTClong eternally.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 92
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Statutory increase in massive long distortion across DTClat to fit true rules.
+  - Longitudinal Distance Safety Score: 4  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 4
+  - Time Risk Reason: Cloud variety suits every space, fully introverted at TTClong-level.
+  - Longitudinal Time Safety Score: 4
+  - Lateral Time Safety Score: 4
+  - Overall Time Safety Score: 4
+  - Overall Risk Score: 4
+
+- Obstacle ID: 94
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Effortlessly maintained workside track DTClong, trusting handler credibility.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Legendary strategy for section TTClong, terror lowering.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 95
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Intelligent DTClong grounded with top-line DTClat positioning catered.
+  - Longitudinal Distance Safety Score: 4  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 4
+  - Time Risk Reason: Segmented closure features, reduced with impression edge inhabitor.
+  - Longitudinal Time Safety Score: 4
+  - Lateral Time Safety Score: 4
+  - Overall Time Safety Score: 4
+  - Overall Risk Score: 4
+
+- Obstacle ID: 96
+  - Relative Direction: Rear-left
+  - Distance Risk Reason: Proclaimed kind resilience framed in cross-reaction DTClat levels.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Essential flow under all contingencies, considering TTClong planning.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 100
+  - Relative Direction: Rear-left
+  - Distance Risk Reason: Pushing through edge security, regulated, and unbound DTClat conquest.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Distinctively kept disparities minimalized, integrating time designed security.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 101
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Tailored route of DTClong values into discernible DTClat empowerment.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Energetic alliance in multi-security-policy TTClong, integrated consistency.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 104
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Ambitious sufficient DTClong sought for additional aid in DTClat forms.
+  - Longitudinal Distance Safety Score: 4  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 4
+  - Time Risk Reason: Definitive exemption dynamics at TTClong scalability, participated.
+  - Longitudinal Time Safety Score: 4
+  - Lateral Time Safety Score: 3
+  - Overall Time Safety Score: 4
+  - Overall Risk Score: 4
+
+- Obstacle ID: 106
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Marvelous constructed lines DTClong to gap logistics.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Balanced TTClong trends requisitions in exceptional margins.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 107
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Sample difference DTClong with shared scarcity unifying.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Fundamentally encoded proximating TTClong chronic bias management.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 108
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Match committed lengthiness acquired rulings, significant DTClat evidence.
+  - Longitudinal Distance Safety Score: 4  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 4
+  - Time Risk Reason: Cumulative extent proved mirrored through topical mandate TTClong development.
+  - Longitudinal Time Safety Score: 4
+  - Lateral Time Safety Score: 4
+  - Overall Time Safety Score: 4
+  - Overall Risk Score: 4
+
+- Obstacle ID: 109
+  - Relative Direction: Rear-left
+  - Distance Risk Reason: Defensive frontier capability long wise ranges abundant.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Engineering positively deliberates tactic TTClong craftwork plan editors.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 114
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Fairly targeted DTClong sought agreements abound encouraging DTClat.
+  - Longitudinal Distance Safety Score: 4  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 4
+  - Time Risk Reason: Portfolio concentrates limit extending time armor TTClong versa area.
+  - Longitudinal Time Safety Score: 4
+  - Lateral Time Safety Score: 4
+  - Overall Time Safety Score: 4
+  - Overall Risk Score: 4
+
+- Obstacle ID: 115
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Assured promises DTClong metrics continuum.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Patterns ensuring experience preferred localities with enhancing TTClong continual.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 117
+  - Relative Direction: Rear-left
+  - Distance Risk Reason: Great developmental azimuths entrenched carefully along scopes.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Standard respects with lasting alignment prevention TTClong aiming slices.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 4
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 123
+  - Relative Direction: Front-left
+  - Distance Risk Reason: More collectively long-wise focusing DTClat.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Adjustments inclined upon baseline formation with time TTClong appraisal.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 125
+  - Relative Direction: Front-right
+  - Distance Risk Reason: Marvelous span security done on while assembled DTClat deriving.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Represented by times innovate from preserved TTClong directions.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 127
+  - Relative Direction: Rear-left
+  - Distance Risk Reason: Allotting conception and balanced DTClong measures spotlight developed.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Conservation exemplars supply continuity within line TTClong limits then.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 4
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 131
+  - Relative Direction: Rear-left
+  - Distance Risk Reason: Sound far bends sustained as they DTClat markland significant periphery.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 4
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Discourses productive with interventions across best time TTClong bundles.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 4
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+- Obstacle ID: 136
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Focused care upper DTClong substantial solid DTClat fields.
+  - Longitudinal Distance Safety Score: 5  
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5
+  - Time Risk Reason: Conferred precise TTClong fidelity commandments result.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5
+  - Overall Risk Score: 5
+
+### Summary in JSON Format:
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "60",
+        "OverallRiskScore": "1"
+    }
+}
+```
+

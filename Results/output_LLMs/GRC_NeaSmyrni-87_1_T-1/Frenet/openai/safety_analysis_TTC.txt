@@ -1,0 +1,59 @@
+### Safety analysis for timestep 0.4 seconds: Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+### Obstacle Analysis:
+- **Obstacle ID**: 20039.0
+  - **Distance Risk reason**: The obstacle is at a real distance of 0.0 m longitudinally and 0.0 m laterally, indicating an imminent collision.
+  - **Distance safety score**: 1 (Extreme Risk)
+  - **Time Risk reason**: With both lateral and longitudinal distance at zero, precluding any time before collision, TTC is effectively 0 seconds leading to an immediate collision risk.
+  - **Time safety score**: 1 (Extreme Risk)
+  - **Overall Risk score**: 1
+
+- **Obstacle ID**: 20044.0
+  - **Distance Risk reason**: Positioned at -58.0 m longitudinally and 11.41 m laterally. This distance indicates the vehicle is not currently in danger of collision since it’s moving away.
+  - **Distance safety score**: 5 (Negligible Risk)
+  - **Time Risk reason**: The relative velocity shows the obstacle is moving away with a TTC functionally infinite since distance is increasing.
+  - **Time safety score**: 5 (Negligible Risk)
+  - **Overall Risk score**: 5
+
+- **Obstacle ID**: 20045.0
+  - **Distance Risk reason**: Located -71.03 m longitudinally and 6.3 m laterally, the obstacle is also moving away and is not on a collision course.
+  - **Distance safety score**: 5 (Negligible Risk)
+  - **Time Risk reason**: Similar to the previous obstacle, increasing distance results in effectively no collision risk.
+  - **Time safety score**: 5 (Negligible Risk)
+  - **Overall Risk score**: 5
+
+- **Obstacle ID**: 20047.0
+  - **Distance Risk reason**: At -77.85 m longitudinally and 2.53 m laterally, this obstacle is moving away while being far enough to indicate no collision risk.
+  - **Distance safety score**: 5 (Negligible Risk)
+  - **Time Risk reason**: The obstacle's increasing distance confirms there is no imminent collision, rendering TTC positive and safe.
+  - **Time safety score**: 5 (Negligible Risk)
+  - **Overall Risk score**: 5
+
+- **Obstacle ID**: 20048.0
+  - **Distance Risk reason**: Positioned at -81.69 m longitudinally and 5.1 m laterally. The obstacle is still moving away from the ego vehicle with adequate spacing.
+  - **Distance safety score**: 5 (Negligible Risk)
+  - **Time Risk reason**: Increasing distance confirms a safe trajectory with no collision threat.
+  - **Time safety score**: 5 (Negligible Risk)
+  - **Overall Risk score**: 5
+
+- **Obstacle ID**: 20050.0
+  - **Distance Risk reason**: The obstacle is at -30.87 m longitudinally and 58.4 m laterally, also indicating it is moving away.
+  - **Distance safety score**: 5 (Negligible Risk)
+  - **Time Risk reason**: With the distance increasing, there is no imminent risk of collision.
+  - **Time safety score**: 5 (Negligible Risk)
+  - **Overall Risk score**: 5
+
+### Summary in JSON Format: 
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20039.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20039.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+

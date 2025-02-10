@@ -1,0 +1,260 @@
+Safety analysis for timestep 3.6 seconds:
+### Safety analysis for timestep 3.6 seconds: 
+
+Here's the evaluation of each obstacle according to the provided metrics and calculations.
+
+### Obstacle Analysis:
+- Obstacle ID: 30749
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Both DTClong and DTClat values are greater than 5, implying negligible risk.
+  - Longitudinal Distance Safety Score: 5 
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Both TTClong and TTClat values are greater than 5, implying negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30750
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong is greater than 5 (Negligible Risk) while DTClat is between 0 and 3 (Medium Risk). As direction is Front-right, result is a negligible overall distance risk.
+  - Longitudinal Distance Safety Score: 5 
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 4.0
+  - Time Risk Reason: TTClong is greater than 5 (Negligible Risk) and TTClat is infinity, indicating negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5 
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30751
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Both DTClong and DTClat are over 5, indicating negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong is more than 5 (Negligible Risk) and TTClat is infinity (Negligible Risk).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30752
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Both DTClong and DTClat values over 5, indicative of negligible danger.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5 
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong and TTClat are over 5, suggesting no risk at all.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30753
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Both DTClong and DTClat values over 5, indicating negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong and TTClat values surpass 5, implying negligible danger.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30754
+  - Relative Direction: Front
+  - Distance Risk Reason: DTClong indicates negligible risk while DTClat indicates collision risk as it is 0, Front direction dictates primary longitudinal evaluation.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong indicates negligible risk while TTClat indicates collision risk as it is 0, with primary longitudinal evaluation due to Front direction. Due to existing lateral collision risk, the risk should be 0.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 0
+
+- Obstacle ID: 30755
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Both DTClong and DTClat indicate negligible risk as both are over 5.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Both TTClong and TTClat are over 5, thus negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30756
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Both DTClong and DTClat are greater than 5, indicating negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Both TTClong and TTClat are over 5, suggesting there is negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30757
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Both DTClong and DTClat are higher than 5, suggesting negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Both TTClong and TTClat are over 5, thus negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30758
+  - Relative Direction: Front-left
+  - Distance Risk Reason: DTClong is more than 5 (Negligible Risk) while DTClat is less than 3, suggesting Medium risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 4.0
+  - Time Risk Reason: TTClong is more than 5 (Negligible Risk), and TTClat is significantly high, therefore negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30759
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Both DTClong and DTClat values are over 5, indicating negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Both TTClong and TTClat are higher than 5, hence negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30760
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Both DTClong and DTClat are greater than 5, indicating negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Both TTClong and TTClat are higher than 5, indicating negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30761
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Both DTClong and DTClat are greater than 5, implying negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: Both TTClong and TTClat are higher than 5, implying negligible risk.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+- Obstacle ID: 30762
+  - Relative Direction: Left
+  - Distance Risk Reason: DTClong is 0 indicating collision risk, whereas DTClat is negligible risk, Left direction indicates primarily lateral evaluation and safety.
+  - Longitudinal Distance Safety Score: 0
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong is 0 indicating collision risk, whereas TTClat is negligible risk, primarily evaluated as lateral safety.
+  - Longitudinal Time Safety Score: 0
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 0
+
+- Obstacle ID: 30763
+  - Relative Direction: Front-right
+  - Distance Risk Reason: DTClong is less than or equal to 5 (Medium Risk) and DTClat is less than 3 (Medium Risk), Front-right direction dictates primarily longitudinal threat evaluation.
+  - Longitudinal Distance Safety Score: 3
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 3.0
+  - Time Risk Reason: TTClong is infinity (Negligible Risk), TTClat is medium risk due to time greater than 5 but not infinity.
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 3
+  - Overall Time Safety Score: 3.0
+  - Overall Risk Score: 3
+
+- Obstacle ID: 30764
+  - Relative Direction: Collision
+  - Distance Risk Reason: Both DTClong and DTClat are 0, indicating a collision.
+  - Longitudinal Distance Safety Score: 0
+  - Lateral Distance Safety Score: 0
+  - Overall Distance Safety Score: 0
+  - Time Risk Reason: TTClong and TTClat are 0, indicating a collision.
+  - Longitudinal Time Safety Score: 0
+  - Lateral Time Safety Score: 0
+  - Overall Time Safety Score: 0
+  - Overall Risk Score: 0
+
+- Obstacle ID: 30765
+  - Relative Direction: Rear-right
+  - Distance Risk Reason: DTClong is less than 3 (Medium Risk) and DTClat is less than 3 (Medium Risk), Rear-right direction weighs lateral.
+  - Longitudinal Distance Safety Score: 3
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 3.0
+  - Time Risk Reason: TTClong is less than 1 (High Risk), LatTSC is infinity, focusing on lateral distance safety.
+  - Longitudinal Time Safety Score: 2
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 3.5
+  - Overall Risk Score: 3
+
+- Obstacle ID: 30766
+  - Relative Direction: Rear-left
+  - Distance Risk Reason: DTClong exceeds 5 (Negligible Risk), DTClat is below 3 (Medium Risk), primary rear direction focusing on lateral flexibility.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 4.0
+  - Time Risk Reason: TTClong is between 1 and 3 (Medium Risk), TTClat is infinity (Negligible Risk).
+  - Longitudinal Time Safety Score: 3
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 4.0
+  - Overall Risk Score: 4
+
+- Obstacle ID: 30767
+  - Relative Direction: Rear-left
+  - Distance Risk Reason: DTClong exceeds 5 (Negligible Risk), DTClat is below 3 (Medium Risk), primarily evaluated lateral reference.
+  - Longitudinal Distance Safety Score: 5 
+  - Lateral Distance Safety Score: 3
+  - Overall Distance Safety Score: 4.0
+  - Time Risk Reason: TTClong is between 0.5 and 3 (High Risk), TTClat is substantial and hence negligible.
+  - Longitudinal Time Safety Score: 2
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 3.5
+  - Overall Risk Score: 4
+
+- Obstacle ID: 30768
+  - Relative Direction: Front-left
+  - Distance Risk Reason: Both DTClong and DTClat are greater than 5, implying negligible risk.
+  - Longitudinal Distance Safety Score: 5
+  - Lateral Distance Safety Score: 5
+  - Overall Distance Safety Score: 5.0
+  - Time Risk Reason: TTClong is more than 5 (Negligible Risk) and TTClat is also more than 5 (Negligible Risk).
+  - Longitudinal Time Safety Score: 5
+  - Lateral Time Safety Score: 5
+  - Overall Time Safety Score: 5.0
+  - Overall Risk Score: 5
+
+### Summary in JSON Format:  
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30764",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30754",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
