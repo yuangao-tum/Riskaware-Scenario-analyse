@@ -289,7 +289,7 @@ def process_safety_analysis(
     use_last_timestep=False,
 ):
     output_txt_path = f"{base_dir}/{scenario_name}/output.txt"
-    response_ttc_txt_path = f"{base_dir}/{scenario_name}/metrics/{engine}/safety_analysis_TTC.txt"
+    response_ttc_txt_path = f"{base_dir}/{scenario_name}/metrics/{engine}/safety_analysis.txt"
     context_txt_path = f"{base_dir}/{scenario_name}/metrics/{engine}/context.txt"
 
     # Ensure the directory for the response and context files exists
