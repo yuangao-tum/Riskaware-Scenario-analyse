@@ -57,15 +57,15 @@ output_dir = '/home/yuan/mybookname/Openai/Safety/output_validation'  # Folder f
   ├── context.txt  # LLM-generated scenario context
   ├── safety_analysis.txt  # Safety analysis output
   ```
-
-## Requirements
-- [CommonRoad](https://commonroad.in.tum.de/)
-- [Frenetix Motion Planner](https://github.com/TUM-AVS/Frenetix-Motion-Planner/tree/main)
-- Python 3.x
-
----
-Ensure all dependencies are installed before running the scripts.
-```
+  
+  ## Requirements
+  - [CommonRoad](https://commonroad.in.tum.de/)
+  - [Frenetix Motion Planner](https://github.com/TUM-AVS/Frenetix-Motion-Planner/tree/main)
+  - Python 3.x
+  
+  ---
+  Ensure all dependencies are installed before running the scripts.
+  ```
 
 
   
