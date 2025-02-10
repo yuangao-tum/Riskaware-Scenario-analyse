@@ -6,12 +6,11 @@
 - The Arxiv version of the manuscript can be found here: [Paper](https://arxiv.org/abs/2502.02145)
 
 ## 2. Scenarios and Results
-- A collection of **100 XML scenario files**.
-- The related results are generated using the [Frenetix Motion Planner](https://github.com/TUM-AVS/Frenetix-Motion-Planner/tree/main) within the CommonRoad framework. These results are stored in `Simulation_scenarios_with_FrenetixMotionPlanner`.
+- In `Scnearios`, you can find a collection of **100 XML scenario files** and the related simulation results called `Simulation_scenarios_with_FrenetixMotionPlanner` which are generated using the [Frenetix Motion Planner](https://github.com/TUM-AVS/Frenetix-Motion-Planner/tree/main) within the CommonRoad framework.
 - In `Results`, you can find the comparison output of **response time across models and templates** and also the outputs for each scenario across models and templates.
 
-## 3. Code (Coming Soon)
-- The implementation and relevant scripts will be made available soon.
+## 3. Code
+- `Trajectory Collection` and `Safety Metrics Collection` are used to collect and caculate the related data for each template.
 
 ## Usage
 ### Step 1: Running the Scenarios
