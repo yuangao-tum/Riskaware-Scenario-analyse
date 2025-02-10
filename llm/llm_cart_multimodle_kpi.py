@@ -225,7 +225,7 @@ def process_scenario(scenario_path, timestep_interval, engine="openai"):
     ego_path = os.path.join(scenario_path, "ego_trajectory.csv")
     obstacles_path = os.path.join(scenario_path, "dynamic_obstacles.csv")
     output_txt_path = os.path.join(Cart_dir, "timestep_report.txt")
-    response_txt_path = os.path.join(Cart_dir, "safety_analysis_TTC.txt")
+    response_txt_path = os.path.join(Cart_dir, "safety_analysis.txt")
 
     if not os.path.exists(Cart_dir):
         os.makedirs(Cart_dir)
