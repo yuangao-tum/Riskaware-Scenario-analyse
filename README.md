@@ -7,7 +7,7 @@
 
 ## 2. Scenarios and Results
 - In `Scenarios`, you can find a collection of **100 XML scenario files** and the related simulation results called `Simulation_scenarios_with_FrenetixMotionPlanner`, which are generated using the [Frenetix Motion Planner](https://github.com/TUM-AVS/Frenetix-Motion-Planner/tree/main) within the CommonRoad framework.
-- In `Results`, you can find the comparison output of **response time across models and templates**, as well as the outputs for each scenario across models and templates. Notably, you can find a folder called `BEL Antwerp-1 14 T-1`, containing an XML file and simulation results for a **non-critical scenario**. Additionally, there is a **modified collision scenario** called `BEL Antwerp-1 14 T-1n`, which includes a modified XML file and corresponding simulation results.
+- In `Results`, you can find the comparison output of **response time across models and templates**, as well as the contexts of templates and outputs for each scenario across models and templates.  Notably, you can find a folder called `BEL Antwerp-1 14 T-1`, containing an XML file and simulation results for a **non-critical scenario**. Additionally, there is a **modified collision scenario** called `BEL Antwerp-1 14 T-1n`, which includes a modified XML file and corresponding simulation results.
 
 ## 3. Code
 - `Trajectory Collection` and `Safety Metrics Collection` are used to **collect and calculate** the related data for each template.
@@ -22,7 +22,7 @@
 - **Trajectory Collection:**
   - `main.py` (for a single scenario) or `main_multi.py` (for 100 scenarios) from `Trajectory_collection` to extract **dynamic obstacle trajectory data** from XML files and **ego trajectory data** from `Simulation_scenarios_with_FrenetixMotionPlanner`.
 - **Safety Metrics Collection:**
-  - `safety.py` (for a single scenario) or `safety_multi.py` (for 100 scenarios) from `Safety_metrics_collection` to compute relevant **safety metrics**. These metrics will be used in the **Frenet coordinate template** and the **safety-critical metrics template**.
+  - `safety.py` (for a single scenario) or `safety_multi.py` (for 100 scenarios) from `Safety_metrics_collection` to compute relevant data like relative information for frenet coordinate and  **safety metrics**. These data will be used in the **Frenet coordinate template** and the **safety-critical metrics template**.
 - **Output Data Structure:**
   - Each scenario output will contain the following files:
     
