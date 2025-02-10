@@ -227,7 +227,7 @@ def process_safety_analysis(
     use_last_timestep=False,
 ):
     input_csv_path = f"{base_dir}/{scenario_name}/relative_metrics.csv"
-    response_ttc_txt_path = f"{base_dir}/{scenario_name}/frenet/{engine}/safety_analysis_TTC.txt"
+    response_ttc_txt_path = f"{base_dir}/{scenario_name}/frenet/{engine}/safety_analysis.txt"
     context_txt_path = f"{base_dir}/{scenario_name}/frenet/{engine}/context.txt"
 
     os.makedirs(os.path.dirname(response_ttc_txt_path), exist_ok=True)
