@@ -1,0 +1,1441 @@
+Scenario: DEU_Bremen-7_23_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": "<0>"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": "<1>"
+    }
+}
+```
+
+Scenario: DEU_Weimar-68_1_T-3
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "6.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+This analysis prioritizes and assigns scores based on how immediate the threat of collision is relative to the provided parameters for each obstacle engaged with the ego vehicle. It considers both proximity and velocity dynamics while emphasizing the need for timely reactions in critical situations.
+
+Scenario: ESP_Vigo-99_28_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "3519.0",
+        "OverallRiskScore": "1"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+```
+
+Scenario: ESP_Vigo-70_2_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3393.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+The analysis reveals that while most obstacles pose low to negligible risk due to their distances and velocities, Obstacle 3393.0 presents an immediate threat of collision requiring urgent attention and action.
+
+Scenario: DEU_Muehlhausen-5_1_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "330.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+```
+
+Scenario: DEU_Schwetzingen-174_1_T-4
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20111.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20071.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+### Conclusion:
+The assessment shows multiple obstacles with varying levels of risk. Immediate action is recommended for obstacles with scores of 1 (extreme collision risk). Most other obstacles are categorized with lower risk scores, indicating manageable scenarios.
+
+Scenario: DEU_Schweitenkirchen-5_1_T-36
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "625.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "null",
+        "OverallRiskScore": "null"
+    }
+}
+``` 
+
+### Conclusion:
+There is a definite collision risk with obstacle ID 625.0 at this timestep with a score of 0. The other obstacles, while risky, do not reach an extreme risk level. Regular monitoring and adjustment are crucial for safe navigation through the area containing the identified obstacles.
+
+Scenario: DEU_Weimar-57_1_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+```
+
+Scenario: DEU_Bonn-38_4_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30228.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+In summary, there are no obstacles with a complete collision risk, but two (30228.0 and 30233.0) present extreme collision risk and should be addressed immediately.
+
+Scenario: DEU_Hanover-38_33_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30685.0",
+        "OverallRiskScore": "1"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+``` 
+
+### Conclusion:
+In this analysis, only Obstacle ID 30685.0 presents an extreme risk due to proximity and motion towards it, whereas no obstacles present an imminent collision at this timestamp. Overall, the situation seems generally safe with sufficient time to react to potential risks.
+
+Scenario: DEU_Bremen-1_10_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30308.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30295.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Nuremberg-27_1_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30625.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+### Conclusion:
+The analysis indicates that Obstacle 30625.0 poses a significant risk of collision with the ego vehicle due to its close longitudinal distance and high negative relative velocity. A few other obstacles also present concern, but their overall risk could still be managed with timely reactions.
+
+Scenario: ESP_Bilbao-6_9_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30693.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30693.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: CHN_Beijing-3_5_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "3107.0",
+        "OverallRiskScore": "1"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+```
+
+Scenario: USA_Austin-46_4_T-1
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3277.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+### Conclusion:
+In conclusion, Obstacle 3277.0 presents an immediate collision risk due to its proximity and movement toward the ego vehicle, requiring urgent action. Obstacle 3278.0 is much safer, indicating no significant risk of collision with ample distance and time. Overall, the scenario highlights urgent attention to the first obstacle.
+
+Scenario: USA_Washington-32_46_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30570.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30561.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ESP_Barcelona-44_19_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30743.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30750.0",
+        "OverallRiskScore": "1"
+    }
+}
+```  
+
+This analysis outlines critical risks as well as safer situations. Immediate actions should focus on obstacles with risk scores of 1.
+
+Scenario: ESP_Barcelona-10_44_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30735.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Backnang-2_1_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "33.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Schopfloch-6_1_T-2
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20057.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+``` 
+
+### Conclusion:
+- **Collision risk exists only for Obstacle ID 20057.0**, which poses an immediate threat; hence, the overall risk score is 0.
+- **No obstacles present extreme risk**, which would have been marked with a risk score of 1.
+
+Scenario: GRC_NeaSmyrni-117_1_T-6
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20039.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20037.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: BEL_Brussels-51_2_T-1
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30193.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: USA_Austin-64_7_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "3338.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3337.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Nuremberg-30_6_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+```
+
+Scenario: BEL_Antwerp-13_5_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30674.0",
+        "OverallRiskScore": "1"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+```
+
+Scenario: USA_Washington-12_38_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30629",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30610",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: GRC_NeaSmyrni-73_1_T-10
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "20100.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "null",
+    "OverallRiskScore": "null"
+  }
+}
+```
+
+Scenario: DEU_Flensburg-62_1_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "361.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "361.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ESP_Barcelona-21_6_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30681.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ESP_Barcelona-44_27_T-1
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30743",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Bonn-19_2_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30202.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+```
+
+Scenario: DEU_Kiel-52_2_T-1
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30667.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ESP_Bilbao-13_20_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30801",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Salzwedel-74_1_T-4
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20071.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+```
+
+Scenario: DEU_Bonn-35_11_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30200.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30200.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: USA_Austin-77_10_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "3349.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Guetersloh-32_1_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "33.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Salzwedel-80_1_T-2
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20029.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20016.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+The analysis shows that Obstacle 20029.0 has a collision risk, while Obstacles 20016.0, 20025.0, and 20031.0 are categorized under extreme risk due to their proximity and velocity, indicating that the ego vehicle should take immediate corrective action in their presence. All other obstacles are largely evaluated as low or negligible risk.
+
+Scenario: ESP_Vigo-99_34_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3523.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: FRA_Dijon-13_1_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30374.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+```
+
+Scenario: ESP_Barcelona-39_27_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30810.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30805.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Hanover-45_17_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30700.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30700.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+### Conclusion:
+The analysis reveals that the most immediate concern is Obstacle 30700.0, which poses a collision risk with an extreme risk score of 1. Additionally, Obstacle 30695.0 is also a notable risk with a high risk score of 2, whereas the remaining obstacles have low to negligible risks.
+
+Scenario: DEU_Wolfsburg-39_1_T-8
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20148.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20141.0",
+        "OverallRiskScore": "1"
+    }
+}
+```  
+
+### Summary of Findings:
+- There are clear immediate collision threats with obstacles ID 20148.0 (Collision) and 20141.0 (Extreme Risk).
+- Additional high risk threats are present from obstacles ID 20073.0, 20088.0, 20121.0, and 20128.0, requiring prompt attention and possible evasive actions.
+- Overall, the scene indicates a critical need for immediate intervention with respect to the identified obstacles.
+
+Scenario: DEU_Nuremberg-24_13_T-1
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30716.0",
+        "OverallRiskScore": "1"
+    }
+}
+
+Scenario: GRC_ArchaioLimani-46_1_T-2
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "21.0",
+        "OverallRiskScore": "1"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+```
+
+Scenario: CHN_Qingdao-18_2_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30655.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30655.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+### Additional Notes:
+- Obstacle 30655.0 indicates an immediate threat and requires urgent action to prevent collision.
+- Obstacle 30656.0 poses a moderate risk but is manageable with timely reactions.
+- Obstacles 30658.0 and 30659.0 are at negligible risk levels as they are positioned behind and moving away from the ego vehicle.
+
+Scenario: ARG_Carcarana-1_8_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "338.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: BEL_Antwerp-10_7_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30736.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+```
+
+Scenario: ESP_Vigo-63_4_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3044.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: FRA_Dijon-28_4_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30532.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30530.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Leipzig-13_19_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "3254",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3246",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ESP_Barcelona-3_6_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30764.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30763.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: USA_Phoenix-17_14_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": null,
+    "OverallRiskScore": null
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "3655.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: ESP_Vigo-99_21_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3515.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ESP_Barcelona-38_52_T-1
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30723.0",
+        "OverallRiskScore": "1"
+    }
+} 
+
+This thorough evaluation establishes distinct risks for various obstacles and ensures the possible collision situations are highlighted. All necessary risk-adjustment measures need to be considered to mitigate these findings effectively.
+
+Scenario: DEU_Memmingen-1_1_T-5
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20052.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+``` 
+
+In summary, the only immediate collision risk was from the obstacle 20052.0, which indicates an actual collision condition. No extreme risks were identified beyond that, indicating a manageable state for remaining obstacles with the exception of a few high-risk situations warranting continuous attention.
+
+Scenario: DEU_Lengede-44_1_T-6
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "45",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "61",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+### Summary:
+- Obstacle 45 poses an immediate collision risk with an overall score of 0 due to its extremely close proximity and high speed convergence.
+- Obstacle 61 has a high collision risk, rated as extreme, with an overall score of 1. 
+- Additional obstacles range from low to medium risk scores, indicating they are manageable with sufficient reaction time. Tasks should prioritize addressing those with extreme and collision risks immediately.
+
+Scenario: DEU_Schweitenkirchen-4_1_T-12
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "2.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+The analysis will continue to include results for all identified obstacles through evaluations until all entries are complete, but this snippet provides an overarching view of high-risk assessment efforts. Each obstacle would continue to be evaluated using the criteria above similarly until all mentioned in the timestep context are exhausted.
+
+Scenario: DEU_Leipzig-37_8_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "3074.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3071.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: USA_Austin-8_1_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3301.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+In summary, Obstacle 3301 poses the most immediate risk, necessitating urgent attention, while others also present varying levels of risk based on their relative positions and speeds.
+
+Scenario: DEU_Memmingen-138_1_T-4
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20036.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20039.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Leipzig-13_7_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "3254.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+```
+
+Scenario: ITA_Siderno-5_3_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "344.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "37.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: GRC_NeaSmyrni-98_1_T-1
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20051.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20048.0",
+        "OverallRiskScore": "1"
+    }
+}
+
+Scenario: USA_Washington-34_15_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30579.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30579.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+In summary, the most critical obstacle presents an immediate risk of collision and requires urgent action, while the other obstacles pose varying levels of risk but none are a direct collision risk at this timestamp apart from Obstacle 30579.0.
+
+Scenario: GRC_NeaSmyrni-154_1_T-2
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20066.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+```
+
+Scenario: DEU_Schwetzingen-112_1_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20046.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20045.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Bonn-38_18_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30234.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30227.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+**Note:** The CollisionObstacle should point to the obstacle that is exactly overlapping with the ego vehicle, which is Obstacle 30234.0 with a risk score of 0. The other obstacles categorized as having extreme risk (1) are included as we evaluated.
+
+Scenario: ESP_Barcelona-6_18_T-1
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Nuremberg-6_21_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "30803.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30801.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: ESP_Barcelona-12_43_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "30716.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": null
+}
+``` 
+
+This analysis comprehensively evaluates the potential collision risks for the identified obstacles using the defined safety metrics, providing scores that range from negligible to collision risks based on real-time dynamics and relative motions.
+
+Scenario: DEU_Aschaffenburg-64_5_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30195.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30187.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: USA_Washington-12_15_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30606",
+        "OverallRiskScore": "1"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30614",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ESP_Barcelona-3_13_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30764.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30755.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Aschaffenburg-15_26_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30441.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30426.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+This summary captures the most critical risks and hence highlights potential immediate hazards, establishing the urgency for avoidance measures.
+
+Scenario: DEU_Schwetzingen-180_1_T-2
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20020.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20020.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+*The analysis provided indicates a primary concern with Obstacle ID 20020.0 being an immediate threat based on its distance and relative speed.*
+
+Scenario: ESP_Bilbao-23_16_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "null",
+        "OverallRiskScore": "null"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30921.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ESP_Vigo-70_3_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "3391.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3395.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ESP_Ceuta-5_2_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "325.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "31.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+In conclusion, Obstacle 325.0 poses an immediate collision risk, represented with a score of 0, whereas Obstacle 31.0 also presents an extreme risk with a score of 1. Remaining obstacles show manageable or low risk levels.
+
+Scenario: ITA_Empoli-2_5_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "39.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+### Conclusion:
+- There is one obstacle (39.0) demonstrating extreme risk with an immediate likelihood of collision. Other obstacles are at varying risk levels, but none present a collision risk (0).
+
+Scenario: DEU_Schwetzingen-74_1_T-4
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20064.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20043.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Aschaffenburg-21_21_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30285",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30281",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ESP_Barcelona-39_11_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30809.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30810.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+### Conclusion:
+The analysis indicates two immediate collision threats (Obstacle ID 30809.0 and 30810.0), prompting precautionary measures to ensure safety. Further close assessments are encouraged for less imminent risks like Obstacle ID 30806.0.
+
+Scenario: DEU_Leipzig-63_24_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "3261.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Schwetzingen-10_1_T-5
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20071.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+### Overall Findings:
+- Multiple obstacles show immediate and extreme risk levels, particularly those within very close distances.
+- Continuous vigilance and prompt maneuvers from the ego vehicle are required to avoid imminent collisions.
+
+Scenario: USA_Phoenix-17_19_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "3667.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3657.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Nuremberg-29_9_T-1
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30786.0",
+        "OverallRiskScore": "1"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+
+Scenario: FRA_Dijon-24_4_T-1
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30504.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+Despite the high concern with Obstacle 30504.0, there has been no immediate collision based on provided metrics; therefore, there are no obstacles in the collision or extreme risk categories for 30509.0. The situation is manageable, but attention should remain high on 30504.0 due to the extreme risk of collision.
+
+Scenario: BEL_Zwevegem-1_6_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "333.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "333.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Nuremberg-6_34_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30796.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30787.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+### Conclusion:
+From the assessment, there are significant concerns regarding obstacles that pose imminent collision risks (30787.0) and critical extreme risk (30796.0). Most of other obstacles are manageable if proper reactions and adjustments are made by the ego vehicle based on relative velocities and distances.
+
+Scenario: DEU_Hennigsdorf-5_3_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "342.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+In this scenario, we have identified Collision and Extreme Risk obstacles, both of which require immediate attention to avoid potential collisions. The analysis highlights that there are no additional extreme risk (1) obstacles aside from the immediate collision (0) scenario presented.
+
+Scenario: ESP_Barcelona-49_21_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30784.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30786.0",
+        "OverallRiskScore": "0"
+    }
+}
+```
+  
+In summary, obstacles 30784.0, 30786.0, and 30787.0 have an Overall Risk Score of 0, indicating an immediate collision risk, while obstacle 30789.0 has a Medium Risk score, and obstacle 30785.0 has a Low Risk score.
+
+Scenario: GRC_NeaSmyrni-31_1_T-12
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20084.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+```
+
+Overall, most obstacles present a low to medium risk, but the collision with obstacle 20084.0 is a critical situation requiring immediate attention.
+
+Scenario: DEU_Bremen-7_12_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30299.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30295.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: GRC_NeaSmyrni-87_1_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20039.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    }
+}
+```
+
+Scenario: DEU_Muehlhausen-10_5_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "315.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "315.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: DEU_Bremen-33_33_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30267.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30274.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ITA_Empoli-7_2_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "317.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: BEL_Brussels-82_4_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30233.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Hanover-44_28_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": null,
+        "OverallRiskScore": null
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30730.0",
+        "OverallRiskScore": "1"
+    }
+}
+``` 
+
+### Conclusion:
+In this scenario, Obstacle IDs 30730.0 and 30733.0 present immediate risks of collision (Extreme Risk), while the remaining obstacles pose relatively low risks of collision, with sufficient distance and time to react safely.
+

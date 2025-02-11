@@ -1,0 +1,1242 @@
+Scenario: DEU_Bremen-7_23_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30306.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30298.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Weimar-68_1_T-3
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "6.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ESP_Vigo-99_28_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "3517.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: ESP_Vigo-70_2_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "3393.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: DEU_Muehlhausen-5_1_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "330.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Schwetzingen-174_1_T-4
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "20073.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "20071.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: DEU_Schweitenkirchen-5_1_T-36
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "625.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+       "ObstacleID": ["594.0", "634.0"],
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Weimar-57_1_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "17.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: DEU_Bonn-38_4_T-1
+```json
+{
+  "CollisionObstacle": [
+{
+      "ObstacleID": "30228.0",
+      "OverallRiskScore": "0"
+},
+{
+      "ObstacleID": "30233.0",
+      "OverallRiskScore": "0"
+}
+    ],
+  "ExtremeRiskObstacle": {
+      "ObstacleID": "30231.0",
+      "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: DEU_Hanover-38_33_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": [
+{
+      "ObstacleID": "30685",
+      "OverallRiskScore": "1"
+    },
+    {
+      "ObstacleID": "30688",
+      "OverallRiskScore": "1"
+    },
+{
+      "ObstacleID": "30696",
+      "OverallRiskScore": "1"
+    },
+{
+      "ObstacleID": "30704",
+      "OverallRiskScore": "1"
+    }
+
+  ]
+}
+```
+
+Scenario: DEU_Bremen-1_10_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30308.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Nuremberg-27_1_T-1
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30626.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ESP_Bilbao-6_9_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30693.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: CHN_Beijing-3_5_T-1
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3107.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: USA_Austin-46_4_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "3277.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": null,
+    "OverallRiskScore": null
+  }
+}
+```
+
+Scenario: USA_Washington-32_46_T-1
+{
+  "CollisionObstacle": {
+    "ObstacleID": "30570.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30561.0",
+    "OverallRiskScore": "1"
+  }
+}
+
+Scenario: ESP_Barcelona-44_19_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30743.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Barcelona-10_44_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30735.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: DEU_Backnang-2_1_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "33.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Schopfloch-6_1_T-2
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20057.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: GRC_NeaSmyrni-117_1_T-6
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "20039.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: BEL_Brussels-51_2_T-1
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30196.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: USA_Austin-64_7_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "3337.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: DEU_Nuremberg-30_6_T-1
+No valid JSON summary found.
+
+Scenario: BEL_Antwerp-13_5_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "30674.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30678.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: USA_Washington-12_38_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30629.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30610.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: GRC_NeaSmyrni-73_1_T-10
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "20100.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "20090.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: DEU_Flensburg-62_1_T-1
+```json
+{
+    "CollisionObstacle": [
+        {"ObstacleID": "361.0", "OverallRiskScore": "0"},
+        {"ObstacleID": "367.0", "OverallRiskScore": "0"}
+       
+    ],
+    "ExtremeRiskObstacle": [
+        {"ObstacleID": "360.0", "OverallRiskScore": "1"}
+    ]
+}
+```
+
+Scenario: ESP_Barcelona-21_6_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30681.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: ESP_Barcelona-44_27_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": ["30743.0", "30746.0", "30748.0"],
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: DEU_Bonn-19_2_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "30202.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Kiel-52_2_T-1
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": ["30666.0", "30667.0"],
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ESP_Bilbao-13_20_T-1
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30801.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Salzwedel-74_1_T-4
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20071.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Bonn-35_11_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30200.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: USA_Austin-77_10_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "3349.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3327.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Guetersloh-32_1_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": ["33.0", "338.0"],
+    "OverallRiskScore": 1
+  }
+}
+```
+
+Scenario: DEU_Salzwedel-80_1_T-2
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20029.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Vigo-99_34_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "3523.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: FRA_Dijon-13_1_T-1
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30374.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ESP_Barcelona-39_27_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "30810.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30805.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: DEU_Hanover-45_17_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30700.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: DEU_Wolfsburg-39_1_T-8
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20148.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20141.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Nuremberg-24_13_T-1
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30716.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: GRC_ArchaioLimani-46_1_T-2
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": [
+    {"ObstacleID": "10.0", "OverallRiskScore": "1"},
+    {"ObstacleID": "12.0", "OverallRiskScore": "1"},
+    {"ObstacleID": "17.0", "OverallRiskScore": "1"},
+    {"ObstacleID": "21.0", "OverallRiskScore": "1"}
+  ]
+}
+```
+
+Scenario: CHN_Qingdao-18_2_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "30655.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30656.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: ARG_Carcarana-1_8_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "341.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "338.0",
+    "OverallRiskScore": "1"
+
+  }
+}
+```
+
+Scenario: BEL_Antwerp-10_7_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "30736.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Vigo-63_4_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "3044.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: FRA_Dijon-28_4_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "30532.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30530.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: DEU_Leipzig-13_19_T-1
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3254.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ESP_Barcelona-3_6_T-1
+No valid JSON summary found.
+
+Scenario: USA_Phoenix-17_14_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "3658",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "3655",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: ESP_Vigo-99_21_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": ["3511.0", "3515.0"],
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: ESP_Barcelona-38_52_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "30739.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30734.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: DEU_Memmingen-1_1_T-5
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "20052",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": ["20026", "20028", "20031", "20034", "20036", "20039"],  // include all other obstacles with an OverallRiskScore of 1
+    "OverallRiskScore": "1"
+  }
+}
+``` (Note: The ExtremeRiskObstacle section will list all obstacles that scored 1. Replace "20026, ..." with the actual list of obstacle IDs that fall into the extreme risk category based on your calculations for TTC and MDC).
+
+Scenario: DEU_Lengede-44_1_T-6
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "109.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "98.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Schweitenkirchen-4_1_T-12
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "426.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": [
+    {
+      "ObstacleID": "2.0",
+      "OverallRiskScore": "1"
+    },
+    {
+      "ObstacleID": "214.0",
+      "OverallRiskScore": "1"
+    },
+    {
+      "ObstacleID": "221.0",
+      "OverallRiskScore": "1"
+    }
+    // ... (add other obstacles with overall risk score 1 after completing the analysis)
+  ]
+}
+```
+
+
+**Important Considerations:**
+
+This analysis relies heavily on approximations. Accurate risk assessment requires precise ego vehicle motion data.  The analysis also lacks information about obstacle sizes and shapes, road geometry (lane width, curvature), and ego vehicle intended path.  All of these factors play a crucial role in real-world collision avoidance systems.
+
+Scenario: DEU_Leipzig-37_8_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "3074",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "3075",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: USA_Austin-8_1_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "3301.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Memmingen-138_1_T-4
+No valid JSON summary found.
+
+Scenario: DEU_Leipzig-13_7_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "3254.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ITA_Siderno-5_3_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "344",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: GRC_NeaSmyrni-98_1_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "20051.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: USA_Washington-34_15_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30579.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: GRC_NeaSmyrni-154_1_T-2
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20066.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Schwetzingen-112_1_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "20046.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "20045.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: DEU_Bonn-38_18_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "30234.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30232.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: ESP_Barcelona-6_18_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": [
+    {
+      "ObstacleID": "30739.0",
+      "OverallRiskScore": "1"
+    },
+    {
+      "ObstacleID": "30740.0",
+      "OverallRiskScore": "1"
+    }
+  ]
+}
+```
+
+Scenario: DEU_Nuremberg-6_21_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30803.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30797.0",
+         "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ESP_Barcelona-12_43_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30716.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30720.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Aschaffenburg-64_5_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "30195.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30187.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: USA_Washington-12_15_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "30614.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30606.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: ESP_Barcelona-3_13_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30764.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30762.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Aschaffenburg-15_26_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30426.0", 
+    "OverallRiskScore": "1"
+  }
+}
+```
+**Explanation:** Obstacle 30426.0 is the most critical as it's very close longitudinally (1.08m) and approaching, presenting the most immediate collision risk. While other obstacles are approaching, they are further away and their relative acceleration suggests potential deceleration.  No obstacle showed signs of immediate collision (Overall Risk Score 0).  Obstacle 30426 shows the highest risk with an Overall Risk Score of 1. Other close obstacles like 30440.0 and 30441.0 should be monitored closely as they also present high risk.
+
+Scenario: DEU_Schwetzingen-180_1_T-2
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": ["20020.0", "20094.0"],
+    "OverallRiskScore": 1
+  }
+}
+```
+
+Scenario: ESP_Bilbao-23_16_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30921.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: ESP_Vigo-70_3_T-1
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3395.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ESP_Ceuta-5_2_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "325.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "31.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+Scenario: ITA_Empoli-2_5_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": ["39.0", "358.0"],
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: DEU_Schwetzingen-74_1_T-4
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20064.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": [
+      {
+        "ObstacleID": "20053.0",
+        "OverallRiskScore": "1"
+       },
+{
+        "ObstacleID": "20056.0",
+        "OverallRiskScore": "1"
+       },
+{
+        "ObstacleID": "20058.0",
+        "OverallRiskScore": "1"
+       },
+{
+        "ObstacleID": "20060.0",
+        "OverallRiskScore": "1"
+       }
+
+    ]
+}
+
+Scenario: DEU_Aschaffenburg-21_21_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": ["30281.0", "30285.0"],
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: ESP_Barcelona-39_11_T-1
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": ["30809.0", "30810.0", "30813.0"],
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Leipzig-63_24_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "3261.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Schwetzingen-10_1_T-5
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "20130.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "20071.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: USA_Phoenix-17_19_T-1
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3667.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Nuremberg-29_9_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "30786.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30788.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: FRA_Dijon-24_4_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30504.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: BEL_Zwevegem-1_6_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "333.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: DEU_Nuremberg-6_34_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": [
+    {"ObstacleID": "30787", "OverallRiskScore": "1"},
+    {"ObstacleID": "30796", "OverallRiskScore": "1"}
+  ]
+}
+```
+
+Scenario: DEU_Hennigsdorf-5_3_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "342.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "31.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: ESP_Barcelona-49_21_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "30784.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30786.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: GRC_NeaSmyrni-31_1_T-12
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "20084.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Bremen-7_12_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30299",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30298",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: GRC_NeaSmyrni-87_1_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "20039.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Muehlhausen-10_5_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "315.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Bremen-33_33_T-1
+```json
+{
+    "CollisionObstacle": {
+        "ObstacleID": "30267.0",
+        "OverallRiskScore": "0"
+    },
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ITA_Empoli-7_2_T-1
+```json
+{
+    "CollisionObstacle": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: BEL_Brussels-82_4_T-1
+```json
+{
+  "CollisionObstacle": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30233.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: DEU_Hanover-44_28_T-1
+```json
+{
+  "CollisionObstacle": {
+    "ObstacleID": "30730.0",
+    "OverallRiskScore": "0"
+  },
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30733.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+

@@ -1,0 +1,1078 @@
+Scenario: DEU_Bremen-7_23_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+### Conclusion:
+The simulated scenario indicates negligible risk of collision due to maintained separation and lack of critical intersections in the trajectories of the ego vehicle and obstacles. All entities were found to have safe separations and maneuvering capabilities aligning with precautionary measures observed at time 4.9 seconds.
+
+Scenario: DEU_Weimar-68_1_T-3
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Given the information and estimated path relations, we find no collision or extreme risk presenting immediate threat to the ego vehicle. All obstacles are evaluated as having negligible risk concerning both distance and time interaction.
+
+Scenario: ESP_Vigo-99_28_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Vigo-70_2_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3393.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+Scenario: DEU_Muehlhausen-5_1_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "330.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+Scenario: DEU_Schwetzingen-174_1_T-4
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+No collisions or extreme risks were detected within the given scenario.
+
+Scenario: DEU_Schweitenkirchen-5_1_T-36
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "625.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+### Additional Notes:
+- The obstacles assessed did not present an immediate collision risk within the analysis' permitted precision.
+- Extreme risk is based on noteworthy proximity and possibility of influence in path change. 
+- Regular updates and vigilance are necessary for those nearby with potential path convergence.
+
+Scenario: DEU_Weimar-57_1_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Bonn-38_4_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Evaluation reveals no obstacles present at extreme risk levels or collisions within this timestep scenario, suggesting a relatively safe environment for the ego vehicle with ample room for adjustments.
+
+Scenario: DEU_Hanover-38_33_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+**Summary**: In-depth safety analysis revealed no extreme collision risk or immediate collision risks with all assessed obstacles. The evaluation rated all obstacles at low to negligible risks, given the current spatial and kinematic arrangements per provided data.
+
+Scenario: DEU_Bremen-1_10_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30295",
+        "OverallRiskScore": 2
+    }
+}
+```
+
+Scenario: DEU_Nuremberg-27_1_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+All obstacles analyzed in this scenario are above extreme risk levels, indicating that while certain risks exist, none are immediate colliding threats under current conditions.
+
+Scenario: ESP_Bilbao-6_9_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Given the current status, none of the obstacles pose a high enough risk to be included in the "CollisionObstacles" or the "ExtremeRiskObstacle" categories. All obstacles are at a notable distance and mostly not in the path of the ego vehicle.
+
+Scenario: CHN_Beijing-3_5_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+In summary, the provided scenario presents a predominantly low-risk environment. No obstacles are determined to have a collision risk (Overall Risk Score 0) or are assessed as extreme risk obstacles (Overall Risk Score 1 or 2).
+
+Scenario: USA_Austin-46_4_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+In this analysis, obstacle 3277 presents a medium risk primarily due to proximity within the same lanelet. The low speed of the ego vehicle helps maintain the situation as controllable. Obstacle 3278 poses negligible risk due to significant distance and lane separation.
+
+Scenario: USA_Washington-32_46_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Barcelona-44_19_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30743.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+**Summary**: The primary concern is with Obstacle 30743.0 due to its proximity and shared lanelet with the ego vehicle, thus requiring corrective driving actions. The majority of other obstacles pose negligible or low risk due to their positions in different or non-intersecting lanelets.
+
+Scenario: ESP_Barcelona-10_44_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": 30727,
+        "OverallRiskScore": 2
+    }
+}
+```
+
+This analysis integrates the TTC and MDC conditions, identifying Obstacle 30727 as the key potential collision risk requiring immediate attention. Other obstacles do not pose immediate or extreme risks based on the provided scenario and data.
+
+Scenario: DEU_Backnang-2_1_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "33",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Schopfloch-6_1_T-2
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: GRC_NeaSmyrni-117_1_T-6
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20039",
+        "OverallRiskScore": "1"
+    }
+}
+```
+This summary identifies Obstacle 20039 as an Extreme Risk due to its high velocity and proximity to the ego vehicle, necessitating immediate attention to avert potential collision scenarios.
+
+Scenario: BEL_Brussels-51_2_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+All the analyzed obstacles within this context show notable safety margins, either by lateral displacement from the ego vehicle pathways or by the velocities that do not predict temporal intersections warranting immediate mitigation actions.
+
+Scenario: USA_Austin-64_7_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3334.0",
+        "OverallRiskScore": "2.5"
+    }
+}
+```
+
+Scenario: DEU_Nuremberg-30_6_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+In this scenario, the analysis indicates no immediate collisions (Risk Score 0) and no obstacles are categorized under extreme risk (Risk Scores 1 or 2). The obstacles analyzed are either in different lanelets or share the same lanelet but with low-to-negligible collision risks due to sufficient distancing and appropriate velocities.
+
+Scenario: BEL_Antwerp-13_5_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30674.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+Scenario: USA_Washington-12_38_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+All obstacles listed are either at negligible risk or manageable under medium risk with considered scores above the collision and extreme risk thresholds.
+
+Scenario: GRC_NeaSmyrni-73_1_T-10
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+**Summary:** In this scenario, none of the identified obstacles pose a collision or extreme risk (score of 0, 1, or 2). All analyzed obstacles show a negligible risk due to their distance, orientation, or stationary status, while obstacles 20100.0 and 20104.0 require attention due to shared lanelet but currently pose low immediate risk.
+
+Scenario: DEU_Flensburg-62_1_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+In this detailed evaluation, no obstacles were found to pose a direct Collision (OverallRiskScore of 0) or Extreme Risk (OverallRiskScore of 1 or 2), as assessed at the provided time frame.
+
+Scenario: ESP_Barcelona-21_6_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30681.0",
+        "OverallRiskScore": 2
+    }
+}
+```
+
+Scenario: ESP_Barcelona-44_27_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Bonn-19_2_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+### Findings:
+- **Obstacle 30202** presents some moderate collision risk due to sharing the lanelet with the ego vehicle and having a higher speed, but the situation is manageable with appropriate tactics. The remaining obstacles do not pose significant risks, either due to their positions in different lanelets or their trajectories diverging from the ego vehicle's path.
+
+Scenario: DEU_Kiel-52_2_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+All obstacles are assessed as low to negligible risk, with no immediate or concerning threats identified that would cause collision or extreme risk of collision in this scenario.
+
+Scenario: ESP_Bilbao-13_20_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30806.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+Scenario: DEU_Salzwedel-74_1_T-4
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20041.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+This detailed evaluation concludes that while most obstacles present little to no risk due to their position, speed, and trajectory, some obstacles, like 20041.0 and 20042.0, which are stationary in the same lanelet, pose high risks demanding attention and possible avoidance strategies.
+
+Scenario: DEU_Bonn-35_11_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30196",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+Scenario: USA_Austin-77_10_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3349",
+        "OverallRiskScore": 2
+    }
+}
+```
+
+Scenario: DEU_Guetersloh-32_1_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Salzwedel-80_1_T-2
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+The analysis reveals that no obstacles are at direct collision risk with the ego vehicle, and there are no entities at extreme risk. The scenario is manageable under current conditions with continued monitoring.
+
+Scenario: ESP_Vigo-99_34_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+There are no obstacles with an Overall Risk Score of 0 or an Extreme Risk Score of 1 or 2. The scenario largely involves manageable to negligible risk levels.
+
+Scenario: FRA_Dijon-13_1_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30374.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ESP_Barcelona-39_27_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Hanover-45_17_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+### Conclusion:
+All obstacles analyzed in this scenario exhibit low to negligible risks of collision with the ego vehicle. The primary safety concern comes from the obstacle in the same lanelet (30700.0), but it remains well within controllable margins given current conditions. Immediate or urgent intervention is not required under the present circumstances.
+
+Scenario: DEU_Wolfsburg-39_1_T-8
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+No immediate collision risks or extreme risk situations were identified upon assessing the available data. Obstacles in the same lanelet generally preserve a moderate risk state with considerable distance to mitigate the collision.
+
+Scenario: DEU_Nuremberg-24_13_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: GRC_ArchaioLimani-46_1_T-2
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+In this scenario, no obstacles present a severe risk, and any minor risks are manageable with appropriate driving strategies.
+
+Scenario: CHN_Qingdao-18_2_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30655.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+Scenario: ARG_Carcarana-1_8_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "341.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+Scenario: BEL_Antwerp-10_7_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Vigo-63_4_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3044.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+**Findings**: In this scenario, obstacle 3044.0 presents the highest proximity risk in both distance and time metrics due to its close proximity and alignment in the ego vehicle's lane, warranting careful monitoring and potential action to mitigate any undue risk. No immediate collisions are detected, but the situation demands timely attention to ensure safety.
+
+Scenario: FRA_Dijon-28_4_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30529.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+Scenario: DEU_Leipzig-13_19_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Barcelona-3_6_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30764.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+Scenario: USA_Phoenix-17_14_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+All obstacles evaluated do not present collision or extreme risks as indicated by the scores and relative positions.
+
+Scenario: ESP_Vigo-99_21_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3511.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: ESP_Barcelona-38_52_T-1
+Given all examined obstacles, none pose significant or extreme collision risks to the ego vehicle.
+
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+``` 
+
+In summary, all obstacles are determined to have negligible risk (Score 5), meaning there are no immediate hazards or intersections with the ego vehicle's path within the current scenario timeframe.
+
+Scenario: DEU_Memmingen-1_1_T-5
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+No obstacles presented a potentially critical collision risk requiring higher than moderate attention but ongoing vigilance is encouraged for those in the same lanelets.
+
+Scenario: DEU_Lengede-44_1_T-6
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+The summary in JSON confirms no immediate or extreme risk (scores of 0, 1, or 2) for the evaluated obstacles. The majority fall into the low risk category due to sufficient separation, low relative velocities, and trajectory requirements.
+
+Scenario: DEU_Schweitenkirchen-4_1_T-12
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": [
+        {
+            "ObstacleID": "9",
+            "OverallRiskScore": "2"
+        },
+        {
+            "ObstacleID": "92",
+            "OverallRiskScore": "2"
+        },
+        {
+            "ObstacleID": "426",
+            "OverallRiskScore": "2"
+        },
+        {
+            "ObstacleID": "73",
+            "OverallRiskScore": "2"
+        }
+    ]
+}
+```
+
+**Note:** The obstacles evaluated here are based on lanelet proximity to the ego vehicle. The actual obstacle list should have a clear definition of positions and further analysis could provide other potential high-risk activities not captured in this brief analysis.
+
+Scenario: DEU_Leipzig-37_8_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3074",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+### Conclusion:
+Obstacle 3074, despite sharing the same lanelet as the ego vehicle, exhibits the highest risk level due to its trajectory and relative proximity. Immediate monitoring and evasive strategies may be key in mitigating potential collision risks with this obstacle. No other obstacles currently present extreme or collision risks.
+
+Scenario: USA_Austin-8_1_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3298.0",
+        "OverallRiskScore": 2
+    }
+}
+```
+
+Scenario: DEU_Memmingen-138_1_T-4
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20033",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+**Conclusion**: All other obstacles present very low or negligible risks of collision, with only obstacle 20033 having a moderate probability due to lane sharing and relative positioning.
+
+Scenario: DEU_Leipzig-13_7_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3254",
+        "OverallRiskScore": 2
+    }
+}
+```
+
+Scenario: ITA_Siderno-5_3_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "344.0",
+    "OverallRiskScore": 2
+  }
+}
+```
+
+Scenario: GRC_NeaSmyrni-98_1_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: USA_Washington-34_15_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30579.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+Scenario: GRC_NeaSmyrni-154_1_T-2
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+In this scenario, despite the presence of several obstacles, there is no immediate collision or extreme risk detected within the given conditions. The scenario is generally well within manageable bounds.
+
+Scenario: DEU_Schwetzingen-112_1_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+All evaluated obstacles are either in different lanelets or sufficiently distanced and oriented in a manner that avoids immediate collision concerns. All risk scores indicate either low or negligible risk levels.
+
+Scenario: DEU_Bonn-38_18_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Barcelona-6_18_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30739.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+For collisions, the predominant factor remains shared lanelets combined with inadequate lateral disengagement. However, given the context merely one "extreme" risk presents itself as per calculations using provided state variables.
+
+Scenario: DEU_Nuremberg-6_21_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30803.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+This summary reflects the closest potential collision risk given the identified dynamic situation, focusing on scenarios that pose significant threats based on proximity and trajectory alignment with the ego vehicle.
+
+Scenario: ESP_Barcelona-12_43_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+All present obstacles have an Overall Risk Score higher than 2, indicating no immediate or extreme collision risk.
+
+Scenario: DEU_Aschaffenburg-64_5_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30195.0",
+    "OverallRiskScore": "2"
+  }
+}
+```
+
+Scenario: USA_Washington-12_15_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30610",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+#### Notes:
+- At the provided timestep, no obstacles scored a 0, indicating no present collisions.
+- The primary concern lies with stationary obstacles within the same lanelet, where the low speed of the ego vehicle mandates planned maneuvers.
+- Ongoing monitoring and maneuver planning are advised, primarily with object 30610 due to its stasis near the ego path.
+
+Scenario: ESP_Barcelona-3_13_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Aschaffenburg-15_26_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30441.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+Scenario: DEU_Schwetzingen-180_1_T-2
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+In conclusion, none of the assessed obstacles present a collision or extreme risk score necessitating immediate intervention, primarily owing to their distances and speed vectors relative to the ego vehicle’s path. Constant monitoring is advisable to ensure safety continuity, particularly around obstacles with dynamic velocities.
+
+Scenario: ESP_Bilbao-23_16_T-1
+Summarizing the analysis for high-risk and collision immediate obstacles:
+
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+No obstacles present a collision or extreme risk at this timestep according to the assessed metrics.
+
+Scenario: ESP_Vigo-70_3_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Overall, there is no immediate risk of collision or extreme risk present among evaluated obstacles given their positions and movements relative to the ego vehicle's trajectory and movement.
+
+Scenario: ESP_Ceuta-5_2_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+In this analysis, no obstacles present either a collision risk or an extreme risk scenario requiring intervention beyond vigilance, based on their relative positions, velocities, and trajectories.
+
+Scenario: ITA_Empoli-2_5_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "363.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+Scenario: DEU_Schwetzingen-74_1_T-4
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+``` 
+
+**Conclusion**: There are no obstacles presenting an immediate or unavoidable collision threat. The evaluation suggests some obstacles require monitoring but present generally low or negligible risk. All potential paths are either stationary or consistent within their current lanelets, making proactive adjustments feasible for the ego vehicle.
+
+Scenario: DEU_Aschaffenburg-21_21_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+The analysis shows all obstacles are either in different trajectories or moving away, presenting negligible risks without immediate collision concerns.
+
+Scenario: ESP_Barcelona-39_11_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30805.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+In conclusion, obstacle 30805.0 presents a significant but not immediate collision risk primarily due to its stationary nature in the same lanelet and close proximity to the ego vehicle. Other obstacles present low or negligible risk due to their distances and lanelet positions.
+
+Scenario: DEU_Leipzig-63_24_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Schwetzingen-10_1_T-5
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+There are no obstacles identified with a collision or extreme risk scores based on the safety analysis for the provided scenario at timestep 6.5 seconds. All reported obstacles are either stationary or moving in directions and lanes that do not intersect with the ego vehicle's path, providing a negligible risk of collision.
+
+Scenario: USA_Phoenix-17_19_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+In this scenario, none of the obstacles pose an immediate extreme risk or collision threat to the ego vehicle, given the spatial and velocity dynamics described.
+
+Scenario: DEU_Nuremberg-29_9_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+**Conclusion**: After reviewing the provided data and computations, no obstacles present a collision or extreme risk to the ego vehicle at the current timestep. Each obstacle remains distant or moving in a way that avoids collision paths with adequate safety triggered by either divergent paths, stationary status, or sufficient spacing.
+
+Scenario: FRA_Dijon-24_4_T-1
+No obstacles with a risk score of 0 or between 1 and 2 were identified. Both obstacles analyzed were determined to have negligible collision risk.
+
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: BEL_Zwevegem-1_6_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "333.0",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+Scenario: DEU_Nuremberg-6_34_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Note: Based on the information, there were no obstacles with extreme risk scoring (1 or 2) overall in this analysis except the Obstacle ID 30796.0 scored medium (3) requiring attention.
+
+Scenario: DEU_Hennigsdorf-5_3_T-1
+```json
+{
+    "CollisionObstacles": [
+        {
+            "ObstacleID": "None",
+            "OverallRiskScore": 0
+        }
+    ],
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "338.0",
+        "OverallRiskScore": 2
+    }
+}
+```
+
+The scenario indicates moderate and manageable collision risks with Obstacle ID 338.0 requiring prompt attention and strategic adjustments due to higher relative velocity and trajectory overlap potential.
+
+Scenario: ESP_Barcelona-49_21_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30784",
+        "OverallRiskScore": 1
+    }
+}
+```
+
+Scenario: GRC_NeaSmyrni-31_1_T-12
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+None of the obstacles share a lanelet or trajectory that leads them to an imminent collision course with the ego vehicle based on the available data in this scenario. The overall risk score for each obstacle is 5, indicating negligible risk.
+
+Scenario: DEU_Bremen-7_12_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: GRC_NeaSmyrni-87_1_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20039.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Muehlhausen-10_5_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "315.0",
+        "OverallRiskScore": 2
+    }
+}
+```
+
+Scenario: DEU_Bremen-33_33_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+All obstacles have been evaluated with their respective distance and time safety, resulting in negligible risk levels or low risk for the nearby obstacle (30274.0) due to its proximity and trajectory. No collision or extreme risk observed.
+
+Scenario: ITA_Empoli-7_2_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "355",
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+Scenario: BEL_Brussels-82_4_T-1
+No obstacles with Overall Risk Scores of 0 or between 1 and 2 meet the criteria for inclusion in the JSON summary.
+
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+In summary, while the scenario currently presents medium to low risk levels, with Obstacle 30233.0 being the closest concern in terms of relative position, no immediate or highly probable collision paths exist as per the given data.
+
+Scenario: DEU_Hanover-44_28_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30730.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+The analysis identifies Obstacle 30730.0 as the only extreme risk due to its proximity in the same lanelet and stationary state, posing a severe collision threat without immediate corrective action from the ego vehicle. Other obstacles are not immediate threats based on their respective distances and trajectories.
+
+Scenario: BEL_Antwerp-1_14_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+

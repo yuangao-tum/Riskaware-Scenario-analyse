@@ -1,0 +1,951 @@
+Scenario: DEU_Bremen-7_23_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null 
+}
+```
+
+**Important Note:**  This analysis is a simplified illustration. A real-world system would require much more precise calculations based on complete trajectory predictions, vehicle dimensions, and sophisticated risk assessment algorithms.  This response demonstrates the general process and reasoning involved in collision analysis.
+
+Scenario: DEU_Weimar-68_1_T-3
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Vigo-99_28_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Vigo-70_2_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3393.0", 
+        "OverallRiskScore": "2"
+    }
+}
+```
+
+Scenario: DEU_Muehlhausen-5_1_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Schwetzingen-174_1_T-4
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Schweitenkirchen-5_1_T-36
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+**Important Note:**  This analysis is highly simplified due to the lack of dynamic information (trajectories). In a real autonomous driving system, continuous monitoring and trajectory prediction are essential for accurate collision risk assessment.  The scores and thresholds provided here are illustrative and would need to be calibrated based on specific vehicle dynamics and safety requirements.
+
+Scenario: DEU_Weimar-57_1_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Bonn-38_4_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Hanover-38_33_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null 
+}
+```
+
+**Explanation of JSON:**
+
+In this specific scenario, based on the rough estimates and the provided data, no obstacles have an Overall Risk Score of 0 (collision) or 1 (extreme risk). Therefore, both fields in the JSON are set to `null`.  If any obstacle's overall risk assessment reached 0 or 1, its ID and score would be populated in the JSON structure.  A more accurate assessment is possible with precise trajectory predictions and vehicle dimensions.
+
+Scenario: DEU_Bremen-1_10_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30295",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Nuremberg-27_1_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Bilbao-6_9_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: CHN_Beijing-3_5_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3107",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: USA_Austin-46_4_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "3277.0",
+    "OverallRiskScore": 1
+  }
+}
+```
+
+Scenario: USA_Washington-32_46_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Barcelona-44_19_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+
+**Important Notes:**
+
+This analysis is a simplified demonstration. A real-world autonomous driving system would require far more sophisticated calculations, considering:
+
+* **Sensor Noise and Uncertainty:** Sensor data is inherently noisy, and this must be accounted for in the collision analysis.
+* **Prediction Models:** More advanced prediction models, potentially using machine learning, would provide more accurate trajectory estimates.
+* **Detailed Vehicle Geometry:**  Vehicle dimensions and shapes are crucial for accurate collision detection.
+* **Lane Geometry and Traffic Rules:**  Lane geometry and traffic rules are essential context for understanding potential conflicts.
+* **Safety Margins:**  Appropriate safety margins must be added to TTC and MDC thresholds to account for uncertainties and allow for reaction time.
+
+Scenario: ESP_Barcelona-10_44_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null 
+}
+```
+
+**(Important Note):**  This analysis is highly simplified due to the limitations in the provided data. A robust analysis requires detailed trajectories, vehicle shapes, lane geometries, and sensor uncertainties to be properly modeled.  The placeholder risk scores need to be replaced with calculated values based on the approximate methods described.
+
+Scenario: DEU_Backnang-2_1_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null 
+}
+```
+
+Scenario: DEU_Schopfloch-6_1_T-2
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: GRC_NeaSmyrni-117_1_T-6
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: BEL_Brussels-51_2_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: USA_Austin-64_7_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "3335",
+    "OverallRiskScore": 1
+  }
+}
+```
+
+Scenario: DEU_Nuremberg-30_6_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: BEL_Antwerp-13_5_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30674",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: USA_Washington-12_38_T-1
+Since precise calculations of TTC and MDC weren't possible due to the limited information, the JSON response is generated using qualitative analysis based on the provided data, where the risk score represents the relative risk imposed by the specific obstacles and does not follow the strict definitions described in the prompt.
+
+
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30629",
+    "OverallRiskScore": 2
+  }
+}
+```
+
+Scenario: GRC_NeaSmyrni-73_1_T-10
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+
+**Overall Assessment:**
+
+No immediate collisions are detected at this timestep. However, obstacles 20100 and 20104, which are in the same lane and traveling faster than the ego vehicle, pose a moderate risk. The ego vehicle's deceleration needs careful management to avoid potential rear-end collisions. Continuous monitoring of these obstacles is necessary.  All other obstacles present negligible risk due to their distance and static nature.
+
+Scenario: DEU_Flensburg-62_1_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+**Explanation of JSON Output:**  In this simplified analysis based on distance and lanelets and assuming no immediate lane changes by any vehicle, no obstacles pose an immediate collision risk or extreme risk (scores 0 or 1). A more detailed analysis with vehicle trajectories, dimensions, and intent prediction would be required for a comprehensive assessment.
+
+Scenario: ESP_Barcelona-21_6_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null 
+}
+```
+
+Scenario: ESP_Barcelona-44_27_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30760",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Bonn-19_2_T-1
+```json
+{
+  "CollisionObstacles": [],
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Kiel-52_2_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30666.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: ESP_Bilbao-13_20_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Salzwedel-74_1_T-4
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Bonn-35_11_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: USA_Austin-77_10_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Guetersloh-32_1_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Salzwedel-80_1_T-2
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Vigo-99_34_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3523",
+        "OverallRiskScore": "2"
+    }
+
+}
+```
+
+Scenario: FRA_Dijon-13_1_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Barcelona-39_27_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30807",
+        "OverallRiskScore": 1
+    }
+}
+```
+
+Scenario: DEU_Hanover-45_17_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Wolfsburg-39_1_T-8
+Based on the limited information and assuming obstacles 20073, 20141, and 20148 pose the most immediate risk (this needs verification with DTC/TTC calculations):
+
+
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "20148",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+**Crucially:** This analysis is preliminary. Accurate DTClong, DTClat, TTClong, and TTClat calculations are absolutely necessary to provide a definitive risk assessment. The provided data only allows for an initial estimate, highlighting potential high-risk obstacles based on lanelet occupancy and approximate positions. You must incorporate actual distance and time calculations to validate these assumptions.
+
+Scenario: DEU_Nuremberg-24_13_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null 
+}
+```
+
+Scenario: GRC_ArchaioLimani-46_1_T-2
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: CHN_Qingdao-18_2_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30655.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: ARG_Carcarana-1_8_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "341",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: BEL_Antwerp-10_7_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Vigo-63_4_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: FRA_Dijon-28_4_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "30532",
+        "OverallRiskScore": 1
+    }
+}
+```
+
+Scenario: DEU_Leipzig-13_19_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Barcelona-3_6_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null 
+}
+```
+
+**Important Note:** This analysis is a simplified assessment due to the lack of information.  In a real-world scenario, you'd have access to more data, including lane geometry, vehicle dimensions, and accurate trajectory predictions, allowing for a much more robust collision analysis using TTC, MDC, and other relevant safety metrics.  The assumptions made here are for illustrative purposes and should not be used in a production autonomous driving system.
+
+Scenario: USA_Phoenix-17_14_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Vigo-99_21_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Barcelona-38_52_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null 
+}
+```
+There are no immediate collisions or extreme risks detected based on the limited information. Obstacles 30734, 30736, and 30738 present the highest potential risk and require careful monitoring and precise calculations due to their proximity and speeds.  Remember that this analysis is limited by the lack of precise vector and heading data.  A true assessment would involve significantly more detailed computations.
+
+Scenario: DEU_Memmingen-1_1_T-5
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+
+**Important Note:** This analysis is a preliminary assessment based on limited information. A comprehensive collision avoidance system requires detailed vehicle and environment models, sensor fusion, and robust trajectory prediction to accurately calculate risk.  This simplified analysis highlights the importance of TTC and MDC in evaluating collision risks but cannot replace a full safety system.
+
+Scenario: DEU_Lengede-44_1_T-6
+Based on the information provided, no obstacles are within immediate collision range (Risk Score 0) or extreme risk level (Risk Score 1).
+
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Schweitenkirchen-4_1_T-12
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Leipzig-37_8_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: USA_Austin-8_1_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Memmingen-138_1_T-4
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "20027.0",
+    "OverallRiskScore": 1
+  }
+}
+```
+
+Scenario: DEU_Leipzig-13_7_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "3254",
+        "OverallRiskScore": 1
+    }
+}
+```
+
+Scenario: ITA_Siderno-5_3_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: GRC_NeaSmyrni-98_1_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "20040.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: USA_Washington-34_15_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30579",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: GRC_NeaSmyrni-154_1_T-2
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Schwetzingen-112_1_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "20045",
+        "OverallRiskScore": 1
+    }
+}
+```
+
+Scenario: DEU_Bonn-38_18_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Barcelona-6_18_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+There are no obstacles with collision risk or extreme risk.
+
+
+This analysis provides a preliminary assessment.  For a production autonomous driving system, a much more sophisticated and real-time collision avoidance system would be required, incorporating detailed sensor data, precise trajectory predictions, and comprehensive safety planning algorithms.
+
+Scenario: DEU_Nuremberg-6_21_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Barcelona-12_43_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Aschaffenburg-64_5_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: USA_Washington-12_15_T-1
+```json
+{
+  "CollisionObstacles": [],
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30606",
+    "OverallRiskScore": 1
+  }
+}
+```
+
+Scenario: ESP_Barcelona-3_13_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Aschaffenburg-15_26_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Schwetzingen-180_1_T-2
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null 
+}
+```
+
+**Important Notes:**
+
+This analysis is a simplified example.  A real-world autonomous driving system would use much more complex calculations involving sensor fusion, trajectory prediction, and sophisticated risk assessment algorithms. The absence of "CollisionObstacles" and "ExtremeRiskObstacle" in the JSON is based on the simplified assumptions and limited data. With more precise data and a smaller safety buffer, some obstacles might fall into these higher-risk categories.
+
+Scenario: ESP_Bilbao-23_16_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Vigo-70_3_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Ceuta-5_2_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ITA_Empoli-2_5_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Schwetzingen-74_1_T-4
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null 
+}
+```
+
+
+**Important Note:**  This analysis is a preliminary assessment based on limited information.  To accurately determine TTC, MDC, and risk, detailed trajectory information, vehicle dimensions, and precise lane geometries are crucial.  The qualitative nature of this analysis emphasizes the need for more data for reliable collision avoidance in autonomous driving.
+
+Scenario: DEU_Aschaffenburg-21_21_T-1
+```json
+{
+  "CollisionObstacles": [],
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ESP_Barcelona-39_11_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Leipzig-63_24_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "3261.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: DEU_Schwetzingen-10_1_T-5
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": null
+}
+```
+
+**Important Note:** This analysis is based on limited information.  A real-world system requires detailed obstacle tracking, precise lanelet data, and vehicle dimensions to accurately calculate TTC, MDC, and assess risk. The lack of this data necessitates the qualitative assessments and assumptions made above.
+
+Scenario: USA_Phoenix-17_19_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "3662",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: DEU_Nuremberg-29_9_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30786.0",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: FRA_Dijon-24_4_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: BEL_Zwevegem-1_6_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "333.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: DEU_Nuremberg-6_34_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30796",
+    "OverallRiskScore": 1
+  }
+}
+```
+
+
+**Important Note:** This analysis is a simplified example. A real-world system would use more sophisticated algorithms and require more precise input data to accurately assess collision risk.  Lanelet information, vehicle dimensions, and future trajectories are crucial for robust analysis.
+
+Scenario: DEU_Hennigsdorf-5_3_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "342",
+    "OverallRiskScore": "1"
+  }
+}
+```
+
+Scenario: ESP_Barcelona-49_21_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: GRC_NeaSmyrni-31_1_T-12
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "20084",
+    "OverallRiskScore": 1
+  }
+}
+```
+
+Scenario: DEU_Bremen-7_12_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: GRC_NeaSmyrni-87_1_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Muehlhausen-10_5_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Bremen-33_33_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: ITA_Empoli-7_2_T-1
+```json
+{
+    "CollisionObstacles": null,
+    "ExtremeRiskObstacle": {
+        "ObstacleID": "36.0",
+        "OverallRiskScore": "1"
+    }
+}
+```
+
+Scenario: BEL_Brussels-82_4_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": null
+}
+```
+
+Scenario: DEU_Hanover-44_28_T-1
+```json
+{
+  "CollisionObstacles": null,
+  "ExtremeRiskObstacle": {
+    "ObstacleID": "30730.0",
+    "OverallRiskScore": 1
+  }
+}
+```
+
