@@ -51,7 +51,7 @@
     ```
 
 ### Step 3: Using Prompt Templates to Analyze the Scenarios
-- In `llm`, three scripts correspond to three different templates. Additionally, response times can be recorded while analyzing each timestep for each scenario.
+- In `llm`, three scripts correspond to three different templates. Additionally, response times can be recorded while analyzing each timestep for each scenario. Ensure that the paths in the scripts are correctly set according to your directory structure.
 - Various flags allow for analysis at the **last timestep** or a **specific timestep**.
 - After running each script, the relevant outputs are saved, including:
   
