@@ -7,7 +7,9 @@
 
 ## 2. Scenarios and Results
 - In `Scenarios`, you can find a collection of **100 XML scenario files** and the related simulation results called `Simulation_scenarios_with_FrenetixMotionPlanner`, which are generated using the [Frenetix Motion Planner](https://github.com/TUM-AVS/Frenetix-Motion-Planner/tree/main) within the CommonRoad framework.
-- In `Results`, you can find the comparison output of **response time across models and templates**, as well as the contexts of templates and outputs for each scenario across models and templates. Notably, a folder called `BEL Antwerp-1 14 T-1` contains an XML file and simulation results for a **non-critical scenario**. Additionally, a **modified collision scenario** called `BEL Antwerp-1 14 T-1n` includes a modified XML file and corresponding simulation results.
+- In `Results`, you can find the comparison output of **response time across models and templates** in `output_llms`, as well as the contexts of templates and outputs for each scenario across models and templates.
+  - Notably, a folder called `BEL Antwerp-1 14 T-1` contains an XML file and simulation results for a **non-critical scenario**. Additionally, a **modified collision scenario** called `BEL Antwerp-1 14 T-1n` includes a modified XML file and corresponding simulation results.
+- In `Results`, you can also find the **statistical results for accuracy** across models and templates, along with the used annotation file that shows the obstacle ID for each scenario. This is the summary from `output_llms`.
 
 ## 3. Code
 - `Trajectory Collection` and `Safety Metrics Collection` are used to **collect and calculate** the relevant data for each template.
@@ -35,18 +37,18 @@
     ├── relative_metrics.csv
     ```
 
-### Paths to Modify
-Ensure that the following paths in the scripts are correctly set according to your directory structure:
-
-```python
-source_dir = '/home/yuan/mybookname/Openai/Safety/collision_scenarios'  # Folder containing XML files
-
-destination_dir = '/home/yuan/mybookname/Openai/Safety/json_scenarios'  # Folder to store converted JSON files
-
-log_dir = '/home/yuan/mybookname/Openai/Safety/validation_scenarios'  # Folder for CommonRoad simulation results (Simulation_scenarios_with_FrenetixMotionPlanner)
-
-output_dir = '/home/yuan/mybookname/Openai/Safety/output_validation'  # Folder for collected data, e.g., Results/output_LLMs/
-```
+- **Paths to Modify:**
+    Ensure that the following paths in the scripts are correctly set according to your directory structure:
+    
+    ```python
+    source_dir = '/home/yuan/mybookname/Openai/Safety/collision_scenarios'  # Folder containing XML files
+    
+    destination_dir = '/home/yuan/mybookname/Openai/Safety/json_scenarios'  # Folder to store converted JSON files
+    
+    log_dir = '/home/yuan/mybookname/Openai/Safety/validation_scenarios'  # Folder for CommonRoad simulation results (Simulation_scenarios_with_FrenetixMotionPlanner)
+    
+    output_dir = '/home/yuan/mybookname/Openai/Safety/output_validation'  # Folder for collected data, e.g., Results/output_LLMs/
+    ```
 
 ### Step 3: Using Prompt Templates to Analyze the Scenarios
 - In `llm`, three scripts correspond to three different templates. Additionally, response times can be recorded while analyzing each timestep for each scenario.
@@ -62,12 +64,8 @@ output_dir = '/home/yuan/mybookname/Openai/Safety/output_validation'  # Folder f
   - [CommonRoad](https://commonroad.in.tum.de/)
   - [Frenetix Motion Planner](https://github.com/TUM-AVS/Frenetix-Motion-Planner/tree/main)
   - Python 3.x
-  
-  ---
+
   Ensure all dependencies are installed before running the scripts.
-  ```
-
-
   
 ## Abstract:
 Large Language Models (LLMs) can capture
