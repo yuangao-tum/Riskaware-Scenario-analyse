@@ -7,9 +7,9 @@
 
 ## 2. Scenarios and Results
 - In `Scenarios`, you can find a collection of **100 XML scenario files** and the related simulation results called `Simulation_scenarios_with_FrenetixMotionPlanner`, which are generated using the [Frenetix Motion Planner](https://github.com/TUM-AVS/Frenetix-Motion-Planner/tree/main) within the CommonRoad framework.
-- In `Results`, you can find the comparison output of **response time across models and templates** in `output_llms`, as well as the contexts of templates and outputs for each scenario across models and templates.
+- In `Results`, you can find the comparison output of **response time across models and templates**, as well as the contexts of templates and outputs for each scenario across models and templates in `output_llms`.
   - Notably, a folder called `BEL Antwerp-1 14 T-1` contains an XML file and simulation results for a **non-critical scenario**. Additionally, a **modified collision scenario** called `BEL Antwerp-1 14 T-1n` includes a modified XML file and corresponding simulation results.
-- In `Results`, you can also find the **statistical results for accuracy** across models and templates, along with the used annotation file that shows the obstacle ID for each scenario. This is the summary from `output_llms`.
+- In `Results`, you can also find the **statistical results for accuracy** across models and templates in `Accuracy` along with the used annotation file that shows the obstacle ID for each scenario. This is the summary from `output_llms`.
 
 ## 3. Code
 - `Trajectory Collection` and `Safety Metrics Collection` are used to **collect and calculate** the relevant data for each template.
