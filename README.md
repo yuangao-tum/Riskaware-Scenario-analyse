@@ -1,5 +1,12 @@
 # Risk-Aware Driving Scenario Analysis with Large Language Models
 
+- **Updated version:** This paper has been **rewritten and extended** as  
+  **“From Words to Collisions: LLM-Guided Evaluation and Adversarial Generation of Safety-Critical Driving Scenarios”**,  
+  which is **accepted at IEEE ITSC 2025**.  
+  ![Framework](https://github.com/user-attachments/assets/a3253a9d-f6a3-4969-a3ad-25406957537f)
+  The completed version and accompanying resources are available in the new repository:  
+  👉 [From-Words-to-Collisions (GitHub)](https://github.com/TUM-AVS/From-Words-to-Collisions)
+
 ## Repository Contents
 
 ## 1. Manuscript
